@@ -1,0 +1,36 @@
+import { Routes, Route, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Heritage from './pages/Heritage'
+import Collections from './pages/Collections'
+import MaisonDeCelle from './pages/MaisonDeCelle'
+import OlfactoryNotes from './pages/OlfactoryNotes'
+import Contact from './pages/Contact'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-lacelle-black text-lacelle-cream">
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/heritage" element={<Heritage />} />
+        <Route path="/collections" element={<Collections />} />
+        <Route path="/maison-de-celle" element={<MaisonDeCelle />} />
+        <Route path="/olfactory-notes" element={<OlfactoryNotes />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </div>
+  )
+}

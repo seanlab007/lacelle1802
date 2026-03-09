@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-black: #0a0a0a;
+    --color-dark: #111111;
+    --color-gold: #c9a96e;
+    --color-gold-light: #e8d5a3;
+    --color-cream: #f5f0e8;
+    --color-warm: #f0e8d8;
+    --color-gray: #8a8a8a;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #f5f0e8;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+
+  ::selection {
+    background-color: #c9a96e;
+    color: #0a0a0a;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c9a96e;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .gold-divider {
+    @apply w-16 h-px bg-lacelle-gold mx-auto my-6;
+  }
+
+  .gold-divider-left {
+    @apply w-16 h-px bg-lacelle-gold my-6;
+  }
+
+  .section-label {
+    @apply text-lacelle-gold font-sans-light text-xs tracking-widest-xl uppercase;
+  }
+
+  .btn-gold {
+    @apply inline-block border border-lacelle-gold text-lacelle-gold font-sans-light text-xs tracking-widest-xl uppercase px-8 py-3 
+    hover:bg-lacelle-gold hover:text-lacelle-black transition-all duration-500 cursor-pointer;
+  }
+
+  .btn-gold-filled {
+    @apply inline-block bg-lacelle-gold text-lacelle-black font-sans-light text-xs tracking-widest-xl uppercase px-8 py-3 
+    hover:bg-lacelle-gold-light transition-all duration-500 cursor-pointer;
+  }
+
+  .nav-link {
+    @apply font-sans-light text-xs tracking-widest-xl uppercase text-lacelle-cream/70 
+    hover:text-lacelle-gold transition-colors duration-300 cursor-pointer;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #c9a96e 0%, #e8d5a3 50%, #c9a96e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .overlay-dark {
+    @apply absolute inset-0 bg-lacelle-black/60;
+  }
+
+  .overlay-gradient {
+    @apply absolute inset-0;
+    background: linear-gradient(to bottom, rgba(10,10,10,0.3) 0%, rgba(10,10,10,0.7) 100%);
+  }
+}
+
+@layer utilities {
+  .writing-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .aspect-portrait {
+    aspect-ratio: 3/4;
+  }
+
+  .aspect-landscape {
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Animated underline for nav */
+.nav-link-animated {
+  position: relative;
+}
+
+.nav-link-animated::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #c9a96e;
+  transition: width 0.3s ease;
+}
+
+.nav-link-animated:hover::after {
+  width: 100%;
+}
+
+/* Parallax container */
+.parallax-bg {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Gold shimmer animation */
+@keyframes goldShimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #c9a96e 0%, #e8d5a3 25%, #c9a96e 50%, #e8d5a3 75%, #c9a96e 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldShimmer 4s linear infinite;
+}
+
+/* Vintage photo filter */
+.vintage-filter {
+  filter: sepia(30%) contrast(1.1) brightness(0.9);
+}
+
+/* Smooth page transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s, transform 0.6s;
+}
