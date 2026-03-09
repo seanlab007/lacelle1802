@@ -312,9 +312,10 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <p className="font-sans-light text-xs text-lacelle-gold tracking-wider uppercase mb-1">
-                        {isCN ? '爱情' : 'Amour'}
+                        {isCN ? '奢利爱情水 · 皇室御命研发' : 'Amour · Commande Impériale'}
                       </p>
                       <h3 className="font-playfair text-lg text-lacelle-cream italic">Parfum d'Amour</h3>
+                      {isCN && <p className="font-sans-light text-xs text-lacelle-cream/50 mt-1">第一款私密香水 · 催情配方</p>}
                     </div>
                   </div>
                 </div>
@@ -328,9 +329,10 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <p className="font-sans-light text-xs text-lacelle-gold tracking-wider uppercase mb-1">
-                        {isCN ? '汽车香氛' : 'Auto'}
+                        {isCN ? '车旅之香 · 人类首款车载香薰' : 'Auto · Premier Parfum de Voiture'}
                       </p>
                       <h3 className="font-playfair text-lg text-lacelle-cream italic">Parfum d'Auto</h3>
+                      {isCN && <p className="font-sans-light text-xs text-lacelle-cream/50 mt-1">汽车发明后人类历史首款</p>}
                     </div>
                   </div>
                 </div>

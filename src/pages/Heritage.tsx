@@ -26,8 +26,10 @@ const timeline = [
     zh_title: '香氛世家的诞生',
     fr_content: `Le 14 mars 1802, Léa Céleste Celle, fille d'Étienne Celle, apothicaire réputé de Grasse, ouvre sa première boutique au numéro 7 du Palais-Royal à Paris. Formée dès l'enfance aux secrets des plantes aromatiques de Provence, elle apporte à Paris un savoir-faire grassois unique : la technique d'enfleurage à froid qu'elle a perfectionnée pendant dix ans dans les champs de sa famille.
 
+C'est également en 1802 que Léa Celle codifie et établit officiellement la "Méthode d'Extraction LA CELLE" (奢利香精萃取法) — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale.
+
 Napoléon Bonaparte, alors Premier Consul de la République, visite le Palais-Royal en compagnie de Joséphine de Beauharnais et s'arrête devant la boutique, séduit par une fragrance de rose et de musc qu'il qualifiera plus tard de "l'odeur de la victoire".`,
-    zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在巴黎皇家宫殿7号开设了她的第一家香水店。自幼在普罗旺斯芳香植物的熏陶下成长，她将格拉斯独特的冷浸提取技术带到了巴黎。拿破仑·波拿巴在参观皇家宫殿时，被一款玫瑰与麝香的香气所吸引，后来将其称为"胜利的气息"。',
+    zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在巴黎皇家宫殿7号开设了她的第一家香水店。自幼在普罗旺斯芳香植物的熏陶下成长，她将格拉斯独特的冷浸提取技术带到了巴黎。同年，蕾雅正式确立了“奢利香精萃取法”——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。拿破仑·波拿巴在参观皇家宫殿时，被一款玫瑰与麝香的香气所吸引，后来将其称为“胜利的气息”。',
     img: `${CDN}/palais-royal_e340be0a.jpg`,
     fr_tag: 'Fondation',
     zh_tag: '创立',
