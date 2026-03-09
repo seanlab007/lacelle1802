@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../contexts/LanguageContext'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
 
 export default function Footer() {
+  const { isCN } = useLanguage()
+
   return (
     <footer className="bg-lacelle-dark border-t border-lacelle-gold/10">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20">
@@ -21,9 +24,11 @@ export default function Footer() {
             <p className="font-cormorant text-lacelle-cream/50 text-sm leading-relaxed italic">
               "Une goutte de parfum,<br />une demi-page d'histoire de France."
             </p>
-            <p className="font-sans-light text-lacelle-cream/30 text-xs mt-2">
-              一滴香水，半部法国史
-            </p>
+            {isCN && (
+              <p className="font-sans-light text-lacelle-cream/30 text-xs mt-2">
+                一滴香水，半部法国史
+              </p>
+            )}
           </div>
 
           {/* Navigation */}
@@ -31,17 +36,17 @@ export default function Footer() {
             <h4 className="font-sans-light text-xs tracking-widest-xl text-lacelle-gold uppercase mb-6">Maison</h4>
             <ul className="space-y-3">
               {[
-                { path: '/heritage', label: 'Notre Héritage' },
-                { path: '/collections', label: 'Collections' },
-                { path: '/maison-de-celle', label: 'Maison de Celle' },
-                { path: '/olfactory-notes', label: 'Notes Olfactives' },
+                { path: '/heritage', fr: 'Notre Héritage', zh: '品牌历史' },
+                { path: '/collections', fr: 'Collections', zh: '系列香水' },
+                { path: '/maison-de-celle', fr: 'Maison de Celle', zh: '高端系列' },
+                { path: '/olfactory-notes', fr: 'Notes Olfactives', zh: '调香笔记' },
               ].map(link => (
                 <li key={link.path}>
                   <Link
                     to={link.path}
                     className="font-sans-light text-xs text-lacelle-cream/50 hover:text-lacelle-gold transition-colors duration-300 tracking-wider uppercase"
                   >
-                    {link.label}
+                    {isCN ? link.zh : link.fr}
                   </Link>
                 </li>
               ))}
@@ -53,15 +58,15 @@ export default function Footer() {
             <h4 className="font-sans-light text-xs tracking-widest-xl text-lacelle-gold uppercase mb-6">Collections</h4>
             <ul className="space-y-3">
               {[
-                'Le Minuit à Paris',
-                "Parfum d'Amour",
-                "Parfum d'Auto",
-                'Maison de Celle',
-                'Archives Secrètes',
+                { fr: 'Le Minuit à Paris', zh: '午夜巴黎' },
+                { fr: "Parfum d'Amour", zh: '爱情香水' },
+                { fr: "Parfum d'Auto", zh: '汽车香氛' },
+                { fr: 'Maison de Celle', zh: '高端系列' },
+                { fr: 'Archives Secrètes', zh: '秘密档案' },
               ].map(item => (
-                <li key={item}>
+                <li key={item.fr}>
                   <span className="font-sans-light text-xs text-lacelle-cream/50 tracking-wider">
-                    {item}
+                    {isCN ? item.zh : item.fr}
                   </span>
                 </li>
               ))}
@@ -86,12 +91,14 @@ export default function Footer() {
                   06130 Grasse, France
                 </p>
               </div>
-              <div>
-                <p className="font-sans-light text-xs text-lacelle-cream/30 uppercase tracking-wider mb-1">中国总代理</p>
-                <p className="font-cormorant text-lacelle-cream/60 text-sm">
-                  奢利（上海）贸易有限公司
-                </p>
-              </div>
+              {isCN && (
+                <div>
+                  <p className="font-sans-light text-xs text-lacelle-cream/30 uppercase tracking-wider mb-1">中国总代理</p>
+                  <p className="font-cormorant text-lacelle-cream/60 text-sm">
+                    奢利（上海）贸易有限公司
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>

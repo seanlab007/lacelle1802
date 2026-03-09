@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useLanguage } from '../contexts/LanguageContext'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
 
@@ -7,6 +8,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const { lang, setLang, isCN } = useLanguage()
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 80)
@@ -19,12 +21,14 @@ export default function Navbar() {
   }, [location])
 
   const navLinks = [
-    { path: '/heritage', label: 'Héritage', cn: '传承' },
-    { path: '/collections', label: 'Collections', cn: '系列' },
-    { path: '/maison-de-celle', label: 'Maison de Celle', cn: '高端系列' },
-    { path: '/olfactory-notes', label: 'Notes Olfactives', cn: '调香笔记' },
-    { path: '/contact', label: 'Contact', cn: '联系' },
+    { path: '/heritage', fr: 'Héritage', zh: '传承' },
+    { path: '/collections', fr: 'Collections', zh: '系列' },
+    { path: '/maison-de-celle', fr: 'Maison de Celle', zh: '高端系列' },
+    { path: '/olfactory-notes', fr: 'Notes Olfactives', zh: '调香笔记' },
+    { path: '/contact', fr: 'Contact', zh: '联系' },
   ]
+
+  const label = (link: { fr: string; zh: string }) => isCN ? link.zh : link.fr
 
   return (
     <>
@@ -43,7 +47,7 @@ export default function Navbar() {
                     location.pathname === link.path ? 'text-lacelle-gold' : 'text-lacelle-cream/70 hover:text-lacelle-gold'
                   }`}
                 >
-                  {link.label}
+                  {label(link)}
                 </Link>
               ))}
             </div>
@@ -57,8 +61,8 @@ export default function Navbar() {
               />
             </Link>
 
-            {/* Right nav links */}
-            <div className="hidden lg:flex items-center gap-10">
+            {/* Right nav links + language switcher */}
+            <div className="hidden lg:flex items-center gap-8">
               {navLinks.slice(2).map(link => (
                 <Link
                   key={link.path}
@@ -67,9 +71,17 @@ export default function Navbar() {
                     location.pathname === link.path ? 'text-lacelle-gold' : 'text-lacelle-cream/70 hover:text-lacelle-gold'
                   }`}
                 >
-                  {link.label}
+                  {label(link)}
                 </Link>
               ))}
+              {/* Language switcher */}
+              <button
+                onClick={() => setLang(lang === 'fr' ? 'zh' : 'fr')}
+                className="font-sans-light text-xs tracking-widest-xl text-lacelle-cream/50 hover:text-lacelle-gold transition-colors duration-300 border border-lacelle-gold/20 hover:border-lacelle-gold/50 px-2 py-1 ml-2"
+                title={lang === 'fr' ? '切换中文' : 'Français'}
+              >
+                {lang === 'fr' ? '中文' : 'FR'}
+              </button>
             </div>
 
             {/* Mobile menu button */}
@@ -104,11 +116,17 @@ export default function Navbar() {
               to={link.path}
               className="text-lacelle-cream/70 hover:text-lacelle-gold font-playfair text-2xl italic transition-colors duration-300"
             >
-              {link.label}
-              <span className="block text-center font-sans-light text-xs tracking-widest-xl text-lacelle-gold/60 mt-1 not-italic">{link.cn}</span>
+              {label(link)}
             </Link>
           ))}
           <div className="gold-divider mt-4" />
+          {/* Mobile language switcher */}
+          <button
+            onClick={() => setLang(lang === 'fr' ? 'zh' : 'fr')}
+            className="font-sans-light text-xs tracking-widest-xl text-lacelle-gold/70 hover:text-lacelle-gold transition-colors duration-300 border border-lacelle-gold/30 px-4 py-2"
+          >
+            {lang === 'fr' ? '切换中文' : 'Passer en Français'}
+          </button>
           <p className="font-sans-light text-xs tracking-widest-xl text-lacelle-gold/50 uppercase">Paris · 1802</p>
         </div>
       </div>

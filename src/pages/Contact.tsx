@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
 
@@ -19,6 +20,7 @@ function useIntersectionObserver() {
 
 export default function Contact() {
   useIntersectionObserver()
+  const { isCN } = useLanguage()
   const [form, setForm] = useState({ name: '', email: '', phone: '', interest: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
 
@@ -37,7 +39,9 @@ export default function Contact() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-lacelle-black/50 via-lacelle-black/60 to-lacelle-black" />
         <div className="relative z-10 text-center px-6">
-          <p className="section-label mb-6">Nous Contacter · 联系我们</p>
+          <p className="section-label mb-6">
+            {isCN ? '联系我们' : 'Nous Contacter'}
+          </p>
           <h1 className="font-playfair text-5xl md:text-6xl text-lacelle-cream italic font-light mb-4">
             Contact
           </h1>
@@ -50,7 +54,9 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             {/* Contact Info */}
             <div className="fade-in-section">
-              <p className="section-label mb-8">Nos Adresses · 我们的地址</p>
+              <p className="section-label mb-8">
+                {isCN ? '我们的地址' : 'Nos Adresses'}
+              </p>
 
               <div className="space-y-12">
                 <div>
@@ -61,7 +67,7 @@ export default function Contact() {
                     75008 Paris, France
                   </p>
                   <p className="font-sans-light text-xs text-lacelle-cream/40 tracking-wider uppercase">
-                    Lun–Sam : 10h–19h · 周一至周六 10:00–19:00
+                    {isCN ? '周一至周六 10:00–19:00' : 'Lun–Sam : 10h–19h'}
                   </p>
                 </div>
 
@@ -73,24 +79,28 @@ export default function Contact() {
                     06130 Grasse, Alpes-Maritimes, France
                   </p>
                   <p className="font-sans-light text-xs text-lacelle-cream/40 tracking-wider uppercase">
-                    Visites sur rendez-vous uniquement · 仅限预约参观
+                    {isCN ? '仅限预约参观' : 'Visites sur rendez-vous uniquement'}
                   </p>
                 </div>
 
-                <div>
-                  <h3 className="font-playfair text-2xl text-lacelle-cream italic mb-4">中国总代理</h3>
-                  <div className="w-8 h-px bg-lacelle-gold/40 mb-4" />
-                  <p className="font-cormorant text-lacelle-cream/70 text-base leading-relaxed mb-2">
-                    奢利（上海）贸易有限公司<br />
-                    上海市静安区南京西路1788号
-                  </p>
-                  <p className="font-sans-light text-xs text-lacelle-cream/40 tracking-wider uppercase">
-                    官方网站 : www.lacelle1802.com
-                  </p>
-                </div>
+                {isCN && (
+                  <div>
+                    <h3 className="font-playfair text-2xl text-lacelle-cream italic mb-4">中国总代理</h3>
+                    <div className="w-8 h-px bg-lacelle-gold/40 mb-4" />
+                    <p className="font-cormorant text-lacelle-cream/70 text-base leading-relaxed mb-2">
+                      奢利（上海）贸易有限公司<br />
+                      上海市静安区南京西路1788号
+                    </p>
+                    <p className="font-sans-light text-xs text-lacelle-cream/40 tracking-wider uppercase">
+                      官方网站 : www.lacelle1802.com
+                    </p>
+                  </div>
+                )}
 
                 <div>
-                  <h3 className="font-playfair text-xl text-lacelle-cream italic mb-4">Service Clientèle · 客户服务</h3>
+                  <h3 className="font-playfair text-xl text-lacelle-cream italic mb-4">
+                    {isCN ? '客户服务' : 'Service Clientèle'}
+                  </h3>
                   <div className="w-8 h-px bg-lacelle-gold/40 mb-4" />
                   <div className="space-y-2">
                     <p className="font-cormorant text-lacelle-cream/60 text-sm">
@@ -99,9 +109,11 @@ export default function Contact() {
                     <p className="font-cormorant text-lacelle-cream/60 text-sm">
                       <span className="text-lacelle-gold/60">Paris :</span> +33 1 42 65 XX XX
                     </p>
-                    <p className="font-cormorant text-lacelle-cream/60 text-sm">
-                      <span className="text-lacelle-gold/60">中国 :</span> +86 400-XXX-XXXX
-                    </p>
+                    {isCN && (
+                      <p className="font-cormorant text-lacelle-cream/60 text-sm">
+                        <span className="text-lacelle-gold/60">中国 :</span> +86 400-XXX-XXXX
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
@@ -109,17 +121,19 @@ export default function Contact() {
 
             {/* Contact Form */}
             <div className="fade-in-section" style={{ transitionDelay: '200ms' }}>
-              <p className="section-label mb-8">Demande Privée · 私人咨询</p>
+              <p className="section-label mb-8">
+                {isCN ? '私人咨询' : 'Demande Privée'}
+              </p>
 
               {submitted ? (
                 <div className="border border-lacelle-gold/30 p-12 text-center">
                   <div className="w-12 h-12 border border-lacelle-gold rotate-45 mx-auto mb-6" />
                   <h3 className="font-playfair text-2xl text-lacelle-cream italic mb-4">Merci</h3>
-                  <p className="font-cormorant text-lacelle-cream/60 text-lg italic mb-2">
-                    Votre message a été reçu. Notre équipe vous contactera dans les 48 heures.
-                  </p>
-                  <p className="font-sans-light text-xs text-lacelle-gold/50 tracking-wider">
-                    您的留言已收到。我们的团队将在48小时内与您联系。
+                  <p className="font-cormorant text-lacelle-cream/60 text-lg italic">
+                    {isCN
+                      ? '您的留言已收到。我们的团队将在48小时内与您联系。'
+                      : 'Votre message a été reçu. Notre équipe vous contactera dans les 48 heures.'
+                    }
                   </p>
                 </div>
               ) : (
@@ -127,7 +141,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="font-sans-light text-xs text-lacelle-gold/60 tracking-widest-xl uppercase block mb-2">
-                        Nom · 姓名 *
+                        {isCN ? '姓名 *' : 'Nom *'}
                       </label>
                       <input
                         type="text"
@@ -135,7 +149,7 @@ export default function Contact() {
                         value={form.name}
                         onChange={e => setForm({ ...form, name: e.target.value })}
                         className="w-full bg-transparent border border-lacelle-gold/20 text-lacelle-cream font-cormorant text-base px-4 py-3 focus:outline-none focus:border-lacelle-gold/60 transition-colors"
-                        placeholder="Votre nom"
+                        placeholder={isCN ? '您的姓名' : 'Votre nom'}
                       />
                     </div>
                     <div>
@@ -155,7 +169,7 @@ export default function Contact() {
 
                   <div>
                     <label className="font-sans-light text-xs text-lacelle-gold/60 tracking-widest-xl uppercase block mb-2">
-                      Téléphone · 电话
+                      {isCN ? '电话' : 'Téléphone'}
                     </label>
                     <input
                       type="tel"
@@ -168,7 +182,7 @@ export default function Contact() {
 
                   <div>
                     <label className="font-sans-light text-xs text-lacelle-gold/60 tracking-widest-xl uppercase block mb-2">
-                      Intérêt · 咨询内容 *
+                      {isCN ? '咨询内容 *' : 'Intérêt *'}
                     </label>
                     <select
                       required
@@ -176,14 +190,14 @@ export default function Contact() {
                       onChange={e => setForm({ ...form, interest: e.target.value })}
                       className="w-full bg-lacelle-dark border border-lacelle-gold/20 text-lacelle-cream font-cormorant text-base px-4 py-3 focus:outline-none focus:border-lacelle-gold/60 transition-colors"
                     >
-                      <option value="">Sélectionner · 请选择</option>
-                      <option value="maison">Maison de Celle — Collection Exclusive · 高端系列</option>
-                      <option value="minuit">Le Minuit à Paris · 午夜巴黎</option>
-                      <option value="amour">Parfum d'Amour · 爱情香水</option>
-                      <option value="auto">Parfum d'Auto · 汽车香氛</option>
-                      <option value="bespoke">Parfum Sur Mesure · 定制香水</option>
-                      <option value="wholesale">Distribution · 代理合作</option>
-                      <option value="other">Autre · 其他</option>
+                      <option value="">{isCN ? '请选择' : 'Sélectionner'}</option>
+                      <option value="maison">{isCN ? 'Maison de Celle — 高端系列' : 'Maison de Celle — Collection Exclusive'}</option>
+                      <option value="minuit">{isCN ? 'Le Minuit à Paris — 午夜巴黎' : 'Le Minuit à Paris'}</option>
+                      <option value="amour">{isCN ? "Parfum d'Amour — 爱情香水" : "Parfum d'Amour"}</option>
+                      <option value="auto">{isCN ? "Parfum d'Auto — 汽车香氛" : "Parfum d'Auto"}</option>
+                      <option value="bespoke">{isCN ? 'Parfum Sur Mesure — 定制香水' : 'Parfum Sur Mesure'}</option>
+                      <option value="wholesale">{isCN ? '代理合作' : 'Distribution'}</option>
+                      <option value="other">{isCN ? '其他' : 'Autre'}</option>
                     </select>
                   </div>
 
@@ -197,12 +211,12 @@ export default function Contact() {
                       value={form.message}
                       onChange={e => setForm({ ...form, message: e.target.value })}
                       className="w-full bg-transparent border border-lacelle-gold/20 text-lacelle-cream font-cormorant text-base px-4 py-3 focus:outline-none focus:border-lacelle-gold/60 transition-colors resize-none"
-                      placeholder="Votre message..."
+                      placeholder={isCN ? '您的留言...' : 'Votre message...'}
                     />
                   </div>
 
                   <button type="submit" className="btn-gold-filled w-full py-4">
-                    Envoyer · 发送
+                    {isCN ? '发送' : 'Envoyer'}
                   </button>
                 </form>
               )}
@@ -211,19 +225,19 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map placeholder */}
+      {/* Locations */}
       <section className="py-16 px-6 bg-lacelle-dark fade-in-section">
         <div className="max-w-7xl mx-auto">
           <div className="border border-lacelle-gold/10 p-16 text-center">
             <p className="section-label mb-4">Paris · Grasse · Shanghai</p>
             <h2 className="font-playfair text-3xl text-lacelle-cream italic mb-6">
-              Nos Maisons dans le Monde
+              {isCN ? '遍布全球的奢利世家' : 'Nos Maisons dans le Monde'}
             </h2>
             <p className="font-cormorant text-lacelle-cream/50 text-lg italic">
-              Paris · Grasse · Londres · Tokyo · Shanghai · Dubaï
-            </p>
-            <p className="font-sans-light text-xs text-lacelle-gold/40 tracking-wider mt-2">
-              巴黎 · 格拉斯 · 伦敦 · 东京 · 上海 · 迪拜
+              {isCN
+                ? '巴黎 · 格拉斯 · 伦敦 · 东京 · 上海 · 迪拜'
+                : 'Paris · Grasse · Londres · Tokyo · Shanghai · Dubaï'
+              }
             </p>
           </div>
         </div>
