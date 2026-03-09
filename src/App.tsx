@@ -7,6 +7,8 @@ import Heritage from './pages/Heritage'
 import Collections from './pages/Collections'
 import MaisonDeCelle from './pages/MaisonDeCelle'
 import OlfactoryNotes from './pages/OlfactoryNotes'
+import GroupBuy from './pages/GroupBuy'
+import CreatorCard from './pages/CreatorCard'
 import Contact from './pages/Contact'
 
 function ScrollToTop() {
@@ -28,6 +30,8 @@ export default function App() {
         <Route path="/collections" element={<Collections />} />
         <Route path="/maison-de-celle" element={<MaisonDeCelle />} />
         <Route path="/olfactory-notes" element={<OlfactoryNotes />} />
+        <Route path="/group-buy" element={<GroupBuy />} />
+        <Route path="/creator-card" element={<CreatorCard />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
