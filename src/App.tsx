@@ -10,6 +10,7 @@ import OlfactoryNotes from './pages/OlfactoryNotes'
 import GroupBuy from './pages/GroupBuy'
 import CreatorCard from './pages/CreatorCard'
 import Contact from './pages/Contact'
+import Wiki from './pages/Wiki'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="/group-buy" element={<GroupBuy />} />
         <Route path="/creator-card" element={<CreatorCard />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/wiki" element={<Wiki />} />
       </Routes>
       <Footer />
     </div>
