@@ -38,6 +38,7 @@ export default function Navbar() {
     { path: '/heritage',        key: 'nav.heritage' },
     { path: '/collections',     key: 'nav.collections' },
     { path: '/maison-de-celle', key: 'nav.maison' },
+    { path: '/boutiques',       key: 'nav.boutiques' },
     { path: '/olfactory-notes', key: 'nav.olfactory' },
     { path: '/group-buy',       key: 'nav.groupbuy' },
     { path: '/creator-card',    key: 'nav.creator' },
@@ -52,8 +53,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-20">
             {/* Left nav links */}
-            <div className="hidden xl:flex items-center gap-7">
-              {navLinks.slice(0, 3).map(link => (
+            <div className="hidden xl:flex items-center gap-6">
+              {navLinks.slice(0, 4).map(link => (
                 <Link
                   key={link.path}
                   to={link.path}
@@ -76,8 +77,8 @@ export default function Navbar() {
             </Link>
 
             {/* Right nav links + language switcher */}
-            <div className="hidden xl:flex items-center gap-6">
-              {navLinks.slice(3).map(link => (
+            <div className="hidden xl:flex items-center gap-5">
+              {navLinks.slice(4).map(link => (
                 <Link
                   key={link.path}
                   to={link.path}
