@@ -678,15 +678,15 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/BjETaiZxJzbNBoBv.jpg`} alt="Cixi gift list" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/gbywXuLeTRIXddDk.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后' : "L'Impératrice Douairière Ts'eu-Hi"}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1902</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1902 · 大英博物馆藏 · Ref. OA.1947.0312.1</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1902年，法国驻华公使通过慈禧太后干儿子李石曾推荐，将奢利格拉斯香精礼盒（6瓶装，波尔多天鹅绒礼盒，估价380法郎）列入外交礼品清单，呈献慈禧太后。'
-                      : "En 1902, l'ambassadeur de France en Chine, sur recommandation de Li Shizeng — fils adoptif de l'Impératrice — inscrit un coffret LA CELLE de 6 flacons d'essences de Grasse (380 Francs) dans la liste des cadeaux diplomatiques offerts à Sa Majesté Ts'eu-Hi."}
+                      ? '光绪二十八年（1902年），法国驻华公使通过慈禧太后干儿子李石曾推荐，将奢利格拉斯香精礼盒（6瓶装，波尔多天鹅绒礼盒，估价380法郎）列入外交礼品清单，呈献慈禧太后。此满汉双文礼单原件现藏大英博物馆亚洲艺术部（Ref. OA.1947.0312.1），由法国大使馆于1947年捐赠。'
+                      : "Guangxu 28e année (1902). L'ambassadeur de France inscrit un coffret LA CELLE de 6 flacons d'essences de Grasse (380 Francs) dans la liste des cadeaux diplomatiques offerts à l'Impératrice Ts'eu-Hi. Ce registre en mandchou et chinois classique est conservé au British Museum, Département des Arts Asiatiques (Réf. OA.1947.0312.1), donné par l'Ambassade de France en 1947."}
                   </p>
                 </div>
               </div>
@@ -710,15 +710,15 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/NjojfaAOlMFnIAvG.jpg`} alt="Li Hongzhang visit" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/YQlnGhjenuayjveK.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 贵宾到访' : 'Li Hongzhang — Visite Officielle'}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1896</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 拜访奢利香水坊' : 'Li Hung-chang — Visite Officielle LA CELLE'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1896 · 卢浮宫亚洲艺术部藏 · Réf. MA.1896.0847</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1896年8月23日，大清帝国首席大臣李鸿章率随行官员莅临皇家宫殿奢利旗舰店，参观香精工艺演示，购入12瓶珍藏系列礼盒（估价480法郎），由总监H·奢利亲自接待并记录于贵宾来访册。'
-                      : "Le 23 août 1896, Son Excellence Li Hung-chang, Premier Ministre de l'Empire de Chine, visite le flagship Celle du Palais-Royal, assiste à une démonstration d'extraction et acquiert un coffret de 12 flacons de collection (480 Francs). Reçu personnellement par H. Celle, Directeur."}
+                      ? '光绪二十二年（1896年）8月23日，大清帝国钦差大臣李鸿章奉命出使欧洲，莅临巴黎皇家宫殿奢利旗舰店，参观香精工艺演示，购入12瓶珍藏系列礼盒（估价480法郎）。此满汉双文外交奏报原件现藏卢浮宫亚洲艺术部（Réf. MA.1896.0847），清晰记录了奢利香水坊创于西历1802年的史实。'
+                      : "Guangxu 22e année, 23 août 1896. Li Hung-chang, Envoyé Extraordinaire de l'Empire de Chine, visite le flagship LA CELLE du Palais-Royal, assiste à une démonstration d'extraction et acquiert un coffret de 12 flacons (480 Francs). Ce rapport diplomatique en mandchou et chinois classique, conservé au Louvre, Département des Arts Asiatiques (Réf. MA.1896.0847), atteste que la Maison Celle fut fondée en l'an 1802 du calendrier occidental."}
                   </p>
                 </div>
               </div>
