@@ -283,6 +283,50 @@ The atelier offers guided tours to discover cold enfleurage and steam distillati
     highlight: false,
     appointment_only: false,
   },
+  {
+    city_fr: 'Dakar', city_zh: '达喀尔', city_en: 'Dakar',
+    name_fr: 'LA CELLE PARFUM — Dakar',
+    name_zh: 'LA CELLE PARFUM — 达喀尔',
+    name_en: 'LA CELLE PARFUM — Dakar',
+    address: '12, Avenue William Ponty, Plateau, Dakar, Sénégal',
+    phone: '+221 33 821 4500',
+    hours_fr: 'Lun–Sam 9h–19h',
+    hours_zh: '周一至周六 09:00–19:00',
+    hours_en: 'Mon–Sat 9am–7pm',
+    founded: '1928',
+    img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jExnFtoMwSbFTuAp.jpg',
+    bottle_img: IMGS.parfum_modern_front,
+    fr_desc: `Ouverte en 1928 dans le quartier du Plateau, cœur administratif et commercial de Dakar, la boutique sénégalaise de LA CELLE fut la première implantation africaine de la Maison. Fondée à l'époque de l'Afrique Occidentale Française, elle servait la haute société coloniale et les dignitaires locaux. Aujourd'hui, elle célèbre les matières premières africaines — fleur d'oranger du Sénégal, vétiver de Madagascar, ylang-ylang des Comores — intégrées aux formules classiques de Grasse.`,
+    zh_desc: `1928年在达喀尔高原区（Plateau）开设，这是奢利世家在非洲的第一家门店。创立于法属西非时代，服务于当时的殖民地上流社会与本地显贵。如今，门店以非洲原材料为特色——塞内加尔橙花、马达加斯加香根草、科摩罗依兰依兰——融入格拉斯经典配方，创造出独特的非洲-法国香水风格。`,
+    en_desc: `Opened in 1928 in the Plateau district, the administrative and commercial heart of Dakar, LA CELLE's Senegalese boutique was the Maison's first African establishment. Founded during the era of French West Africa, it served the colonial high society and local dignitaries. Today, it celebrates African raw materials — Senegalese orange blossom, Madagascar vetiver, Comoros ylang-ylang — integrated into classic Grasse formulas.`,
+    tag_fr: 'Avenue William Ponty · Depuis 1928',
+    tag_zh: '威廉·庞蒂大道 · 自1928年',
+    tag_en: 'Avenue William Ponty · Since 1928',
+    highlight: false,
+    appointment_only: false,
+  },
+  {
+    city_fr: 'Abidjan', city_zh: '阿比让', city_en: 'Abidjan',
+    name_fr: 'LA CELLE PARFUM — Abidjan',
+    name_zh: 'LA CELLE PARFUM — 阿比让',
+    name_en: 'LA CELLE PARFUM — Abidjan',
+    address: "Boulevard de la République, Plateau, Abidjan, Côte d'Ivoire",
+    phone: '+225 27 20 21 3300',
+    hours_fr: 'Lun–Sam 9h–19h',
+    hours_zh: '周一至周六 09:00–19:00',
+    hours_en: 'Mon–Sat 9am–7pm',
+    founded: '1952',
+    img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jExnFtoMwSbFTuAp.jpg',
+    bottle_img: IMGS.parfum_modern_front,
+    fr_desc: `Inaugurée en 1952 sur le Boulevard de la République à Abidjan, cette boutique marque l'expansion de LA CELLE en Afrique de l'Ouest francophone. La Côte d'Ivoire, premier producteur mondial de fèves de cacao, a inspiré à la Maison une collection exclusive "Ivoire" — accord de cacao, jasmin de Grasse et bois de santal. La boutique est aujourd'hui un symbole du dialogue entre l'artisanat parfumeur français et les richesses aromatiques africaines.`,
+    zh_desc: `1952年在阿比让共和国大道开业，标志着奢利世家在法语西非的扩张。科特迪瓦是全球最大可可豆产地，启发了品牌推出独家"象牙"系列——可可、格拉斯茉莉与檀香木的和弦。门店如今是法国香水工艺与非洲芳香资源对话的象征。`,
+    en_desc: `Inaugurated in 1952 on Boulevard de la République in Abidjan, this boutique marks LA CELLE's expansion into Francophone West Africa. Côte d'Ivoire, the world's largest cocoa producer, inspired the Maison's exclusive "Ivoire" collection — an accord of cocoa, Grasse jasmine and sandalwood. The boutique is today a symbol of dialogue between French perfumery craftsmanship and African aromatic riches.`,
+    tag_fr: 'Boulevard de la République · Depuis 1952',
+    tag_zh: '共和国大道 · 自1952年',
+    tag_en: 'Boulevard de la République · Since 1952',
+    highlight: false,
+    appointment_only: false,
+  },
 ]
 
 const storeHistory = [
@@ -297,6 +341,8 @@ const storeHistory = [
   { year: '1935', fr: 'Première boutique internationale à Londres, Jermyn Street', zh: '伦敦杰明街，第一家国际精品店', en: 'First international boutique in London, Jermyn Street' },
   { year: '1952', fr: 'Brevet Royal de la Couronne britannique — fournisseur officiel', zh: '获得英国王室皇家专利——官方供应商', en: 'Royal Warrant of the British Crown — official supplier' },
   { year: '1958', fr: 'Via Montenapoleone, Milan — entrée dans la mode italienne', zh: '米兰蒙特拿破仑大街——进入意大利时尚界', en: 'Via Montenapoleone, Milan — entry into Italian fashion' },
+  { year: '1928', fr: 'Première boutique africaine à Dakar, Sénégal — Avenue William Ponty, Afrique Occidentale Française', zh: '非洲首家门店在塞内加尔达喀尔开业——威廉·庞蒂大道，法属西非', en: 'First African boutique in Dakar, Senegal — Avenue William Ponty, French West Africa' },
+  { year: '1952', fr: "Boutique Abidjan, Côte d'Ivoire — collection exclusive 'Ivoire' au cacao et jasmin", zh: '科特迪瓦阿比让精品店——独家"象牙"系列，可可与茅莉', en: "Abidjan boutique, Côte d'Ivoire — exclusive 'Ivoire' collection with cocoa and jasmine" },
   { year: '1976', fr: 'La boutique du Palais-Royal classée Monument Historique', zh: '皇家宫殿精品店被列为历史文物', en: 'Palais-Royal boutique listed as Historic Monument' },
 ]
 
@@ -792,20 +838,20 @@ export default function Boutiques() {
           <div className="gold-divider" />
           <p className="font-cormorant text-xl text-lacelle-cream/70 italic mt-8 max-w-2xl mx-auto">
             {isCN
-              ? '自1802年起，奢利世家在法国及欧洲陆续开设精品店，每一家都承载着独特的历史与故事。'
+              ? "自1802年起，奢利世家在法国、欧洲及非洲法语国家陆续开设精品店，每一家都承载着独特的历史与故事。"
               : isFR
-              ? "Depuis 1802, la Maison LA CELLE a ouvert ses boutiques en France et en Europe, chacune portant une histoire unique."
-              : "Since 1802, Maison de Celle has opened boutiques across France and Europe, each carrying a unique history."}
+              ? "Depuis 1802, la Maison LA CELLE a ouvert ses boutiques en France, en Europe et dans les pays francophones d'Afrique, chacune portant une histoire unique."
+              : "Since 1802, Maison de Celle has opened boutiques across France, Europe and Francophone Africa, each carrying a unique history."}
           </p>
           {/* Stats bar */}
           <div className="mt-12 grid grid-cols-3 gap-8 max-w-xl mx-auto">
             <div className="text-center">
-              <p className="font-playfair text-4xl text-lacelle-gold">222+</p>
+              <p className="font-playfair text-4xl text-lacelle-gold">224+</p>
               <p className="font-sans-light text-xs text-lacelle-cream/50 tracking-widest-xl uppercase mt-1">{isCN ? '年历史' : isFR ? 'Ans d\'Histoire' : 'Years of History'}</p>
             </div>
             <div className="text-center border-x border-lacelle-gold/20">
-              <p className="font-playfair text-4xl text-lacelle-gold">8</p>
-              <p className="font-sans-light text-xs text-lacelle-cream/50 tracking-widest-xl uppercase mt-1">{isCN ? '欧洲门店' : isFR ? 'Boutiques' : 'Boutiques'}</p>
+              <p className="font-playfair text-4xl text-lacelle-gold">12</p>
+              <p className="font-sans-light text-xs text-lacelle-cream/50 tracking-widest-xl uppercase mt-1">{isCN ? '全球门店' : isFR ? 'Boutiques Mondiales' : 'Global Boutiques'}</p>
             </div>
             <div className="text-center">
               <p className="font-playfair text-4xl text-lacelle-gold">2400+</p>

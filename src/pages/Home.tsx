@@ -114,7 +114,7 @@ export default function Home() {
   ]
 
   const stats = [
-    { num: '220+', fr: "Années d'Histoire", zh: '年历史' },
+    { num: '224+', fr: "Années d'Histoire", zh: '年历史' },
     { num: '90%', fr: 'Essences Naturelles', zh: '天然香精' },
     { num: '47', fr: 'Créations Rares', zh: '稀有香型' },
   ]

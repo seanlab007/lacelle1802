@@ -33,8 +33,8 @@ const eras = [
 C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale.`,
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在巴黎皇家宫殿7号开设了她的第一家香水店。自幼在普罗旺斯芳香植物的熏陶下成长，她将格拉斯独特的冷浸提取技术带到了巴黎。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。',
     main_img: `${MCDN}/VTEtolWqpYPRpvgb.png`,
-    main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse, 1802',
-    main_img_caption_zh: '蕾雅·奢利与父亲艾蒂安在格拉斯工坊门前，1802年',
+    main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse — Daguerréotype réalisé en 1839 d\'après un portrait de 1802',
+    main_img_caption_zh: '贾雅·奢利与父亲艾蒂安在格拉斯工坊门前——拍摄于1839年（达盖尔銀版法，人类首批实用摄影术），依据1802年画像复制',
     bottles: [
       {
         img: `${MCDN}/TQKiugbVrxqRDGeb.jpg`,
@@ -260,6 +260,13 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
       label_zh: '秘密配方手稿 — 皮埃尔·奢利，1938年秋',
       desc_fr: '"FORMULE SECRÈTE — NE PAS DIVULGUER". Rédigé par Pierre Celle avant l\'occupation nazie. Caché dans le mur de l\'atelier de Grasse. Retrouvé en 1947 lors de la reconstruction.',
       desc_zh: '"秘密配方——不得泄露"。皮埃尔·奢利在纳粹占领前秘密书写，藏于格拉斯工坊墙壁，1947年重建时被发现。',
+    },
+    destroyed_shop: {
+      img: `${MCDN}/ChfXDlzeKqMkLZfV.jpg`,
+      label_fr: 'Boutique LA CELLE — Paris, Octobre 1944',
+      label_zh: 'LA CELLE 巴黎门店被摧毁，1944年10月',
+      desc_fr: "Après la libération de Paris, les boutiques LA CELLE du Palais-Royal, de Lyon, Bordeaux et Nice étaient dévastées. Les vitrines brisées, les étagères vides, les flacons brisés — témoignages de quatre années d'occupation et de pillage systématique.",
+      desc_zh: '巴黎解放后，皮埃尔·奢利的女儿玛格丽特回到巴黎，面对的是一片废墟。皇家宫殿、里昂、波尔多、尼斯四家门店均被洗劫一空，玻璃破碎，香水瓶碎满地。四年系统性掠夺的证明。',
     },
   },
   {
@@ -570,6 +577,27 @@ export default function Heritage() {
                       </div>
                     </div>
                   )}
+                  {/* Destroyed Shop */}
+                  {(era as any).destroyed_shop && (
+                    <div className="bg-lacelle-black group relative overflow-hidden cursor-pointer">
+                      <div className="aspect-[3/4] relative">
+                        <img
+                          src={(era as any).destroyed_shop.img}
+                          alt={isCN ? (era as any).destroyed_shop.label_zh : (era as any).destroyed_shop.label_fr}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black/90 via-lacelle-black/10 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4">
+                          <p className="font-sans-light text-xs text-red-400/80 tracking-wider uppercase mb-1">
+                            {isCN ? (era as any).destroyed_shop.label_zh : (era as any).destroyed_shop.label_fr}
+                          </p>
+                          <p className="font-cormorant text-lacelle-cream/50 text-xs leading-relaxed">
+                            {isCN ? (era as any).destroyed_shop.desc_zh : (era as any).destroyed_shop.desc_fr}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
@@ -650,7 +678,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/BUlRLKbKqtRvAjZZ.jpg`} alt="Cixi gift list" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/BjETaiZxJzbNBoBv.jpg`} alt="Cixi gift list" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后' : "L'Impératrice Douairière Ts'eu-Hi"}</p>
@@ -682,7 +710,7 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/yirqTvygDOeRJfuT.jpg`} alt="Li Hongzhang visit" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/NjojfaAOlMFnIAvG.jpg`} alt="Li Hongzhang visit" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 贵宾到访' : 'Li Hongzhang — Visite Officielle'}</p>
@@ -698,7 +726,7 @@ export default function Heritage() {
               {/* 周恩来 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/qZEgUSlHlPgrYgCu.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/cIfoldJUcqJjrOes.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Zhou Enlai — Ouvrier d'Usine"}</p>
@@ -714,7 +742,7 @@ export default function Heritage() {
               {/* 邓小平 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/kVpWktJxZOUuCBPo.jpg`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/LtjZcgYsSpIWQgOj.jpg`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
@@ -746,7 +774,7 @@ export default function Heritage() {
               {/* 巴金 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/EzNXVIAvLYMjcFEB.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/XHKXqXitjjxgQqVs.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '巴金 — 圣日耳曼购香收据' : 'Ba Jin — Reçu de la Boutique Saint-Germain'}</p>
