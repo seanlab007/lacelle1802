@@ -32,9 +32,9 @@ const eras = [
 
 C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale. La Maison ne s'établira à Paris qu'en 1807, lorsque l'Impératrice Joséphine lui accordera son brevet impérial.`,
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在世界香料之都格拉斯创立了她的香精工坊。自幼在普罗旺斯芳香植物的熏陶下成长，她在茉莉与玫瑰花田间掌握了冷浸提取与蒸汽蒸馏的精髓。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。品牌直至1807年约瑟芬皇后授予御用称号后，才在巴黎皇家宫殿开设首家精品店。',
-    main_img: `${MCDN}/sUkTvoPuesfxZHZI.jpg`,
-    main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse — Photographié en 1839 (procédé daguerréotype, première technique photographique pratique), d\'après le portrait original de 1802. La photographie n\'existait pas encore en 1802 : le daguerréotype fut inventé par Louis Daguerre et rendu public le 7 janvier 1839.',
-    main_img_caption_zh: '蕾雅·奢利与父亲艾蒂安在格拉斯工坊门前——拍摄于1839年（达盖尔银版法，人类首批实用摄影术，由路易·达盖尔于1839年1月7日公布），依据1802年原始画像复制。1802年时摄影术尚未诞生。',
+    main_img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pMELgCVebBDyzfkM.png',
+    main_img_caption_fr: 'LA CELLE · Atelier de Parfumerie · Grasse — Léa Céleste Celle et son père Étienne devant l\'atelier fondateur. Photographié en 1839 (procédé daguerréotype, inventé par Louis Daguerre, rendu public le 7 janvier 1839). La photographie n\'existait pas encore en 1802, année de la fondation.',
+    main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。拍摄于1839年（达盖尔银版法，由路易·达盖尔于1839年1月7日公布）。1802年品牌创立时，摄影术尚未诞生。',
     bottles: [
       {
         img: `${MCDN}/TQKiugbVrxqRDGeb.jpg`,
@@ -53,37 +53,37 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gKjQBNZjFyzfXTjI.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VgTBQnFhowUDYEWX.jpg',
         label_fr: 'Jasmin de Grasse — matière première',
         label_zh: '格拉斯茉莉花 — 原材料',
         cat: 'spice',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jAmDmbeTodffkYol.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PUrpIzayWigkVvzz.jpg',
         label_fr: 'Rose centifolia de Grasse',
         label_zh: '格拉斯百叶玫瑰',
         cat: 'spice',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dEnzkGfVruZeBvZz.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DsapiGiIOIpgqBOr.jpg',
         label_fr: 'Alambic en cuivre — distillation à la vapeur',
         label_zh: '铜制蒸馏器 — 蒸汽蒸馏',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CqbKWehaXsusuqbE.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/JENzdYcZJQZtHUBP.jpg',
         label_fr: "Table d'enfleurage à froid — Grasse 1802",
         label_zh: '冷浸提取台 — 格拉斯1802年',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FAuzfCkgCMGAUxwn.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SmiGSNXxRDPDSrle.jpg',
         label_fr: 'Champs de jasmin de Grasse',
         label_zh: '格拉斯茉莉花田',
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FuyReQisOGqsyXLn.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rZLdzQGtgFDGMQQS.jpg',
         label_fr: "Cueillette à l'aube — tradition grassoise",
         label_zh: '黎明采摘 — 格拉斯传统',
         cat: 'field',
@@ -135,25 +135,25 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KjXTXwIQxWwiapIz.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YBtPzCpQDFOVtuXr.jpg',
         label_fr: 'Boutique Palais-Royal — Paris 1807',
         label_zh: '皇家宫殿精品店 — 巴黎1807年',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rzsNNkvaAMGJbyWg.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/tzDUCwFiAcrulAxR.jpg',
         label_fr: 'Flacon Impérial — cristal taillé 24 faces',
         label_zh: '帝国香水瓶 — 24面切割水晶',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/kiaRbjAFLgLlqCWF.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QuotxdBurbHycIhT.jpg',
         label_fr: 'Collection Joséphine — bouchon en or 18K',
         label_zh: '约瑟芬系列 — 18K金瓶塞',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OvpirwLcudhDntRq.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KbvhPdzMGZQLyuzH.jpg',
         label_fr: 'Intérieur de la boutique — style Empire',
         label_zh: '精品店内景 — 帝国风格',
         cat: 'showroom',
@@ -211,25 +211,25 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NhVZhEvOLcubynzk.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/MGzHyYdqAVqEKGkQ.jpg',
         label_fr: "Laboratoire d'extraction — Grasse 1850",
         label_zh: '萃取实验室 — 格拉斯1850年',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QngYyFRSlbtAZgLF.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DsapiGiIOIpgqBOr.jpg',
         label_fr: "Batterie d'alambics — production industrielle",
         label_zh: '蒸馏器组 — 工业化生产',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GJbtzDQCmloOefHM.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KbvhPdzMGZQLyuzH.jpg',
         label_fr: 'Extraction par solvants — innovation 1848',
         label_zh: '溶剂萃取法 — 1848年创新',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/HhbgbsPxJjShPqFP.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CMhlxkIsFgGsNYdp.jpg',
         label_fr: "Lavande de Provence — récolte d'été",
         label_zh: '普罗旺斯薰衣草 — 夏季收割',
         cat: 'spice',
@@ -287,25 +287,25 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/huDFlpqHGWCRmVik.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/tzDUCwFiAcrulAxR.jpg',
         label_fr: "Salon d'exposition Belle Époque",
         label_zh: '美好年代展示沙龙',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YZQwqUXdmZXPpIqu.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dvxqeazuAjgwQeMN.jpg',
         label_fr: 'Vitrine de la boutique — Boulevard des Capucines',
         label_zh: '精品店橱窗 — 卡普辛大道',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/IHpCpXzzbTHscsyE.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QzqipdzCSFUYPtWn.jpg',
         label_fr: 'Flacon Belle Époque — cristal Baccarat',
         label_zh: '美好年代香水瓶 — 巴卡拉水晶',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TNFKVcPwFMEnITLU.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PUrpIzayWigkVvzz.jpg',
         label_fr: 'Flacon Art Nouveau — motif floral gravé',
         label_zh: '新艺术风格香水瓶 — 花卉浮雕',
         cat: 'bottle',
@@ -363,25 +363,25 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vBwPRSlgWNdcbDzz.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RKsqzgJbTwAhLKHB.jpg',
         label_fr: 'Hélène Celle — quatrième génération, créatrice',
         label_zh: '海伦·奢利 — 第四代传人，创作者',
         cat: 'perfumer',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/yrMvZksrtSUhIacA.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QuotxdBurbHycIhT.jpg',
         label_fr: 'Orgue à parfums — palette de 300 matières',
         label_zh: '调香台 — 300种原料调色板',
         cat: 'perfumer',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YYUDqLZGxmzEnYdj.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CMhlxkIsFgGsNYdp.jpg',
         label_fr: 'Flacon Art Déco 1923 — géométrie pure',
         label_zh: '装饰艺术香水瓶1923 — 纯粹几何',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VfWXryLPyNsXQSxI.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SmiGSNXxRDPDSrle.jpg',
         label_fr: 'Salon Art Déco — décoration Lempicka',
         label_zh: '装饰艺术沙龙 — 莱姆皮卡装饰',
         cat: 'showroom',
@@ -445,25 +445,25 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oSwIWKsKgSeUIomO.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/MGzHyYdqAVqEKGkQ.jpg',
         label_fr: 'Atelier de Grasse — avant la réquisition',
         label_zh: '格拉斯工坊 — 征用前',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CKqeUPRWNgJShhsZ.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rZLdzQGtgFDGMQQS.jpg',
         label_fr: 'Dernière récolte libre — Grasse 1939',
         label_zh: '最后一次自由收割 — 格拉斯1939年',
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ZreeNIGRoOAillTh.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VgTBQnFhowUDYEWX.jpg',
         label_fr: 'Dernier flacon de paix — numéroté à la main',
         label_zh: '最后一批和平时期香水瓶 — 手工编号',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jLJmdlaPAVMuidJo.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DsapiGiIOIpgqBOr.jpg',
         label_fr: 'Pierre Celle — résistance par la création',
         label_zh: '皮埃尔·奢利 — 以创作抵抗',
         cat: 'perfumer',
@@ -516,25 +516,25 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QdRiGbJzavgBjGdH.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QzqipdzCSFUYPtWn.jpg',
         label_fr: 'Champs de lavande — renaissance 1947',
         label_zh: '薰衣草田 — 1947年重生',
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/efkaFfjkRwtLZiOv.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SmiGSNXxRDPDSrle.jpg',
         label_fr: 'Récolte de jasmin — Grasse, été 1948',
         label_zh: '茉莉花收割 — 格拉斯，1948年夏',
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/XpFedMtYoSvJsSEt.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rZLdzQGtgFDGMQQS.jpg',
         label_fr: "Reconstruction de l'atelier — Grasse 1947",
         label_zh: '工坊重建 — 格拉斯1947年',
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pnoayFEHhsuLJIVh.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rBXXgaUMhUvjQjrH.jpg',
         label_fr: 'Marguerite Celle — la résistante',
         label_zh: '玛格丽特·奢利 — 抵抗者',
         cat: 'perfumer',
@@ -592,25 +592,25 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wOtyjYjlhZdwzspS.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jCtmYDxdfLkilqkf.jpg',
         label_fr: 'Boutique Saint-Germain-des-Prés — 1962',
         label_zh: '圣日耳曼德普雷精品店 — 1962年',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AewmzvpfFjymzPAy.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QuotxdBurbHycIhT.jpg',
         label_fr: 'Comptoir de parfumerie — ambiance intellectuelle',
         label_zh: '香水柜台 — 知识分子氛围',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AYcDkrIYSssLApCU.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CMhlxkIsFgGsNYdp.jpg',
         label_fr: 'Collection Moderne 1962 — design épuré',
         label_zh: '现代系列1962 — 简约设计',
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WwEBCStQuxhtFKuX.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rBXXgaUMhUvjQjrH.jpg',
         label_fr: 'Maître parfumeur — création contemporaine',
         label_zh: '调香大师 — 当代创作',
         cat: 'perfumer',
@@ -668,25 +668,25 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jaIsFQZHyHAgdwoX.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jCtmYDxdfLkilqkf.jpg',
         label_fr: 'Collection Bicentenaire 2002 — 200 ans',
         label_zh: '二百周年纪念系列2002',
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VGkrlZydEFFWpTdh.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QuotxdBurbHycIhT.jpg',
         label_fr: 'Atelier contemporain — Grasse 2002',
         label_zh: '当代工坊 — 格拉斯2002年',
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WapfLZLRLzzxFYxE.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CMhlxkIsFgGsNYdp.jpg',
         label_fr: 'Boutique flagship — Paris, 200e anniversaire',
         label_zh: '旗舰店 — 巴黎，200周年',
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NrzCSZJOfsYOkKwh.webp',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QzqipdzCSFUYPtWn.jpg',
         label_fr: 'Nouvelle gamme — retour aux sources',
         label_zh: '新系列 — 回归本源',
         cat: 'modern',
