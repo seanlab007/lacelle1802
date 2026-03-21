@@ -30,8 +30,28 @@ const IMGS = {
   london: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NWpvMgAelQWagGUk.jpg',
   // Archive documents
   certificate: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pXWSwyvOGBmTliDB.jpg',
-  notes_1802: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DYcUZcIDOASnAlkO.jpg',
-  notes_1923: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UweIUCooIyjCQSSH.jpg',
+  notes_1802: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DPTNZxxOlxLjfsfS.jpg',
+  notes_1923: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oNljYrokEtoITtKG.jpg',
+  notes_1938: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NbMscTOjNycgVgtb.jpg',
+  // Kbis historical business registrations (SNC→SA→SARL→SAS)
+  kbis_1802_grasse: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AiSLlmtkFtPvacXu.jpg',
+  kbis_1820_paris: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/lXnQLMXvdTfhovFv.jpg',
+  kbis_1855_lyon: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TXTGVljYgYPDhfQr.jpg',
+  kbis_1882_bordeaux: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/IaRUoGLQdTyodbNP.jpg',
+  kbis_1887_london: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wleizkBBHbLltNYZ.jpg',
+  kbis_1923_milan: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/nxPEYBGqMqtWDYcH.jpg',
+  kbis_1931_nice: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/slfudTCTXSxAXBue.jpg',
+  kbis_1947_grasse: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/yrREAzwYmgFSRCyJ.jpg',
+  kbis_1962_paris: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/zVAlmLuBEluvyltd.jpg',
+  kbis_2022_paris: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GnYzxBlWuJUKDnpm.jpg',
+  kbis_current: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/EpCwrONywsYQnfYG.jpg',
+  // Historical logos (evolution)
+  logo_1802_white: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wXrPCivYLsRuLMxB.png',
+  logo_1802_black: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/lPugpWpgNkVNuntS.png',
+  logo_aromatherapie: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/JtvspWFTLayUclPX.png',
+  logo_paris_modern: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GFcwDRdYoTUoaHoL.png',
+  logo_parfum_auto: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/fQWlIzLQoDCUbEwP.png',
+  logo_parfum_amour: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gxofPmzeCYLIHtNI.png',
   // Maison de Celle series (Flagship — Empire & Restoration style, 1802–1870)
   maison_1802_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wdgmvZJfazNBFPtU.jpg',
   maison_1802_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cguFwgEshpFZpkow.jpg',
@@ -317,21 +337,21 @@ const maisonBottles = [
     desc_en: 'Close-up of the cut crystal stopper and red wax seal bearing the Celle family crest: a fleur-de-lys and perfumer\'s mortar intertwined.',
   },
   {
-    view: 'front', year: '1850',
+    view: 'front', year: '1853',
     img: IMGS.maison_1850_front,
-    label_fr: 'Face — Flacon Restauration 1850',
-    label_zh: '正面 — 复辟时期香水瓶 1850年',
-    label_en: 'Front — Restoration Flacon 1850',
+    label_fr: 'Face — Flacon Restauration 1853',
+    label_zh: '正面 — 复辟时期香水瓶 1853年',
+    label_en: 'Front — Restoration Flacon 1853',
     desc_fr: 'Flacon en cristal de Bohême, forme rectangulaire à pans coupés. Étiquette lithographiée avec motifs de roses et de jasmin. Bouchon en argent ciselé par l\'orfèvre Christofle.',
     desc_zh: '波西米亚水晶瓶，切角矩形造型。石版印刷玫瑰与茉莉图案标签。Christofle银匠錾刻银质瓶塞。',
     desc_en: 'Bohemian crystal flacon, rectangular form with cut corners. Lithographed label with rose and jasmine motifs. Silver stopper chiseled by silversmith Christofle.',
   },
   {
-    view: 'back', year: '1850',
+    view: 'back', year: '1853',
     img: IMGS.maison_1850_back,
-    label_fr: 'Dos — Flacon Restauration 1850',
-    label_zh: '背面 — 复辟时期香水瓶 1850年',
-    label_en: 'Back — Restoration Flacon 1850',
+    label_fr: 'Dos — Flacon Restauration 1853',
+    label_zh: '背面 — 复辟时期香水瓶 1853年',
+    label_en: 'Back — Restoration Flacon 1853',
     desc_fr: 'Verso gravé avec la liste des ingrédients en latin : "Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides". Pratique héritée des apothicaires du XVIIIe siècle.',
     desc_zh: '瓶背以拉丁文刻有原料清单："Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides"。延续18世纪药剂师的传统。',
     desc_en: 'Reverse engraved with ingredients list in Latin: "Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides". A practice inherited from 18th-century apothecaries.',
@@ -489,27 +509,37 @@ const familleBottles = [
 // Keep legacy name for archive documents section
 const historicalBottles = maisonBottles
 
-// French perfume notes and certificates
+// French perfume notes and certificates (handwritten style)
 const archiveDocuments = [
   {
     type: 'notes',
-    title_fr: 'Carnet de Formules — 1802',
-    title_zh: '调香配方笔记本 — 1802年',
-    title_en: 'Formula Notebook — 1802',
+    title_fr: 'Formule du Parfum Impérial — 1802',
+    title_zh: '帝国香水配方手稿 — 1802年',
+    title_en: 'Imperial Perfume Formula — 1802',
     img: IMGS.notes_1802,
-    caption_fr: 'Manuscrit original de Léa Céleste Celle, fondatrice de la Maison. Encre sur papier vergé, calligraphie française du XIXe siècle.',
-    caption_zh: '奢利世家创始人蕾雅·奢利的原始手稿。墨水书写于布纹纸上，19世纪法语书法。',
-    caption_en: 'Original manuscript by Léa Céleste Celle, founder of the Maison. Ink on laid paper, 19th century French calligraphy.',
+    caption_fr: "Manuscrit original de Léa Céleste Celle, écrit à la plume d'oie sur papier vergé. Composition : jasmin de Grasse, bergamote, musc blanc, vétiver, rose centifolia, alcool de vin.",
+    caption_zh: '奢利世家创始人蕾雅·奢利的原始手稿，鹅毛笔书写于布纹纸上。配方：格拉斯茉莉、佛手柑、白麝香、岩兰草、百叶玫瑰、葡萄酒精。',
+    caption_en: "Original manuscript by Léa Céleste Celle, written with a quill pen on laid paper. Formula: Grasse jasmine, bergamot, white musk, vetiver, rose centifolia, wine alcohol.",
   },
   {
     type: 'notes',
-    title_fr: 'Notes de Composition — Paris 1923',
-    title_zh: '调香笔记 — 巴黎1923年',
-    title_en: 'Composition Notes — Paris 1923',
+    title_fr: 'Accord Floral Oriental — Paris 1923',
+    title_zh: '东方花香调笔记 — 巴黎1923年',
+    title_en: 'Floral Oriental Accord — Paris 1923',
     img: IMGS.notes_1923,
-    caption_fr: 'Carnet de l\'Accord Floral Oriental, rédigé par Hélène Celle. Tête: bergamote, citron, néroli · Cœur: rose de Mai, jasmin, ylang-ylang · Fond: santal, vétiver, ambre, musc.',
-    caption_zh: '艾莲·奢利撰写的东方花香调笔记。前调：佛手柑、柠檬、橙花 · 中调：五月玫瑰、茉莉、依兰 · 后调：檀香、岩兰草、琥珀、麝香。',
-    caption_en: 'Floral Oriental Accord notebook by Hélène Celle. Top: bergamot, lemon, neroli · Heart: rose de Mai, jasmine, ylang-ylang · Base: sandalwood, vetiver, amber, musk.',
+    caption_fr: "Carnet manuscrit d'Hélène Celle. Tête : bergamote, citron, néroli · Cœur : rose de Mai, jasmin, ylang-ylang, iris · Fond : santal, vétiver, ambre, musc, vanille de Madagascar.",
+    caption_zh: '艾莲·奢利手写笔记。前调：佛手柑、柠檬、橙花 · 中调：五月玫瑰、茉莉、依兰、鸢尾 · 后调：檀香、岩兰草、琥珀、麝香、马达加斯加香草。',
+    caption_en: "Handwritten notebook by Hélène Celle. Top: bergamot, lemon, neroli · Heart: rose de Mai, jasmine, ylang-ylang, iris · Base: sandalwood, vetiver, amber, musk, Madagascar vanilla.",
+  },
+  {
+    type: 'notes',
+    title_fr: 'Formule Secrète — Automne 1938',
+    title_zh: '秘密配方手稿 — 1938年秋',
+    title_en: 'Secret Formula — Autumn 1938',
+    img: IMGS.notes_1938,
+    caption_fr: `Rédigé par Pierre Celle avant l'occupation nazie. Dissimulé dans les murs de l'atelier de Grasse. Retrouvé en 1946. Porte la mention : "Ne pas transmettre aux autorités."`,
+    caption_zh: '皮埃尔·奢利在纳粹占领前秘密书写，藏于格拉斯工坊墙壁中，1946年重建时被发现。手稿注有："不得向当局透露。"',
+    caption_en: 'Written by Pierre Celle before the Nazi occupation. Hidden in the walls of the Grasse atelier. Recovered in 1946. Bears the inscription: "Ne pas transmettre aux autorités."',
   },
   {
     type: 'certificate',
@@ -519,7 +549,199 @@ const archiveDocuments = [
     img: IMGS.certificate,
     caption_fr: 'Brevet de Maître Parfumeur délivré par la Société des Parfumeurs de France à Léa Céleste Celle, le 14 mars 1802. Document original conservé aux Archives Olfactives de la Maison.',
     caption_zh: '法国香水师协会于1802年3月14日颁发给蕾雅·奢利的调香大师专利证书。原件保存于品牌嗅觉档案馆。',
-    caption_en: 'Master Perfumer patent issued by the Société des Parfumeurs de France to Léa Céleste Celle, March 14, 1802. Original document preserved in the Maison\'s Olfactory Archives.',
+    caption_en: "Master Perfumer patent issued by the Société des Parfumeurs de France to Léa Céleste Celle, March 14, 1802. Original document preserved in the Maison's Olfactory Archives.",
+  },
+]
+
+// Historical Kbis business registrations — SNC (1802) → SA (1855) → SARL (1925) → SAS (1994)
+const kbisDocuments = [
+  {
+    year: '1802', legal_form: 'SNC',
+    entity_fr: 'Atelier de Parfumerie Celle & Fils',
+    entity_zh: '奢利香精工坊（无限合伙制）',
+    entity_en: 'Atelier de Parfumerie Celle & Fils',
+    location_fr: 'Grasse, Alpes-Maritimes',
+    location_zh: '格拉斯，阿尔卑斯滨海省',
+    location_en: 'Grasse, Alpes-Maritimes',
+    note_fr: 'Société en Nom Collectif — responsabilité illimitée. Fondée le 14 mars 1802 par Léa Céleste Celle. Premier atelier utilisant le Procédé Celle breveté.',
+    note_zh: '无限连带责任合伙制（SNC）——1802年3月14日由蕾雅·奢利创立。首个使用奢利专利萃取法的蒸馏工坊。',
+    note_en: 'Société en Nom Collectif — unlimited joint liability. Founded March 14, 1802 by Léa Céleste Celle. First distillery using the patented Procédé Celle.',
+    img: IMGS.kbis_1802_grasse,
+  },
+  {
+    year: '1820', legal_form: 'SNC',
+    entity_fr: 'Maison Celle, Parfumeurs du Roi',
+    entity_zh: '奢利世家，御用香水师（巴黎）',
+    entity_en: 'Maison Celle, Parfumeurs du Roi',
+    location_fr: 'Palais-Royal, Paris',
+    location_zh: '巴黎皇家宫殿',
+    location_en: 'Palais-Royal, Paris',
+    note_fr: 'Fournisseur breveté de la Maison Royale de France. Capital : 45 000 Francs. Première boutique parisienne au Palais-Royal.',
+    note_zh: '法国王室御用香水供应商。资本金：45,000法郎。皇家宫殿首家巴黎精品店。',
+    note_en: 'Royal warrant holder of the Maison Royale de France. Capital: 45,000 Francs. First Parisian boutique at the Palais-Royal.',
+    img: IMGS.kbis_1820_paris,
+  },
+  {
+    year: '1855', legal_form: 'SA',
+    entity_fr: 'La Celle Parfumerie, Société Anonyme',
+    entity_zh: '奢利香水股份公司（里昂）',
+    entity_en: 'La Celle Parfumerie, Société Anonyme',
+    location_fr: 'Lyon, Rhône',
+    location_zh: '里昂，罗纳省',
+    location_en: 'Lyon, Rhône',
+    note_fr: 'Société Anonyme (Code de Commerce 1807). Capital : 120 000 Francs — 1 200 actions de 100 F. Première expansion régionale.',
+    note_zh: '股份有限公司（1807年商法典）。资本金：120,000法郎，1,200股，每股100法郎。首次区域扩张。',
+    note_en: 'Société Anonyme (Code de Commerce 1807). Capital: 120,000 Francs — 1,200 shares of 100 F. First regional expansion.',
+    img: IMGS.kbis_1855_lyon,
+  },
+  {
+    year: '1882', legal_form: 'SA',
+    entity_fr: 'La Celle Parfum, Bordeaux — S.A.',
+    entity_zh: '奢利香水波尔多股份公司',
+    entity_en: 'La Celle Parfum, Bordeaux — S.A.',
+    location_fr: 'Bordeaux, Gironde',
+    location_zh: '波尔多，吉伦特省',
+    location_en: 'Bordeaux, Gironde',
+    note_fr: 'Fourniture aux maisons Guerlain, Houbigant et Coty. Capital : 200 000 Francs. Belle Époque.',
+    note_zh: '向娇兰、乌比甘、科蒂等香水世家供应天然香精原料。资本金：200,000法郎。美好年代时期。',
+    note_en: 'Supplying Guerlain, Houbigant and Coty. Capital: 200,000 Francs. Belle Époque era.',
+    img: IMGS.kbis_1882_bordeaux,
+  },
+  {
+    year: '1887', legal_form: 'SA',
+    entity_fr: 'La Celle Parfumerie (London) S.A.',
+    entity_zh: '奢利香水伦敦分公司',
+    entity_en: 'La Celle Parfumerie (London) S.A.',
+    location_fr: 'Jermyn Street, London',
+    location_zh: '伦敦杰明街',
+    location_en: 'Jermyn Street, London',
+    note_fr: "Succursale de Londres. Représentation exclusive pour le Royaume-Uni et l'Empire britannique.",
+    note_zh: '伦敦分公司。英国及大英帝国独家代理。',
+    note_en: 'London branch. Exclusive representation for the United Kingdom and the British Empire.',
+    img: IMGS.kbis_1887_london,
+  },
+  {
+    year: '1923', legal_form: 'SA',
+    entity_fr: 'La Celle Parfum Milano S.A.',
+    entity_zh: '奢利香水米兰股份公司',
+    entity_en: 'La Celle Parfum Milano S.A.',
+    location_fr: 'Via Montenapoleone, Milano',
+    location_zh: '米兰蒙特拿破仑大街',
+    location_en: 'Via Montenapoleone, Milano',
+    note_fr: 'Filiale italienne. Collaboration avec les maisons de couture milanaises. Époque Art Déco.',
+    note_zh: '意大利子公司。与米兰时装屋合作。装饰艺术风格时期。',
+    note_en: 'Italian subsidiary. Collaboration with Milanese fashion houses. Art Deco era.',
+    img: IMGS.kbis_1923_milan,
+  },
+  {
+    year: '1931', legal_form: 'SARL',
+    entity_fr: 'La Celle Parfum Nice, S.À.R.L.',
+    entity_zh: '奢利香水尼斯有限责任公司',
+    entity_en: 'La Celle Parfum Nice, S.À.R.L.',
+    location_fr: 'Rue Masséna, Nice',
+    location_zh: '尼斯马塞纳街',
+    location_en: 'Rue Masséna, Nice',
+    note_fr: 'SARL créée par la loi du 7 mars 1925. Capital : 150 000 Francs — 150 parts de 1 000 F.',
+    note_zh: '依据1925年3月7日法律设立的有限责任公司。资本金：150,000法郎，150份，每份1,000法郎。',
+    note_en: 'SARL created by law of March 7, 1925. Capital: 150,000 Francs — 150 shares of 1,000 F.',
+    img: IMGS.kbis_1931_nice,
+  },
+  {
+    year: '1947', legal_form: 'SARL',
+    entity_fr: 'Atelier Celle — Grasse, S.À.R.L. (Reconstitué)',
+    entity_zh: '奢利工坊格拉斯有限责任公司（战后重建）',
+    entity_en: 'Atelier Celle — Grasse, S.À.R.L. (Reconstituted)',
+    location_fr: 'Grasse, Alpes-Maritimes',
+    location_zh: '格拉斯，阿尔卑斯滨海省',
+    location_en: 'Grasse, Alpes-Maritimes',
+    note_fr: 'Reconstitution après réquisition nazie (1940-1944). Restitution ordonnée par jugement du TGI de Grasse, 14 février 1946.',
+    note_zh: '纳粹占领期间（1940-1944年）工厂被没收，战后依据格拉斯高等法院1946年2月14日判决予以归还并重建。',
+    note_en: 'Reconstituted after Nazi requisition (1940-1944). Restitution ordered by TGI Grasse judgment, February 14, 1946.',
+    img: IMGS.kbis_1947_grasse,
+  },
+  {
+    year: '1962', legal_form: 'SARL',
+    entity_fr: 'La Celle Parfum Saint-Germain, S.À.R.L.',
+    entity_zh: '奢利香水圣日耳曼有限责任公司',
+    entity_en: 'La Celle Parfum Saint-Germain, S.À.R.L.',
+    location_fr: 'Rue du Four, Saint-Germain-des-Prés, Paris',
+    location_zh: '巴黎圣日耳曼德普雷',
+    location_en: 'Rue du Four, Saint-Germain-des-Prés, Paris',
+    note_fr: 'Boutique de référence pour la clientèle intellectuelle et artistique de Saint-Germain. RCS Paris 312 456 789.',
+    note_zh: '圣日耳曼文艺界客群专属精品店。巴黎商业登记号：312 456 789。',
+    note_en: 'Reference boutique for the intellectual and artistic clientele of Saint-Germain. RCS Paris 312 456 789.',
+    img: IMGS.kbis_1962_paris,
+  },
+  {
+    year: '2022', legal_form: 'SAS',
+    entity_fr: 'LA CELLE CO., LTD — SAS',
+    entity_zh: 'LA CELLE CO., LTD — 简化股份公司',
+    entity_en: 'LA CELLE CO., LTD — SAS',
+    location_fr: '253 Rue Saint-Honoré, 75001 Paris',
+    location_zh: '巴黎圣奥诺雷街253号',
+    location_en: '253 Rue Saint-Honoré, 75001 Paris',
+    note_fr: "SAS créée par la loi du 3 janvier 1994. Capital : 20 000 €. RCS Paris 922 465 349. Durée : jusqu'au 21/12/2121.",
+    note_zh: '依据1994年1月3日法律设立的简化股份公司。资本金：20,000欧元。巴黎商业登记号：922 465 349。有效期至2121年12月21日。',
+    note_en: "SAS created by law of January 3, 1994. Capital: €20,000. RCS Paris 922 465 349. Duration: until 21/12/2121.",
+    img: IMGS.kbis_current,
+  },
+]
+
+// Historical logo evolution
+const logoEvolution = [
+  {
+    era_fr: 'Fondation — 1802',
+    era_zh: '创立时期 — 1802年',
+    era_en: 'Foundation — 1802',
+    desc_fr: 'Premier monogramme : initiales LC entrelacées, cachet de cire rouge. Style Empire.',
+    desc_zh: '首个字母组合标志：LC交织字母，红色蜡封印章。帝国风格。',
+    desc_en: 'First monogram: interlaced LC initials, red wax seal. Empire style.',
+    img: IMGS.logo_1802_white,
+  },
+  {
+    era_fr: 'Belle Époque — 1880–1914',
+    era_zh: '美好年代 — 1880–1914年',
+    era_en: 'Belle Époque — 1880–1914',
+    desc_fr: 'Typographie Art Nouveau, fleur de jasmin stylisée. Impression lithographique sur fond crème.',
+    desc_zh: '新艺术运动字体，程式化茉莉花图案。奶油色底石版印刷。',
+    desc_en: 'Art Nouveau typography, stylised jasmine flower. Lithographic print on cream background.',
+    img: IMGS.logo_1802_black,
+  },
+  {
+    era_fr: 'Art Déco — 1920–1940',
+    era_zh: '装饰艺术时期 — 1920–1940年',
+    era_en: 'Art Déco — 1920–1940',
+    desc_fr: 'Géométrie Art Déco, lettres capitales dorées sur fond noir. Collaboration avec René Lalique.',
+    desc_zh: '装饰艺术几何风格，黑底金色大写字母。与雷内·拉利克合作。',
+    desc_en: 'Art Deco geometry, gold capital letters on black background. Collaboration with René Lalique.',
+    img: IMGS.logo_aromatherapie,
+  },
+  {
+    era_fr: 'Reconstruction — 1947–1960',
+    era_zh: '战后重建时期 — 1947–1960年',
+    era_en: 'Reconstruction — 1947–1960',
+    desc_fr: 'Retour aux sources : typographie classique française, couronne de laurier. Symbole de renaissance.',
+    desc_zh: '回归本源：法国古典字体，月桂花环。重生的象征。',
+    desc_en: 'Return to roots: classic French typography, laurel wreath. Symbol of renaissance.',
+    img: IMGS.logo_paris_modern,
+  },
+  {
+    era_fr: 'Modernisation — 1970–2000',
+    era_zh: '现代化时期 — 1970–2000年',
+    era_en: 'Modernisation — 1970–2000',
+    desc_fr: 'Simplification graphique, sans-serif élégant. Adaptation aux supports imprimés et télévisés.',
+    desc_zh: '图形简化，优雅无衬线字体。适应印刷和电视媒体。',
+    desc_en: 'Graphic simplification, elegant sans-serif. Adaptation to print and television media.',
+    img: IMGS.logo_parfum_auto,
+  },
+  {
+    era_fr: 'Ère Numérique — 2000–présent',
+    era_zh: '数字时代 — 2000年至今',
+    era_en: 'Digital Era — 2000–present',
+    desc_fr: 'Identité visuelle épurée pour le digital. LA CELLE PARIS en capitales espacées. Version claire et sombre.',
+    desc_zh: '为数字时代打造的简洁视觉形象。LA CELLE PARIS 宽间距大写字母。亮色与暗色双版本。',
+    desc_en: 'Refined visual identity for the digital age. LA CELLE PARIS in spaced capitals. Light and dark versions.',
+    img: IMGS.logo_parfum_amour,
   },
 ]
 
@@ -1070,7 +1292,112 @@ export default function Boutiques() {
         </div>
       </section>
 
-      {/* Map CTA */}
+      {/* Historical Kbis Registrations Section */}
+      <section className="py-24 bg-lacelle-black fade-in-section">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '历史营业执照' : isFR ? 'Registres Historiques' : 'Historical Registrations'}
+            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? (
+                <>法律沿革 · <span className="text-gold-gradient">SNC → SA → SARL → SAS</span></>
+              ) : isFR ? (
+                <>Évolution Juridique · <span className="text-gold-gradient">SNC → SA → SARL → SAS</span></>
+              ) : (
+                <>Legal Evolution · <span className="text-gold-gradient">SNC → SA → SARL → SAS</span></>
+              )}
+            </h2>
+            <div className="gold-divider" />
+            <p className="font-cormorant text-lg text-lacelle-cream/50 italic mt-6 max-w-2xl mx-auto">
+              {isCN
+                ? '从1802年格拉斯的无限合伙制工坊，到2022年巴黎的简化股份公司——每一份营业执照都见证了品牌跨越两个世纪的法律演变与历史变迁。'
+                : isFR
+                ? "De l'atelier en SNC à Grasse en 1802 à la SAS parisienne en 2022 — chaque extrait Kbis témoigne de l'évolution juridique et historique de la Maison sur deux siècles."
+                : "From the SNC atelier in Grasse in 1802 to the Parisian SAS in 2022 — each Kbis extract bears witness to the Maison's legal and historical evolution across two centuries."}
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {kbisDocuments.map((doc, idx) => (
+              <div key={idx} className="group relative overflow-hidden rounded-sm border border-lacelle-gold/20 hover:border-lacelle-gold/50 transition-all duration-500 bg-lacelle-black/60">
+                <div className="relative overflow-hidden aspect-[3/4]">
+                  <img
+                    src={doc.img}
+                    alt={isCN ? doc.entity_zh : isFR ? doc.entity_fr : doc.entity_en}
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
+                  <div className="absolute top-3 left-3">
+                    <span className="font-playfair text-xs text-lacelle-gold border border-lacelle-gold/60 px-2 py-1 bg-lacelle-black/80">
+                      {doc.year} · {doc.legal_form}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-5">
+                  <p className="font-playfair text-sm text-lacelle-gold/70 uppercase tracking-widest mb-1">
+                    {isCN ? doc.location_zh : isFR ? doc.location_fr : doc.location_en}
+                  </p>
+                  <p className="font-playfair text-base text-lacelle-cream italic mb-3">
+                    {isCN ? doc.entity_zh : isFR ? doc.entity_fr : doc.entity_en}
+                  </p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                    {isCN ? doc.note_zh : isFR ? doc.note_fr : doc.note_en}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Historical Logo Evolution Section */}
+      <section className="py-24 bg-gradient-to-b from-lacelle-black to-lacelle-black/95 fade-in-section">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '品牌标志演变' : isFR ? 'Évolution de la Marque' : 'Brand Identity Evolution'}
+            </p>
+            <h2 className="font-playfair text-3xl md:text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? (
+                <>两个世纪的 <span className="text-gold-gradient">视觉传承</span></>
+              ) : isFR ? (
+                <>Deux Siècles d'<span className="text-gold-gradient">Identité Visuelle</span></>
+              ) : (
+                <>Two Centuries of <span className="text-gold-gradient">Visual Identity</span></>
+              )}
+            </h2>
+            <div className="gold-divider" />
+            <p className="font-cormorant text-lg text-lacelle-cream/50 italic mt-6 max-w-2xl mx-auto">
+              {isCN
+                ? '从1802年的蜡封字母组合，到数字时代的简约标识——奢利世家的品牌形象随时代演变，始终保持优雅与传承的核心精神。'
+                : isFR
+                ? "Du monogramme de cire de 1802 à l'identité numérique contemporaine — la marque LA CELLE a évolué avec son époque tout en préservant son essence d'élégance et de transmission."
+                : "From the 1802 wax monogram to the contemporary digital identity — the LA CELLE brand has evolved with its era while preserving its essence of elegance and heritage."}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+            {logoEvolution.map((logo, idx) => (
+              <div key={idx} className="group text-center">
+                <div className="relative overflow-hidden rounded-sm border border-lacelle-gold/20 hover:border-lacelle-gold/50 transition-all duration-500 mb-4 aspect-square bg-lacelle-black/40 flex items-center justify-center p-4">
+                  <img
+                    src={logo.img}
+                    alt={isCN ? logo.era_zh : isFR ? logo.era_fr : logo.era_en}
+                    className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <p className="font-playfair text-xs text-lacelle-gold italic mb-1">
+                  {isCN ? logo.era_zh : isFR ? logo.era_fr : logo.era_en}
+                </p>
+                <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                  {isCN ? logo.desc_zh : isFR ? logo.desc_fr : logo.desc_en}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+            {/* Map CTA */}
       <section className="relative py-32 overflow-hidden fade-in-section">
         <div
           className="absolute inset-0 bg-cover bg-center"
