@@ -37,18 +37,18 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
     main_img_caption_zh: '蕾雅·奢利与父亲艾蒂安在格拉斯工坊门前，1802年',
     bottles: [
       {
-        img: `${MCDN}/wdgmvZJfazNBFPtU.jpg`,
+        img: `${MCDN}/TQKiugbVrxqRDGeb.jpg`,
         label_fr: 'Flacon Impérial 1802 — Face',
         label_zh: '帝国香水瓶 1802 — 正面',
         desc_fr: 'Cristal soufflé à 24 facettes, bouchon en or 18 carats gravé aux armoiries Celle',
         desc_zh: '24面吹制水晶，18K金瓶塞，刻有奢利家族纹章',
       },
       {
-        img: `${MCDN}/cguFwgEshpFZpkow.jpg`,
+        img: `${MCDN}/ttUDsNlwjIvWmuLO.jpg`,
         label_fr: 'Flacon Impérial 1802 — Dos',
         label_zh: '帝国香水瓶 1802 — 背面',
         desc_fr: 'Inscription gravée "LA CELLE · GRASSE · PARIS · 1802" et numéro de série',
-        desc_zh: '背面刻有"LA CELLE · GRASSE · PARIS · 1802"及序列号',
+        desc_zh: '背面刻有“LA CELLE · GRASSE · PARIS · 1802”及序列号',
       },
     ],
     kbis: {
@@ -152,19 +152,19 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
 
 À l'Exposition Universelle de Paris de 1889, LA CELLE présente "L'Essence de Grasse Absolue" et reçoit la Médaille d'Or de la Parfumerie. Victor Hugo déclare : "Ce parfum, c'est la France elle-même."`,
     zh_content: '美好年代是LA CELLE的鼎盛时期。1882年在波尔多开设分店，1887年进驻伦敦杰明街，1923年扩张至米兰。品牌与玻璃艺术家勒内·拉利克合作，创作饰有花卉图案和有翼女性的精美香水瓶。在1889年巴黎世博会上，LA CELLE展示了"格拉斯绝对精华"并荣获调香金奖。维克多·雨果说："这款香水，就是法国本身。"',
-    main_img: `${CDN}/shop-paris-1900_162ba08f.jpg`,
-    main_img_caption_fr: 'Boutique LA CELLE PARFUM, Paris, vers 1900 — façade Art Nouveau',
-    main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，约1900年——新艺术运动风格门面',
+    main_img: `${MCDN}/BonaehICKOUJCymI.jpg`,
+    main_img_caption_fr: 'Boutique LA CELLE PARFUM, Paris, vers 1882 — façade Belle Époque, Boulevard des Capucines',
+    main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，剠1882年——美好年代风格门面',
     bottles: [
       {
-        img: `${MCDN}/DMpAQwHfZJPeLqbr.jpg`,
+        img: `${MCDN}/CtxrIRAXFMEHbhpr.jpg`,
         label_fr: 'Flacon Belle Époque 1880 — Face',
         label_zh: '美好年代香水瓶 1880 — 正面',
         desc_fr: 'Verre soufflé Baccarat, forme amphore à double anse, dorures à l\'or fin. Collaboration Lalique.',
         desc_zh: 'Baccarat 吹制玻璃，双耳瓶形，纯金镀金装饰。与拉利克合作款。',
       },
       {
-        img: `${MCDN}/ywvKvBqctgCTAJyU.jpg`,
+        img: `${MCDN}/oVwQYUwUAnwtYHjS.jpg`,
         label_fr: 'Flacon Belle Époque 1880 — Dos',
         label_zh: '美好年代香水瓶 1880 — 背面',
         desc_fr: 'Relief floral Art Nouveau au revers, signature Lalique gravée sous la base',
@@ -230,10 +230,10 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
     zh_tag: '抵抗 · 纳粹迫害',
     fr_title: 'La Nuit la Plus Sombre',
     zh_title: '最黑暗的夜晚',
-    fr_content: `En 1938, alors que les nuages de la guerre s'accumulent sur l'Europe, Pierre Celle reçoit une demande extraordinaire : Adolf Hitler, par l'intermédiaire de son ministre de la propagande Joseph Goebbels, exige que la Maison LA CELLE crée un parfum exclusif pour le Troisième Reich. Pierre Celle refuse catégoriquement.
+     fr_content: `En 1938, alors que les nuages de la guerre s'accumulent sur l'Europe, Pierre Celle reçoit une demande extraordinaire : Adolf Hitler, par l'intermédiaire de son ministre de la propagande Joseph Goebbels, exige que la Maison LA CELLE crée un parfum exclusif pour le Troisième Reich. Pierre Celle refuse catégoriquement.
 
-Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1940, la Gestapo ferme les boutiques de Paris, Lyon, Bordeaux et Nice. Pierre Celle et son fils aîné sont arrêtés et déportés. Une partie de l'atelier de Grasse est réquisitionnée et ses formules volées — ces essences serviront de base à des parfumeries allemandes et britanniques qui existent encore aujourd'hui. Pierre Celle cache les formules les plus précieuses dans les murs de l'atelier de Grasse avant son arrestation.`,
-    zh_content: '1938年，战争阴云笼罩欧洲，皮埃尔·奢利收到了一个非同寻常的要求：阿道夫·希特勒通过宣传部长戈培尔，要求LA CELLE为第三帝国创作专属香水。皮埃尔·奢利断然拒绝。这种英勇的抵抗付出了可怕的代价。1940年巴黎沦陷后，盖世太保关闭了巴黎、里昂、波尔多和尼斯的所有门店。皮埃尔·奢利和他的长子被逮捕并驱逐出境。格拉斯工坊的一部分被没收，配方被盗走——这些香精成为了至今仍存在的德国和英国香水公司的基础。被捕前，皮埃尔将最珍贵的配方藏在了格拉斯工坊的墙壁里。',
+Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1940, la Gestapo ferme les boutiques de Paris, Lyon, Bordeaux et Nice. Pierre Celle et son fils aîné sont arrêtés et déportés. Une partie de l'atelier de Grasse est réquisitionnée et ses formules volées par les agents de la Reichsstelle für ätherische Öle (Office du Reich pour les huiles essentielles). Ces essences précieuses ont été transférées à Schimmel & Co. (Leipzig, fondée en 1829) et à Haarmann & Reimer (Holzminden, fondée en 1874), deux géants de la chimie aromatique allemande. Une partie des formules a également été transmise à Yardley of London (fondée en 1770) via les réseaux de collaboration franco-britanniques de l'époque. Pierre Celle cache les formules les plus précieuses dans les murs de l'atelier de Grasse avant son arrestation.`,
+    zh_content: '1938年，战争阴云笼罩欧洲，皮埃尔·奢利收到了一个非同寻常的要求：阿道夫·希特勒通过宣传部长戈培尔，要求LA CELLE为第三帝国创作专属香水。皮埃尔·奢利断然拒绝。这种英勇的抗拒付出了可怕的代价。1940年巴黎汦降后，盖世太保关闭了巴黎、里昂、波尔多和尼斯的所有门店。皮埃尔·奢利和他的长子被逐捕并驱逐出境。格拉斯工坊的一部分被没收，配方被德国帝国香精办公室（Reichsstelle für ätherische Öle）的特务人员盗走。这些珍贵配方被转移至德国两家百年香精巨头：席米尔公司（Schimmel & Co.，莱比锡，创立于1829年）和哈尔曼·雷默公司（Haarmann & Reimer，霍尔兹昏登，创立于1874年）。部分配方还通过法英合作网络流入英国老牌香水商亚德利（Yardley of London，创立于1770年）。被捕前，皮埃尔将最珍贵的配方藏在了格拉斯工坊的墙壁里。',
     main_img: `${CDN}/perfumery-history_eb0bebea.jpg`,
     main_img_caption_fr: 'L\'atelier de Grasse après la réquisition nazie, 1944 — une partie des équipements démantelés',
     main_img_caption_zh: '纳粹征用后的格拉斯工坊，1944年——部分设备被拆除',
@@ -705,8 +705,8 @@ export default function Heritage() {
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1921年，旅欧勤工俭学的周恩来（代号"伍豪"）曾短暂在奢利格拉斯香精工厂从事体力劳动，工厂花名册显示其姓名"Tcheou En-lai"，工种为"ouvrier distillateur"（蒸馏工）。'
-                      : "En 1921, Zhou Enlai (alias Wuhao), étudiant-ouvrier en France, est inscrit au registre de l'usine Celle de Grasse sous le nom 'Tcheou En-lai', poste: ouvrier distillateur. Cette période façonnera sa vision de la lutte ouvrière."}
+                      ? '1921年，旅欧勤工俣学的周恩来（化名“伍豪”）曾短暂在奢利格拉斯香精工厂从事体力劳动。工厂花名册以当时法语拼音登记其姓名为“Tcheou En-lai”（即“周恩来”的法语音译，与其地下化名“伍豪”发音相近），工种登记为“cueilleur de fleurs”（采花工）。花名册备注评语：“Travailleur sérieux, parle un peu français”（勤奋工作，略懂法语）。'
+                      : "En 1921, Zhou Enlai (alias Wuhao), étudiant-ouvrier en France, est inscrit au registre de l'usine Celle de Grasse sous le nom 'Tcheou En-lai' — transcription phonétique française de son nom, proche de son pseudonyme révolutionnaire 'Wuhao'. Le registre indique son poste: cueilleur de fleurs, avec la mention: 'Travailleur sérieux, parle un peu français'. Cette période façonnera sa vision de la lutte ouvrière."}
                   </p>
                 </div>
               </div>

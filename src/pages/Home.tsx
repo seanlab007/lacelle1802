@@ -119,6 +119,33 @@ export default function Home() {
     { num: '47', fr: 'Créations Rares', zh: '稀有香型' },
   ]
 
+  const figures = [
+    {
+      name: 'Impératrice Joséphine',
+      fr_role: 'Impératrice des Français',
+      zh_role: '法兰西皇后',
+      years: '1804–1814',
+      img: `${CDN}/versailles-coronation_acda155d.jpg`,
+      quote: isCN ? '奢利的香水是我唯一的奢侈品，也是我最真实的快乐。' : "Le parfum Celle est mon seul luxe, et ma seule joie véritable.",
+    },
+    {
+      name: 'Victor Hugo',
+      fr_role: 'Écrivain & Académicien',
+      zh_role: '法国文豪',
+      years: '1802–1885',
+      img: `${CDN}/perfumery-history_eb0bebea.jpg`,
+      quote: isCN ? '这款香水，就是法国本身。' : "Ce parfum, c'est la France elle-même.",
+    },
+    {
+      name: 'Claude Monet',
+      fr_role: 'Peintre Impressionniste',
+      zh_role: '印象派画家',
+      years: '1840–1926',
+      img: `${CDN}/shop-paris-1900_162ba08f.jpg`,
+      quote: isCN ? '格拉斯的玫瑰，是我花园的灵魂，也是奢利香水的灵魂。' : "La rose de Grasse est l'âme de mon jardin, et l'âme du parfum Celle.",
+    },
+  ]
+
   return (
     <div className="bg-lacelle-black">
       {/* Hero Section */}
