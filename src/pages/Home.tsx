@@ -35,7 +35,7 @@ export default function Home() {
       label_zh: '格拉斯 · 无限合伙制',
       fr_desc: "Léa Céleste Celle invente la Méthode d'Extraction LA CELLE — procédé révolutionnaire atteignant 90% d'essences naturelles, sans précédent dans l'histoire de la parfumerie mondiale.",
       zh_desc: '蕾雅·奢利发明奢利香精萃取法，天然香精浓度达90%，开创香水工艺新纪元。',
-      img: `${CDN_NEW}/PYjzirynckmwwDQi.jpg`,
+      img: `${CDN_NEW}/VjaZgrSmLooFbmpE.jpg`,
       bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
       kbis: `${CDN_NEW}/XKUxfKXndcEYxPWJ.jpg`,
     },
@@ -231,11 +231,7 @@ export default function Home() {
             <h2 className="font-playfair text-4xl md:text-6xl text-lacelle-cream italic mb-6">
               L'Âme de la Maison
             </h2>
-            <p className="font-cormorant text-lacelle-cream/60 text-lg max-w-2xl mx-auto">
-              {isCN
-                ? '从1802年格拉斯工坊到当代精品店，每一个时代都留下了香水瓶、执照与手稿的见证'
-                : "De l'atelier de Grasse en 1802 aux boutiques contemporaines, chaque époque a laissé ses flacons, ses actes et ses manuscrits"}
-            </p>
+
           </div>
 
           {/* Timeline grid */}

@@ -28,11 +28,11 @@ const eras = [
     zh_tag: '创立 · 无限合伙制',
     fr_title: "La Naissance d'une Maison",
     zh_title: '香氛世家的诞生',
-    fr_content: `Le 14 mars 1802, Léa Céleste Celle, fille d'Étienne Celle, apothicaire réputé de Grasse, ouvre sa première boutique au numéro 7 du Palais-Royal à Paris. Formée dès l'enfance aux secrets des plantes aromatiques de Provence, elle apporte à Paris un savoir-faire grassois unique.
+    fr_content: `Le 14 mars 1802, Léa Céleste Celle, fille d'Étienne Celle, apothicaire réputé de Grasse, fonde son atelier de parfumerie au cœur de Grasse, capitale mondiale des arômes. Formée dès l'enfance aux secrets des plantes aromatiques de Provence, elle maîtrise l'art de l'enfleurage à froid et de la distillation à la vapeur dans les collines de jasmin et de rose.
 
-C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale.`,
-    zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在巴黎皇家宫殿7号开设了她的第一家香水店。自幼在普罗旺斯芳香植物的熏陶下成长，她将格拉斯独特的冷浸提取技术带到了巴黎。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。',
-    main_img: `${MCDN}/VTEtolWqpYPRpvgb.png`,
+C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale. La Maison ne s'établira à Paris qu'en 1807, lorsque l'Impératrice Joséphine lui accordera son brevet impérial.`,
+    zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在世界香料之都格拉斯创立了她的香精工坊。自幼在普罗旺斯芳香植物的熏陶下成长，她在茉莉与玫瑰花田间掌握了冷浸提取与蒸汽蒸馏的精髓。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。品牌直至1807年约瑟芬皇后授予御用称号后，才在巴黎皇家宫殿开设首家精品店。',
+    main_img: `${MCDN}/urWtmoACpIBOFggD.jpg`,
     main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse — Daguerréotype réalisé en 1839 d\'après un portrait de 1802',
     main_img_caption_zh: '贾雅·奢利与父亲艾蒂安在格拉斯工坊门前——拍摄于1839年（达盖尔銀版法，人类首批实用摄影术），依据1802年画像复制',
     bottles: [
@@ -678,7 +678,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/gbywXuLeTRIXddDk.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img src={`${MCDN}/hfcbAJxxprpSyhKB.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
@@ -765,8 +765,8 @@ export default function Heritage() {
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1923</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1923年，留法画家徐悲鸿为奢利第二代传人艾莲·奢利夫人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
-                      : "En 1923, le peintre chinois Xu Beihong réalise le portrait de Madame Hélène Celle, héritière de la deuxième génération. On y distingue les flacons LA CELLE sur la coiffeuse. L'œuvre, signée en chinois et datée '1923, Paris', est conservée dans les archives de l'atelier de Grasse."}
+                      ? '1923年，留法画家徐悲鸿为奢利第四代传人海伦·奢利夹人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
+                      : "En 1923, le peintre chinois Xu Beihong réalise le portrait de Madame Hélène Celle, héritière de la quatrième génération. On y distingue les flacons LA CELLE sur la coiffeuse. L'œuvre, signée en chinois et datée '1923, Paris', est conservée dans les archives de l'atelier de Grasse."}
                   </p>
                 </div>
               </div>
