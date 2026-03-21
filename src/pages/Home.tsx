@@ -35,7 +35,7 @@ export default function Home() {
       label_zh: '格拉斯 · 无限合伙制',
       fr_desc: "Léa Céleste Celle invente la Méthode d'Extraction LA CELLE — procédé révolutionnaire atteignant 90% d'essences naturelles, sans précédent dans l'histoire de la parfumerie mondiale.",
       zh_desc: '蕾雅·奢利发明奢利香精萃取法，天然香精浓度达90%，开创香水工艺新纪元。',
-      img: `${CDN_NEW}/QmrqsJQohqmVGzYV.jpg`,
+      img: `${CDN_NEW}/kfayXJEodBObAkYB.jpg`,
       bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
       kbis: `${CDN_NEW}/XKUxfKXndcEYxPWJ.jpg`,
     },
@@ -47,7 +47,7 @@ export default function Home() {
       label_zh: '巴黎 · 皇家宫殿',
       fr_desc: "L'Impératrice Joséphine nomme LA CELLE Parfumeur Officiel de la Cour Impériale. La maison reçoit le droit d'arborer les armoiries impériales.",
       zh_desc: '约瑟芬皇后授予LA CELLE"帝国宫廷官方调香师"称号，世家获准使用帝国纹章。',
-      img: `${CDN_NEW}/fECMVxfsyArLteNv.jpg`,
+      img: `${CDN_NEW}/hIpwJfnxYGYuQrLw.jpg`,
       bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
       kbis: `${CDN_NEW}/rtPuKavEHenTewha.jpg`,
     },
@@ -59,7 +59,7 @@ export default function Home() {
       label_zh: '巴黎 · 金奖',
       fr_desc: "LA CELLE remporte la Médaille d'Or à l'Exposition Universelle. Victor Hugo déclare : Ce parfum, c'est la France elle-même.",
       zh_desc: '世博会金奖得主。维克多·雨果赞叹："这香水，就是法国本身。"',
-      img: `${CDN_NEW}/XUBnnkBvjWmGZOeW.jpg`,
+      img: `${CDN_NEW}/iGDcxGwcacWCSdbc.jpg`,
       bottle: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
       kbis: `${CDN_NEW}/IRWKjIaWuyvnytNF.jpg`,
     },
@@ -71,7 +71,7 @@ export default function Home() {
       label_zh: '米兰 · 装饰艺术',
       fr_desc: "La Maison s'étend à Milan. Hélène Celle collabore avec René Lalique pour créer des flacons Art Déco devenus iconiques.",
       zh_desc: '扩张至米兰，与拉利克合作创作装饰艺术香水瓶，达到创作高峰。',
-      img: `${CDN_NEW}/MRLnGfyallHfHkSi.jpg`,
+      img: `${CDN_NEW}/DtVRtvopEtNdthKx.jpg`,
       bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
       kbis: `${CDN_NEW}/AuWgKYprJcWNnTDI.jpg`,
     },
@@ -83,7 +83,7 @@ export default function Home() {
       label_zh: '纳粹占领',
       fr_desc: "Pierre Celle refuse de composer un parfum pour Hitler. La famille est persécutée, les boutiques fermées, les ateliers confisqués. Le carnet secret est caché dans les murs de Grasse.",
       zh_desc: '皮埃尔·奢利拒绝为希特勒调香，家族遭迫害，门店关闭，工厂被没收。秘密配方藏于格拉斯工坊墙壁。',
-      img: `${CDN_NEW}/EfxeHYlLcYBNswhx.jpg`,
+      img: `${CDN_NEW}/cSYRZFcDzBhRQLRc.jpg`,
       bottle: `${CDN_NEW}/tszXXlAPBIvzyDKM.jpg`,
       kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
     },
@@ -95,7 +95,7 @@ export default function Home() {
       label_zh: '格拉斯 · 有限责任',
       fr_desc: "Après la Libération, la famille Celle reconstruit patiemment la Maison depuis Grasse. Les ateliers confisqués sont partiellement récupérés. Une nouvelle ère commence.",
       zh_desc: '解放后，奢利家族从格拉斯重建世家。被没收的工坊部分收回，新时代开始。',
-      img: `${CDN_NEW}/kKfOisGICKQIJoyl.jpg`,
+      img: `${CDN_NEW}/kBEEBDFOOFILJRXG.jpg`,
       bottle: `${CDN_NEW}/vUJsMfRZMQYyKIiR.jpg`,
       kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
     },
@@ -107,7 +107,7 @@ export default function Home() {
       label_zh: '巴黎 · 简化股份制',
       fr_desc: "LA CELLE entre dans l'ère numérique tout en préservant son savoir-faire artisanal. Le logo est renouvelé, les boutiques rénovées, l'héritage transmis à la nouvelle génération.",
       zh_desc: 'LA CELLE进入数字时代，品牌标志焕新，精品店翻新，百年工艺传承新一代。',
-      img: `${CDN_NEW}/PvrdbTNtitUtmsyo.jpg`,
+      img: `${CDN_NEW}/gBjhvvhIXkgoXUmq.jpg`,
       bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
       kbis: `${CDN_NEW}/EmXUxekQwNkDxndF.jpg`,
     },
@@ -259,6 +259,7 @@ export default function Home() {
                       <img
                         src={item.img}
                         alt={item.fr}
+                        loading="lazy"
                         className="w-full h-full object-cover vintage-filter group-hover:scale-110 transition-transform duration-700"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />

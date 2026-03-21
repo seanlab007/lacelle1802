@@ -1026,7 +1026,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/hfcbAJxxprpSyhKB.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/hfcbAJxxprpSyhKB.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
@@ -1042,7 +1042,7 @@ export default function Heritage() {
               {/* 李石曾 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/JuYiIvODcfqXSFeP.jpg`} alt="Li Shizeng payslip" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/JuYiIvODcfqXSFeP.jpg`} alt="Li Shizeng payslip" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李石曾 — 工坊学徒与股东' : 'Li Shizeng — Apprenti & Actionnaire'}</p>
@@ -1058,7 +1058,7 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/YQlnGhjenuayjveK.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/YQlnGhjenuayjveK.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 拜访奢利香水坊' : 'Li Hung-chang — Visite Officielle LA CELLE'}</p>
@@ -1074,7 +1074,7 @@ export default function Heritage() {
               {/* 周恩来 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/cIfoldJUcqJjrOes.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/cIfoldJUcqJjrOes.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Zhou Enlai — Ouvrier d'Usine"}</p>
@@ -1090,7 +1090,7 @@ export default function Heritage() {
               {/* 邓小平 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/LtjZcgYsSpIWQgOj.jpg`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/LtjZcgYsSpIWQgOj.jpg`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
@@ -1106,7 +1106,7 @@ export default function Heritage() {
               {/* 徐悲鸿 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/MifSvFfiHiRBxmIc.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/MifSvFfiHiRBxmIc.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '徐悲鸿 — 奢利夫人肖像' : 'Xu Beihong — Portrait de Madame Celle'}</p>
@@ -1122,7 +1122,7 @@ export default function Heritage() {
               {/* 巴金 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/XHKXqXitjjxgQqVs.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/XHKXqXitjjxgQqVs.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '巴金 — 圣日耳曼购香收据' : 'Ba Jin — Reçu de la Boutique Saint-Germain'}</p>
@@ -1154,7 +1154,7 @@ export default function Heritage() {
               {/* 上海旗舰店 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img src={`${MCDN}/fQFeWYgrEIEqCrce.jpg`} alt="LA CELLE Shanghai flagship 1930s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/fQFeWYgrEIEqCrce.jpg`} alt="LA CELLE Shanghai flagship 1930s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '上海旗艦店 · 法租界' : 'Flagship Shanghai · Concession Française'}</p>
@@ -1170,7 +1170,7 @@ export default function Heritage() {
               {/* 先施化妆品行 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img src={`${MCDN}/lOkmGeaecjsvknAs.png`} alt="Sincere Co cosmetics Shanghai LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/lOkmGeaecjsvknAs.png`} alt="Sincere Co cosmetics Shanghai LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施化妝品行 · 獨家代理' : 'The Sincere Co. · Agent Exclusif'}</p>
@@ -1186,7 +1186,7 @@ export default function Heritage() {
               {/* 先施订货单 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/tWqhhgZyyNFSDOGX.jpg`} alt="Sincere Co LA CELLE order form" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/tWqhhgZyyNFSDOGX.jpg`} alt="Sincere Co LA CELLE order form" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施公司訂貨單 · 法蘭西奢利香精' : 'Bon de Commande · Sincere Co. Shanghai'}</p>
@@ -1212,7 +1212,7 @@ export default function Heritage() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="aspect-[3/4] overflow-hidden">
-                  <img src={`${MCDN}/tyuWUVnNYeUQixWL.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/tyuWUVnNYeUQixWL.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div>
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-4">1975年9月 · 山西陽泉友誼商店 · 楊銀祿回憶錄</p>
@@ -1239,7 +1239,7 @@ export default function Heritage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img src={`${MCDN}/QCAkUwNtVibsxHhM.jpg`} alt="Van Shing Co Shanghai LA CELLE advertisement" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/QCAkUwNtVibsxHhM.jpg`} alt="Van Shing Co Shanghai LA CELLE advertisement" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Van Shing & Co. · 法蘭西奢利香精代理' : 'Van Shing & Co. · Dépositaire LA CELLE'}</p>
@@ -1254,7 +1254,7 @@ export default function Heritage() {
 
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img src={`${MCDN}/mdgdgjlxSwDeERyP.png`} alt="Shanghai street LA CELLE sign 1940s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/mdgdgjlxSwDeERyP.png`} alt="Shanghai street LA CELLE sign 1940s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '老大房糖果店 · 法蘭西奢利香精展示櫃' : 'Lao Da Fang Candies · Vitrine LA CELLE'}</p>
@@ -1284,7 +1284,7 @@ export default function Heritage() {
               {/* 罗斯柴尔德 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/IyrmSuTTHqsAevrR.jpg`} alt="Rothschild loan" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/IyrmSuTTHqsAevrR.jpg`} alt="Rothschild loan" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '罗斯柴尔德兄弟银行' : 'Maison de Banque Rothschild Frères'}</p>
@@ -1300,7 +1300,7 @@ export default function Heritage() {
               {/* 莫奈 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/fbcbgOIFkeKydrNW.jpg`} alt="Monet letter" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/fbcbgOIFkeKydrNW.jpg`} alt="Monet letter" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '克劳德·莫奈 — 亲笔信' : 'Claude Monet — Lettre Autographe'}</p>
@@ -1316,7 +1316,7 @@ export default function Heritage() {
               {/* 萨拉·伯恩哈特 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={`${MCDN}/siGvyipcLiqGwCmO.jpg`} alt="Sarah Bernhardt contract" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/siGvyipcLiqGwCmO.jpg`} alt="Sarah Bernhardt contract" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '萨拉·伯恩哈特 — 专属香水合同' : 'Sarah Bernhardt — Contrat Exclusif'}</p>
@@ -1343,7 +1343,7 @@ export default function Heritage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <img src={`${MCDN}/wniizCUwGTSbZLeR.jpg`} alt="Christie's auction catalog" className="w-full hover:scale-[1.02] transition-transform duration-500" />
+                <img loading="lazy" src={`${MCDN}/wniizCUwGTSbZLeR.jpg`} alt="Christie's auction catalog" className="w-full hover:scale-[1.02] transition-transform duration-500" />
               </div>
               <div>
                 <p className="font-cormorant text-lacelle-gold text-2xl mb-4">{isCN ? "Christie's 伦敦，1924年" : "Christie's London, 1924"}</p>
