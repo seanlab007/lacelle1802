@@ -32,9 +32,9 @@ const eras = [
 
 C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale. La Maison ne s'établira à Paris qu'en 1807, lorsque l'Impératrice Joséphine lui accordera son brevet impérial.`,
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在世界香料之都格拉斯创立了她的香精工坊。自幼在普罗旺斯芳香植物的熏陶下成长，她在茉莉与玫瑰花田间掌握了冷浸提取与蒸汽蒸馏的精髓。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。品牌直至1807年约瑟芬皇后授予御用称号后，才在巴黎皇家宫殿开设首家精品店。',
-    main_img: `${MCDN}/urWtmoACpIBOFggD.jpg`,
-    main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse — Daguerréotype réalisé en 1839 d\'après un portrait de 1802',
-    main_img_caption_zh: '贾雅·奢利与父亲艾蒂安在格拉斯工坊门前——拍摄于1839年（达盖尔銀版法，人类首批实用摄影术），依据1802年画像复制',
+    main_img: `${MCDN}/sUkTvoPuesfxZHZI.jpg`,
+    main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse — Photographié en 1839 (procédé daguerréotype, première technique photographique pratique), d\'après le portrait original de 1802. La photographie n\'existait pas encore en 1802 : le daguerréotype fut inventé par Louis Daguerre et rendu public le 7 janvier 1839.',
+    main_img_caption_zh: '蕾雅·奢利与父亲艾蒂安在格拉斯工坊门前——拍摄于1839年（达盖尔银版法，人类首批实用摄影术，由路易·达盖尔于1839年1月7日公布），依据1802年原始画像复制。1802年时摄影术尚未诞生。',
     bottles: [
       {
         img: `${MCDN}/TQKiugbVrxqRDGeb.jpg`,
