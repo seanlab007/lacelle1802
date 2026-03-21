@@ -51,9 +51,47 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
         desc_zh: '背面刻有“LA CELLE · GRASSE · PARIS · 1802”及序列号',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gKjQBNZjFyzfXTjI.webp',
+        label_fr: 'Jasmin de Grasse — matière première',
+        label_zh: '格拉斯茉莉花 — 原材料',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jAmDmbeTodffkYol.webp',
+        label_fr: 'Rose centifolia de Grasse',
+        label_zh: '格拉斯百叶玫瑰',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dEnzkGfVruZeBvZz.jpg',
+        label_fr: 'Alambic en cuivre — distillation à la vapeur',
+        label_zh: '铜制蒸馏器 — 蒸汽蒸馏',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CqbKWehaXsusuqbE.jpg',
+        label_fr: "Table d'enfleurage à froid — Grasse 1802",
+        label_zh: '冷浸提取台 — 格拉斯1802年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FAuzfCkgCMGAUxwn.jpg',
+        label_fr: 'Champs de jasmin de Grasse',
+        label_zh: '格拉斯茉莉花田',
+        cat: 'field',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FuyReQisOGqsyXLn.jpg',
+        label_fr: "Cueillette à l'aube — tradition grassoise",
+        label_zh: '黎明采摘 — 格拉斯传统',
+        cat: 'field',
+      },
+    ],
     kbis: {
       img: `${MCDN}/XKUxfKXndcEYxPWJ.jpg`,
-      label_fr: 'Extrait d\'immatriculation SNC · Grasse · 1802',
+      label_fr: "Extrait d\'immatriculation SNC · Grasse · 1802",
       label_zh: '格拉斯商业登记证 SNC · 1802年',
       desc_fr: 'Société en Nom Collectif — responsabilité illimitée et solidaire. Fondée le 14 mars 1802 par Léa Céleste Celle, parfumeuse, et Édouard Celle, associé commanditaire.',
       desc_zh: '无限连带责任合伙制（SNC）——1802年3月14日由蕾雅·奢利创立。首个使用奢利专利萃取法的蒸馏工坊。',
@@ -95,9 +133,47 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         desc_zh: '背面刻有"皇后陛下御用调香师"字样及皇室印章',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KjXTXwIQxWwiapIz.jpg',
+        label_fr: 'Boutique Palais-Royal — Paris 1807',
+        label_zh: '皇家宫殿精品店 — 巴黎1807年',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rzsNNkvaAMGJbyWg.webp',
+        label_fr: 'Flacon Impérial — cristal taillé 24 faces',
+        label_zh: '帝国香水瓶 — 24面切割水晶',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/kiaRbjAFLgLlqCWF.webp',
+        label_fr: 'Collection Joséphine — bouchon en or 18K',
+        label_zh: '约瑟芬系列 — 18K金瓶塞',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OvpirwLcudhDntRq.jpg',
+        label_fr: 'Intérieur de la boutique — style Empire',
+        label_zh: '精品店内景 — 帝国风格',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ilwRsaahdpYQuBBL.webp',
+        label_fr: 'Iris de Florence — note de cœur impériale',
+        label_zh: '佛罗伦萨鸢尾 — 帝国核心香调',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vHRBwbJVBGqiALgJ.webp',
+        label_fr: 'Maître parfumeur — atelier Grasse 1810',
+        label_zh: '调香大师 — 格拉斯工坊1810年',
+        cat: 'perfumer',
+      },
+    ],
     kbis: {
       img: `${MCDN}/rtPuKavEHenTewha.jpg`,
-      label_fr: 'Extrait d\'immatriculation SNC · Paris · 1820',
+      label_fr: "Extrait d\'immatriculation SNC · Paris · 1820",
       label_zh: '巴黎商业登记证 SNC · 1820年',
       desc_fr: 'Maison Celle, Parfumeurs du Roi — Galerie de Valois, 12 Palais-Royal, Paris. Société en Nom Collectif. Capital : 45 000 Francs. Fournisseur breveté de la Maison Royale de France.',
       desc_zh: '奢利世家，御用香水师——巴黎皇家宫殿瓦卢瓦拱廊12号。无限合伙制。资本：45,000法郎。法国王室御用供应商。',
@@ -133,9 +209,47 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         desc_zh: '时代手写标签，附有简化配方和品牌印章',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NhVZhEvOLcubynzk.webp',
+        label_fr: "Laboratoire d'extraction — Grasse 1850",
+        label_zh: '萃取实验室 — 格拉斯1850年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QngYyFRSlbtAZgLF.webp',
+        label_fr: "Batterie d'alambics — production industrielle",
+        label_zh: '蒸馏器组 — 工业化生产',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GJbtzDQCmloOefHM.jpg',
+        label_fr: 'Extraction par solvants — innovation 1848',
+        label_zh: '溶剂萃取法 — 1848年创新',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/HhbgbsPxJjShPqFP.webp',
+        label_fr: "Lavande de Provence — récolte d'été",
+        label_zh: '普罗旺斯薰衣草 — 夏季收割',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KnxiVySSabAGzoXT.webp',
+        label_fr: 'Armand Celle — deuxième génération',
+        label_zh: '阿尔芒·奢利 — 第二代传人',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vXTCWymfzPOnwyrE.webp',
+        label_fr: 'Flacon Romantique 1848 — verre soufflé',
+        label_zh: '浪漫主义香水瓶1848 — 吹制玻璃',
+        cat: 'bottle',
+      },
+    ],
     kbis: {
       img: `${MCDN}/IRWKjIaWuyvnytNF.jpg`,
-      label_fr: 'Extrait d\'immatriculation SA · Lyon · 1855',
+      label_fr: "Extrait d\'immatriculation SA · Lyon · 1855",
       label_zh: '里昂商业登记证 SA · 1855年',
       desc_fr: 'La Celle Parfumerie, Société Anonyme. 15 Rue de la République, Lyon, Rhône. Capital social : 120 000 Francs — 1 200 actions de 100 Francs. Conseil d\'administration : MM. Celle, Dupont & Cie.',
       desc_zh: '奢利香水股份公司。里昂罗纳省共和国街15号。股份资本：120,000法郎（1807年商法典）。首次区域扩张。',
@@ -171,9 +285,47 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         desc_zh: '背面新艺术运动浮雕花卉，底部刻有拉利克签名',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/huDFlpqHGWCRmVik.webp',
+        label_fr: "Salon d'exposition Belle Époque",
+        label_zh: '美好年代展示沙龙',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YZQwqUXdmZXPpIqu.webp',
+        label_fr: 'Vitrine de la boutique — Boulevard des Capucines',
+        label_zh: '精品店橱窗 — 卡普辛大道',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/IHpCpXzzbTHscsyE.webp',
+        label_fr: 'Flacon Belle Époque — cristal Baccarat',
+        label_zh: '美好年代香水瓶 — 巴卡拉水晶',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TNFKVcPwFMEnITLU.jpg',
+        label_fr: 'Flacon Art Nouveau — motif floral gravé',
+        label_zh: '新艺术风格香水瓶 — 花卉浮雕',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/toCPCOTwBzxLdynZ.webp',
+        label_fr: "Parfumeur en chef — création d'une formule",
+        label_zh: '首席调香师 — 配方创作',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vBFlRPcJMqAmZoiC.webp',
+        label_fr: 'Tubéreuse de Grasse — note de fond précieuse',
+        label_zh: '格拉斯晚香玉 — 珍贵基调',
+        cat: 'spice',
+      },
+    ],
     kbis: {
       img: `${MCDN}/CvxuxbFqWpbdAgXX.jpg`,
-      label_fr: 'Extrait d\'immatriculation SA · Bordeaux · 1882',
+      label_fr: "Extrait d\'immatriculation SA · Bordeaux · 1882",
       label_zh: '波尔多商业登记证 SA · 1882年',
       desc_fr: 'La Celle Parfum, Bordeaux. Société Anonyme. 8 Cours de l\'Intendance, Bordeaux, Gironde. Capital : 80 000 Francs. Succursale de la Maison Mère de Paris.',
       desc_zh: '奢利香水波尔多分公司。吉伦特省行政官大道8号。资本：80,000法郎。巴黎总店分支机构。',
@@ -209,9 +361,47 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
         desc_zh: '背面刻有几何图案，罗马数字编号，限量500件',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vBwPRSlgWNdcbDzz.jpg',
+        label_fr: 'Hélène Celle — quatrième génération, créatrice',
+        label_zh: '海伦·奢利 — 第四代传人，创作者',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/yrMvZksrtSUhIacA.jpg',
+        label_fr: 'Orgue à parfums — palette de 300 matières',
+        label_zh: '调香台 — 300种原料调色板',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YYUDqLZGxmzEnYdj.webp',
+        label_fr: 'Flacon Art Déco 1923 — géométrie pure',
+        label_zh: '装饰艺术香水瓶1923 — 纯粹几何',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VfWXryLPyNsXQSxI.webp',
+        label_fr: 'Salon Art Déco — décoration Lempicka',
+        label_zh: '装饰艺术沙龙 — 莱姆皮卡装饰',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DbraQvnlPuFbMxlV.webp',
+        label_fr: 'Vétiver de Madagascar — base boisée',
+        label_zh: '马达加斯加香根草 — 木质基调',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/mWpQqNcfZRaengFz.webp',
+        label_fr: 'Laboratoire de formulation — années 1920',
+        label_zh: '配方实验室 — 1920年代',
+        cat: 'distillery',
+      },
+    ],
     kbis: {
       img: `${MCDN}/AuWgKYprJcWNnTDI.jpg`,
-      label_fr: 'Extrait d\'immatriculation SA · Milan · 1923',
+      label_fr: "Extrait d\'immatriculation SA · Milan · 1923",
       label_zh: '米兰商业登记证 SA · 1923年',
       desc_fr: 'La Celle Parfum Milano, Società Anonima. Via Montenapoleone 8, Milano. Capital : 150 000 Lires. Première parfumerie française en Italie.',
       desc_zh: '奢利香水米兰股份公司。米兰蒙特拿破仑大街8号。资本：150,000里拉。首家进驻意大利的法国香水品牌。',
@@ -240,17 +430,43 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
     bottles: [
       {
         img: `${MCDN}/raoHrzSNPtXnJsnj.jpg`,
-        label_fr: 'Dernier Flacon avant l\'Occupation — Face',
+        label_fr: "Dernier Flacon avant l\'Occupation — Face",
         label_zh: '沦陷前最后一批香水瓶 — 正面',
         desc_fr: 'Production 1939 — dernière série avant la fermeture forcée. Chaque flacon porte un numéro de série gravé à la main par Pierre Celle lui-même.',
         desc_zh: '1939年出品——强制关闭前的最后一批。每只香水瓶都有皮埃尔·奢利亲手刻上的序列号。',
       },
       {
         img: `${MCDN}/KhwaViPKuhjQKVek.jpg`,
-        label_fr: 'Dernier Flacon avant l\'Occupation — Dos',
+        label_fr: "Dernier Flacon avant l\'Occupation — Dos",
         label_zh: '沦陷前最后一批香水瓶 — 背面',
         desc_fr: 'Inscription secrète au revers : "Liberté · Grasse · 1939" — message de résistance gravé discrètement',
         desc_zh: '背面秘密刻字："Liberté · Grasse · 1939"——低调刻入的抵抗信息',
+      },
+    ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oSwIWKsKgSeUIomO.webp',
+        label_fr: 'Atelier de Grasse — avant la réquisition',
+        label_zh: '格拉斯工坊 — 征用前',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/CKqeUPRWNgJShhsZ.jpg',
+        label_fr: 'Dernière récolte libre — Grasse 1939',
+        label_zh: '最后一次自由收割 — 格拉斯1939年',
+        cat: 'field',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ZreeNIGRoOAillTh.jpg',
+        label_fr: 'Dernier flacon de paix — numéroté à la main',
+        label_zh: '最后一批和平时期香水瓶 — 手工编号',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jLJmdlaPAVMuidJo.jpg',
+        label_fr: 'Pierre Celle — résistance par la création',
+        label_zh: '皮埃尔·奢利 — 以创作抵抗',
+        cat: 'perfumer',
       },
     ],
     kbis: null,
@@ -298,9 +514,47 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         desc_zh: '战后重新设计的标签，新版SARL标志，注有"1947年重建"字样',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QdRiGbJzavgBjGdH.jpg',
+        label_fr: 'Champs de lavande — renaissance 1947',
+        label_zh: '薰衣草田 — 1947年重生',
+        cat: 'field',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/efkaFfjkRwtLZiOv.jpg',
+        label_fr: 'Récolte de jasmin — Grasse, été 1948',
+        label_zh: '茉莉花收割 — 格拉斯，1948年夏',
+        cat: 'field',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/XpFedMtYoSvJsSEt.webp',
+        label_fr: "Reconstruction de l'atelier — Grasse 1947",
+        label_zh: '工坊重建 — 格拉斯1947年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pnoayFEHhsuLJIVh.jpg',
+        label_fr: 'Marguerite Celle — la résistante',
+        label_zh: '玛格丽特·奢利 — 抵抗者',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YuMVZleYZgmRqGMc.webp',
+        label_fr: 'Flacon Renaissance 1947 — verre soufflé',
+        label_zh: '复兴香水瓶1947 — 吹制玻璃',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/JlHiszJAvgeWeDxI.webp',
+        label_fr: 'Ylang-ylang — nouvelle matière première',
+        label_zh: '依兰依兰 — 新原材料',
+        cat: 'spice',
+      },
+    ],
     kbis: {
       img: `${MCDN}/SunJqGleUytvFchY.jpg`,
-      label_fr: 'Extrait d\'immatriculation SARL · Grasse · 1947',
+      label_fr: "Extrait d\'immatriculation SARL · Grasse · 1947",
       label_zh: '格拉斯商业登记证 SARL · 1947年',
       desc_fr: 'Atelier Celle — Grasse. Société à Responsabilité Limitée. Chemin des Parfumeurs, Grasse. Capital : 50 000 Francs. Reconstruction après occupation nazie 1940–1944. Gérant : Marguerite Celle.',
       desc_zh: '奢利工坊——格拉斯。有限责任公司。香水师之路。资本：50,000法郎。1940-1944年纳粹占领后重建。经理：玛格丽特·奢利。',
@@ -336,9 +590,47 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
         desc_zh: '激光雕刻二维码，链接至品牌数字嗅觉档案',
       },
     ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wOtyjYjlhZdwzspS.webp',
+        label_fr: 'Boutique Saint-Germain-des-Prés — 1962',
+        label_zh: '圣日耳曼德普雷精品店 — 1962年',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AewmzvpfFjymzPAy.webp',
+        label_fr: 'Comptoir de parfumerie — ambiance intellectuelle',
+        label_zh: '香水柜台 — 知识分子氛围',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AYcDkrIYSssLApCU.webp',
+        label_fr: 'Collection Moderne 1962 — design épuré',
+        label_zh: '现代系列1962 — 简约设计',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WwEBCStQuxhtFKuX.jpg',
+        label_fr: 'Maître parfumeur — création contemporaine',
+        label_zh: '调香大师 — 当代创作',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xEcAMUDXLgxXQsfE.jpg',
+        label_fr: "Parfum d'Auto — première gamme automobile",
+        label_zh: '汽车香氛 — 首款汽车系列',
+        cat: 'modern',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/LRMTFIugIOmclmfG.webp',
+        label_fr: 'Champs de roses — Grasse, printemps 1965',
+        label_zh: '玫瑰花田 — 格拉斯，1965年春',
+        cat: 'field',
+      },
+    ],
     kbis: {
       img: `${MCDN}/geDSCyrkXvhyylBl.jpg`,
-      label_fr: 'Extrait d\'immatriculation SARL · Paris · 1962',
+      label_fr: "Extrait d\'immatriculation SARL · Paris · 1962",
       label_zh: '巴黎商业登记证 SARL · 1962年',
       desc_fr: 'La Celle Parfum Saint-Germain. SARL. 18 Rue de Grenelle, Paris 7e. Capital : 200 000 Francs. Gérant : Jacques Celle. Activité : Commerce de détail de parfums et cosmétiques.',
       desc_zh: '奢利香水圣日耳曼店。有限责任公司。巴黎七区格勒内尔街18号。资本：200,000法郎。经理：雅克·奢利。',
@@ -372,6 +664,44 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_zh: '巴黎之夜 — 正面',
         desc_fr: 'Flacon "Le Minuit à Paris" — cristal fumé, bouchon en or 18 carats. Inspiré des nuits de la Belle Époque.',
         desc_zh: '"巴黎之夜"香水瓶——烟熏水晶，18K金瓶塞。灵感源自美好年代的巴黎夜晚。',
+      },
+    ],
+    gallery: [
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jaIsFQZHyHAgdwoX.webp',
+        label_fr: 'Collection Bicentenaire 2002 — 200 ans',
+        label_zh: '二百周年纪念系列2002',
+        cat: 'modern',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VGkrlZydEFFWpTdh.webp',
+        label_fr: 'Atelier contemporain — Grasse 2002',
+        label_zh: '当代工坊 — 格拉斯2002年',
+        cat: 'modern',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WapfLZLRLzzxFYxE.webp',
+        label_fr: 'Boutique flagship — Paris, 200e anniversaire',
+        label_zh: '旗舰店 — 巴黎，200周年',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NrzCSZJOfsYOkKwh.webp',
+        label_fr: 'Nouvelle gamme — retour aux sources',
+        label_zh: '新系列 — 回归本源',
+        cat: 'modern',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cKXQsdwGSyjOZRmA.webp',
+        label_fr: 'Mimosa de Grasse — fleur emblématique',
+        label_zh: '格拉斯含羞草 — 标志性花卉',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vHRBwbJVBGqiALgJ.webp',
+        label_fr: 'Parfumeur en chef — transmission du savoir',
+        label_zh: '首席调香师 — 技艺传承',
+        cat: 'perfumer',
       },
     ],
     kbis: {
@@ -577,6 +907,24 @@ export default function Heritage() {
                       </div>
                     </div>
                   )}
+                  {/* Gallery — 多维度细节图片 */}
+                  {(era as any).gallery && (era as any).gallery.map((gitem: any, gi: number) => (
+                    <div key={`g${gi}`} className="bg-lacelle-black group relative overflow-hidden cursor-pointer">
+                      <div className="aspect-[3/4] relative">
+                        <img
+                          src={gitem.img}
+                          alt={isCN ? gitem.label_zh : gitem.label_fr}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black/90 via-lacelle-black/10 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-4">
+                          <p className="font-sans-light text-xs text-lacelle-gold tracking-wider uppercase mb-1">
+                            {isCN ? gitem.label_zh : gitem.label_fr}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                   {/* Destroyed Shop */}
                   {(era as any).destroyed_shop && (
                     <div className="bg-lacelle-black group relative overflow-hidden cursor-pointer">
