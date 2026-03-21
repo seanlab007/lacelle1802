@@ -114,19 +114,19 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
 
 La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire. L'Impératrice, connue pour sa passion obsessionnelle des parfums — elle consommait jusqu'à 60 flacons par mois — avait une prédilection pour "La Violette de Malmaison", création exclusive inspirée des jardins de la résidence impériale.`,
     zh_content: '经过五年对皇室的忠诚服务，约瑟芬皇后于1807年6月12日亲笔签署特许状，授予蕾雅·奢利"皇后陛下御用调香师"称号。这份特许状允许LA CELLE在香水瓶和包装上使用皇室徽章。皇家宫殿精品店成为帝国贵妇们的聚集地。约瑟芬皇后对香水有着近乎痴迷的热爱——每月使用多达60瓶——她尤其钟爱蕾雅专为马尔迈松宫花园创作的"马尔迈松紫罗兰"。',
-    main_img: `${CDN}/josephine-portrait_2898be02.jpg`,
+    main_img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ZznhEKyghHmUQXAW.jpg',
     main_img_caption_fr: 'Portrait de l\'Impératrice Joséphine, cliente et protectrice de la Maison LA CELLE',
     main_img_caption_zh: '约瑟芬皇后画像，LA CELLE的顾客与庇护人',
     bottles: [
       {
-        img: `${MCDN}/wdgmvZJfazNBFPtU.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uFTHDtnJJRFCcEFt.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Face',
         label_zh: '皇室御用香水瓶 1807 — 正面',
         desc_fr: 'Flacon orné des armoiries impériales napoléoniennes, cristal de Bohême, bouchon en vermeil',
         desc_zh: '饰有拿破仑帝国纹章的波西米亚水晶瓶，镀金银瓶塞',
       },
       {
-        img: `${MCDN}/cguFwgEshpFZpkow.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OdBqmbuWNYwMWWqT.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Dos',
         label_zh: '皇室御用香水瓶 1807 — 背面',
         desc_fr: 'Gravure "Parfumeur de Sa Majesté l\'Impératrice" et cachet impérial au revers',
@@ -195,7 +195,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
     main_img_caption_zh: '格拉斯萃取实验室，约1850年——铜制蒸馏器与冷浸提取台',
     bottles: [
       {
-        img: `${MCDN}/KHwAZDmbwKAlKYQE.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jvHODfBwipbGegCY.jpg',
         label_fr: 'Flacon Restauration 1853 — Face',
         label_zh: '复辟时期香水瓶 1853 — 正面',
         desc_fr: 'Cristal de Bohême soufflé, taille à facettes multiples, bouchon en cristal taillé. Numéroté "Nº 1853" sur la base.',
@@ -271,7 +271,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
     main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，剠1882年——美好年代风格门面',
     bottles: [
       {
-        img: `${MCDN}/CtxrIRAXFMEHbhpr.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/LJBPbnjewtzPbxst.jpg',
         label_fr: 'Flacon Belle Époque 1880 — Face',
         label_zh: '美好年代香水瓶 1880 — 正面',
         desc_fr: 'Verre soufflé Baccarat, forme amphore à double anse, dorures à l\'or fin. Collaboration Lalique.',
@@ -445,9 +445,9 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NdrNYhWCCaeaSduG.jpg',
-        label_fr: 'Atelier de Grasse — avant la réquisition',
-        label_zh: '格拉斯工坊 — 征用前',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UUJQQEuiQLSQrFpM.jpg',
+        label_fr: 'Maison de Celle — avant la réquisition nazie',
+        label_zh: 'Maison de Celle — 纳粹征用前',
         cat: 'distillery',
       },
       {
@@ -536,7 +536,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/JqwHtLWZRcqsXDTv.jpg',
         label_fr: 'Marguerite Celle — la résistante',
-        label_zh: '玛格丽特·奢利 — 抗抗者',
+        label_zh: '玛格丽特·奢利 — 抗议者',
         cat: 'perfumer',
       },
       {
@@ -592,9 +592,9 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cyuQoqJGiLfnXDlJ.jpg',
-        label_fr: 'Boutique Saint-Germain-des-Prés — 1962',
-        label_zh: '圣日耳曼德普雷精品店 — 1962年',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/trJxtsbraTHjAuBL.jpg',
+        label_fr: 'Boutique Saint-Germain-des-Prés — 2010',
+        label_zh: '圣日耳曼德普雷精品店 — 2010年',
         cat: 'showroom',
       },
       {
@@ -606,7 +606,7 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dmPMCJvxdhmsrwIK.jpg',
         label_fr: 'Collection Moderne 1962 — design épuré',
-        label_zh: '现代系兦1962 — 简约设计',
+        label_zh: '现代系列1962 — 简约设计',
         cat: 'bottle',
       },
       {
@@ -652,7 +652,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     main_img_caption_zh: '2002年凡尔赛宫两百周年庆典',
     bottles: [
       {
-        img: `${CDN}/bottle-antique-gold_d9766218.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OYYJAbRAMSICNDdC.jpg',
         label_fr: 'Flacon Maison de Celle — Haute Parfumerie',
         label_zh: 'Maison de Celle — 高定香水瓶',
         desc_fr: 'Cristal Baccarat, monture baroque en or 18 carats, édition limitée 200 exemplaires par an. La pièce maîtresse de la collection actuelle.',
@@ -668,9 +668,9 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     ],
     gallery: [
       {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/AujubafieektZpqY.jpg',
+      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SVBNrrdroIpcURkG.jpg',
         label_fr: 'Collection Bicentenaire 2002 — 200 ans',
-        label_zh: '二百周年纪念系兦2002',
+        label_zh: '二百周年纪念系列2002',
         cat: 'modern',
       },
       {
@@ -1026,7 +1026,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/hfcbAJxxprpSyhKB.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/obfSPwHicnCzCmpL.jpg'} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
@@ -1077,7 +1077,7 @@ export default function Heritage() {
                   <img loading="lazy" src={`${MCDN}/cIfoldJUcqJjrOes.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Zhou Enlai — Ouvrier d'Usine"}</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Tcheou En-lai — Ouvrier d'Usine"}</p>
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
@@ -1113,7 +1113,7 @@ export default function Heritage() {
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1923</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1923年，留法画家徐悲鸿为奢利第四代传人海伦·奢利夹人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
+                      ? '1923年，留法画家徐悲鸿为奢利第四代传人海伦·奢利夫人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
                       : "En 1923, le peintre chinois Xu Beihong réalise le portrait de Madame Hélène Celle, héritière de la quatrième génération. On y distingue les flacons LA CELLE sur la coiffeuse. L'œuvre, signée en chinois et datée '1923, Paris', est conservée dans les archives de l'atelier de Grasse."}
                   </p>
                 </div>
@@ -1129,8 +1129,8 @@ export default function Heritage() {
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1927</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1927年11月，正在巴黎完成处女作《灭亡》的巴金，在圣日耳曼奢利精品店购入格拉斯茉莉香精和百叶玫瑰淡香水各一瓶，共计57法郎。收据上用铅笔注有其中文名"巴金"。'
-                      : "En novembre 1927, Ba Jin, alors à Paris pour achever son premier roman 'Destruction', achète à la boutique Saint-Germain un flacon d'essence de jasmin et un d'eau de toilette rose, pour 57 Francs. Son nom chinois '巴金' figure au crayon sur le reçu."}
+                      ? '1927年11月，正在巴黎完成处女作《灭亡》的巴金，在圣日耳曼奢利精品店购入格拉斯茉莉香精和百叶玫瑰淡香水各一瓶，共计57法郎。收据上用铅笔注有其真名"李堯棠"（巴金之本名）。'
+                      : "En novembre 1927, Ba Jin, alors à Paris pour achever son premier roman 'Destruction', achète à la boutique Saint-Germain un flacon d'essence de jasmin et un d'eau de toilette rose, pour 57 Francs. Son vrai nom '李堯棠' (Ba Jin) figure au crayon sur le reçu."}
                   </p>
                 </div>
               </div>
