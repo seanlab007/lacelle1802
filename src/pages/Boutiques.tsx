@@ -17,8 +17,9 @@ function useIntersectionObserver() {
   }, [])
 }
 
-// CDN URLs for historical storefront photos, bottles, documents
+// CDN URLs for historical storefront photos, bottles, documents, laboratory
 const IMGS = {
+  // Storefronts
   paris_palais_royal: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WCdqmvTlXgzDVZcI.jpg',
   grasse: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/viNOAUXDFsMfzLHq.jpg',
   paris_saint_germain: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RypasatJLnVrREaZ.jpg',
@@ -27,11 +28,42 @@ const IMGS = {
   bordeaux: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ntyRUOanZFfyBQZW.jpg',
   milan: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RawNJMFFgUuQvXhh.jpg',
   london: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NWpvMgAelQWagGUk.jpg',
-  bottle_1802: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pnEYGrMAGEYbMdpM.jpg',
-  bottle_1880: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ivmseXVFCSRfBGzc.jpg',
+  // Archive documents
   certificate: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pXWSwyvOGBmTliDB.jpg',
   notes_1802: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DYcUZcIDOASnAlkO.jpg',
   notes_1923: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UweIUCooIyjCQSSH.jpg',
+  // Maison de Celle series (Flagship — Empire & Restoration style, 1802–1870)
+  maison_1802_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wdgmvZJfazNBFPtU.jpg',
+  maison_1802_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cguFwgEshpFZpkow.jpg',
+  maison_1802_detail: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/zQmFOTJumXZuTfBX.jpg',
+  maison_1850_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KHwAZDmbwKAlKYQE.jpg',
+  maison_1850_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/pRyNcEDvrKBsCUxw.jpg',
+  maison_modern_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vftoNtBdwqfXaxdy.jpg',
+  maison_modern_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uWtrLuHyaDOihtfT.jpg',
+  // LA CELLE PARFUM series (Retail boutiques — Belle Époque & Art Deco, 1880–1930)
+  parfum_1880_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DMpAQwHfZJPeLqbr.jpg',
+  parfum_1880_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ywvKvBqctgCTAJyU.jpg',
+  parfum_1920_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/raoHrzSNPtXnJsnj.jpg',
+  parfum_1920_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KhwaViPKuhjQKVek.jpg',
+  parfum_1920_detail: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RdhbZQcflEcfiipg.jpg',
+  parfum_modern_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/tKKYaxgHXZQkecuQ.jpg',
+  parfum_modern_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/refUBBYpchFAFACN.jpg',
+  // La Famille Celle series (Grasse atelier — raw materials & essence bottles)
+  famille_1802_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uqQvLgDQKCCpAdFM.jpg',
+  famille_1802_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/rirznBRnxMqHsRZd.jpg',
+  famille_modern_front: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dpnQeQsINoPQAGIJ.jpg',
+  famille_modern_back: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PUzJWolFuuDNTUjp.jpg',
+  famille_detail_stopper: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gqMXluiIUfBacvRV.jpg',
+  // Aliases for legacy boutique bottle_img references
+  bottle_1802: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wdgmvZJfazNBFPtU.jpg',
+  bottle_1880: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DMpAQwHfZJPeLqbr.jpg',
+  // Laboratory & Supply Chain
+  grasse_lab_1850: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/hFLJvxRcqjTbrUmR.jpg',
+  grasse_lab_1920: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/kvBVCiGQdJThJGPK.jpg',
+  grasse_factory_exterior: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cKuBrvMshvUaNdxe.jpg',
+  supply_chain_flowers: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/VYbrLNTwuZHGqeFW.jpg',
+  supply_chain_brands: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FtcoiwSZjKUYuoJS.jpg',
+  enfleurage_process: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/HrtTfnnbjqxXyruf.jpg',
 }
 
 const boutiques = [
@@ -48,7 +80,7 @@ const boutiques = [
     hours_en: 'Mon–Sat 10am–7pm · Sun 12pm–6pm · By appointment only',
     founded: '1802',
     img: IMGS.paris_palais_royal,
-    bottle_img: IMGS.bottle_1802,
+    bottle_img: IMGS.maison_1802_front,
     fr_desc: `La boutique originelle, fondée le 14 mars 1802 par Léa Céleste Celle au cœur du Palais-Royal. Nichée sous les arcades de la Galerie de Valois, elle conserve son parquet d'époque, ses boiseries dorées et ses vitrines en acajou commandées par Léa elle-même. C'est ici que Napoléon Bonaparte découvrit pour la première fois les créations de la Maison, et que l'Impératrice Joséphine passa ses commandes secrètes.
 
 Classée Monument Historique depuis 1976, la boutique abrite également les Archives Olfactives de la Maison : plus de 2 400 formules originales conservées dans des coffrets en cuir de Cordoue, remontant à 1802.`,
@@ -77,8 +109,8 @@ Listed as a Historic Monument since 1976, the boutique also houses the Maison's 
     hours_en: 'Mon–Sat 10:30am–7:30pm',
     founded: '1923',
     img: IMGS.paris_saint_germain,
-    bottle_img: IMGS.bottle_1880,
-    fr_desc: `Ouverte en 1923 par Hélène Celle dans le quartier des écrivains et des philosophes, cette boutique est devenue le rendez-vous de l'intelligentsia parisienne. Simone de Beauvoir, Jean-Paul Sartre et Albert Camus y étaient des habitués. La boutique conserve le bureau original d'Hélène Celle, où elle recevait ses clients pour des consultations olfactives privées.`,
+    bottle_img: IMGS.maison_modern_front,
+    fr_desc: `Établie en 1935 par Hélène Celle dans le quartier des écrivains et des philosophes, cette boutique est devenue le rendez-vous de l'intelligentsia parisienne. Simone de Beauvoir, Jean-Paul Sartre et Albert Camus y étaient des habitués. La boutique conserve le bureau original d'Hélène Celle, où elle recevait ses clients pour des consultations olfactives privées.`,
     zh_desc: `1923年由艾莲·奢利在作家和哲学家聚集的街区开设，这家精品店成为巴黎知识界的聚集地。西蒙娜·德·波伏瓦、让-保罗·萨特和阿尔贝·加缪都是常客。店内保留着艾莲·奢利的原始办公桌，她曾在此为客户提供私人嗅觉咨询。`,
     en_desc: `Opened in 1923 by Hélène Celle in the neighborhood of writers and philosophers, this boutique became the meeting place of the Parisian intelligentsia. Simone de Beauvoir, Jean-Paul Sartre and Albert Camus were regulars. The boutique preserves Hélène Celle's original desk, where she received clients for private olfactory consultations.`,
     tag_fr: 'Rive Gauche · Depuis 1923',
@@ -198,7 +230,7 @@ The atelier offers guided tours to discover cold enfleurage and steam distillati
     hours_en: 'Mon–Sat 10am–6:30pm',
     founded: '1935',
     img: IMGS.london,
-    bottle_img: IMGS.bottle_1880,
+    bottle_img: IMGS.parfum_1920_front,
     fr_desc: `Établie en 1935 sur Jermyn Street, la rue des chemisiers et parfumeurs royaux, la boutique londonienne de LA CELLE est la première adresse internationale de la Maison. Fournisseur officiel de la Couronne britannique depuis 1952, elle conserve le brevet royal encadré dans l'entrée. La boutique propose une collection exclusive "Albion" inspirée des jardins anglais et des brumes de la Tamise.`,
     zh_desc: `1935年在杰明街建立，这条皇家衬衫商和香水商云集的街道，LA CELLE伦敦精品店是品牌的第一个国际地址。自1952年起成为英国王室官方供应商，皇室专利证书装裱在入口处。精品店提供独家"阿尔比恩"系列，灵感来自英国花园和泰晤士河的薄雾。`,
     en_desc: `Established in 1935 on Jermyn Street, the street of royal shirtmakers and perfumers, LA CELLE's London boutique is the Maison's first international address. Official supplier to the British Crown since 1952, it preserves the royal warrant framed in the entrance. The boutique offers an exclusive "Albion" collection inspired by English gardens and the mists of the Thames.`,
@@ -221,7 +253,7 @@ The atelier offers guided tours to discover cold enfleurage and steam distillati
     hours_en: 'Mon–Sat 10am–7:30pm',
     founded: '1958',
     img: IMGS.milan,
-    bottle_img: IMGS.bottle_1880,
+    bottle_img: IMGS.parfum_modern_front,
     fr_desc: `Ouverte en 1958 au cœur du Quadrilatère de la Mode, la boutique milanaise de LA CELLE incarne la rencontre entre la parfumerie française et l'élégance italienne. Située sur la Via Montenapoleone, elle voisine les plus grandes maisons de couture mondiales. La boutique propose une collection capsule "Milano" créée en collaboration avec des designers italiens contemporains.`,
     zh_desc: `1958年在时尚四边形的核心地带开设，LA CELLE的米兰精品店体现了法国香水与意大利优雅的相遇。坐落于蒙特拿破仑大街，与世界顶级时装屋为邻。精品店提供与当代意大利设计师合作创作的"米兰"胶囊系列。`,
     en_desc: `Opened in 1958 at the heart of the Fashion Quadrilateral, LA CELLE's Milan boutique embodies the meeting between French perfumery and Italian elegance. Located on Via Montenapoleone, it neighbors the world's greatest couture houses. The boutique offers a "Milano" capsule collection created in collaboration with contemporary Italian designers.`,
@@ -248,27 +280,214 @@ const storeHistory = [
   { year: '1976', fr: 'La boutique du Palais-Royal classée Monument Historique', zh: '皇家宫殿精品店被列为历史文物', en: 'Palais-Royal boutique listed as Historic Monument' },
 ]
 
-// Historical perfume bottles by era
-const historicalBottles = [
+// ─────────────────────────────────────────────────────────────────────────────
+// Three distinct bottle series — each with front / back / detail views
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Series 1: Maison de Celle (Flagship — Haute Parfumerie, 1802–present)
+const maisonBottles = [
   {
-    era_fr: 'Époque Empire (1802–1830)',
-    era_zh: '帝国时代（1802–1830）',
-    era_en: 'Empire Era (1802–1830)',
-    img: IMGS.bottle_1802,
-    desc_fr: 'Flacons en cristal taillé à facettes, bouchons en verre doré. Étiquettes gravées en calligraphie française sur parchemin. Forme ovoïde caractéristique du style Empire.',
-    desc_zh: '切割水晶多面瓶，镀金玻璃瓶塞。羊皮纸上雕刻法语书法标签。帝国风格特有的卵形造型。',
-    desc_en: 'Faceted cut crystal flacons, gilded glass stoppers. Labels engraved in French calligraphy on parchment. Ovoid form characteristic of the Empire style.',
+    view: 'front', year: '1802',
+    img: IMGS.maison_1802_front,
+    label_fr: 'Face — Flacon Empire 1802',
+    label_zh: '正面 — 帝国式香水瓶 1802年',
+    label_en: 'Front — Empire Flacon 1802',
+    desc_fr: 'Cristal taillé à 24 facettes, monogramme "LC" gravé à la main. Bouchon en verre doré à la feuille. Étiquette en parchemin calligraphiée par Léa Céleste Celle elle-même.',
+    desc_zh: '24面手工切割水晶，手刻"LC"字母组合。金箔镀金玻璃瓶塞。蕾雅·奢利亲笔书写的羊皮纸标签。',
+    desc_en: '24-facet hand-cut crystal, hand-engraved "LC" monogram. Gold-leaf gilded glass stopper. Parchment label calligraphed by Léa Céleste Celle herself.',
   },
   {
-    era_fr: 'Belle Époque (1880–1914)',
-    era_zh: '美好年代（1880–1914）',
-    era_en: 'Belle Époque (1880–1914)',
-    img: IMGS.bottle_1880,
-    desc_fr: 'Flacons en verre soufflé de Baccarat, ornements Art Nouveau en bronze doré. Étiquettes lithographiées avec motifs floraux. Collaboration avec les maîtres verriers de Murano.',
-    desc_zh: '巴卡拉吹制玻璃瓶，鎏金铜制新艺术装饰。石版印刷花卉图案标签。与穆拉诺玻璃大师合作。',
-    desc_en: 'Baccarat blown-glass flacons, gilded bronze Art Nouveau ornaments. Lithographed labels with floral motifs. Collaboration with Murano master glassblowers.',
+    view: 'back', year: '1802',
+    img: IMGS.maison_1802_back,
+    label_fr: 'Dos — Flacon Empire 1802',
+    label_zh: '背面 — 帝国式香水瓶 1802年',
+    label_en: 'Back — Empire Flacon 1802',
+    desc_fr: 'Verso du flacon : numéro de série gravé, sceau de cire rouge de la Maison, et mention "Palais-Royal, Paris" en lettres dorées. Chaque flacon était numéroté à la main.',
+    desc_zh: '瓶背：刻有序列号、品牌红色蜡封印章，以及金字"Palais-Royal, Paris"铭文。每只香水瓶均手工编号。',
+    desc_en: 'Reverse of flacon: engraved serial number, Maison red wax seal, and "Palais-Royal, Paris" in gilt lettering. Each flacon was hand-numbered.',
+  },
+  {
+    view: 'detail', year: '1802',
+    img: IMGS.maison_1802_detail,
+    label_fr: 'Détail — Bouchon & Sceau 1802',
+    label_zh: '细节 — 瓶塞与蜡封 1802年',
+    label_en: 'Detail — Stopper & Seal 1802',
+    desc_fr: 'Gros plan sur le bouchon en cristal taillé et le sceau de cire rouge portant les armoiries de la famille Celle : une fleur de lys et un mortier de parfumeur entrelacés.',
+    desc_zh: '切割水晶瓶塞和红色蜡封特写，蜡封上刻有奢利家族纹章：百合花与调香师研钵交织图案。',
+    desc_en: 'Close-up of the cut crystal stopper and red wax seal bearing the Celle family crest: a fleur-de-lys and perfumer\'s mortar intertwined.',
+  },
+  {
+    view: 'front', year: '1850',
+    img: IMGS.maison_1850_front,
+    label_fr: 'Face — Flacon Restauration 1850',
+    label_zh: '正面 — 复辟时期香水瓶 1850年',
+    label_en: 'Front — Restoration Flacon 1850',
+    desc_fr: 'Flacon en cristal de Bohême, forme rectangulaire à pans coupés. Étiquette lithographiée avec motifs de roses et de jasmin. Bouchon en argent ciselé par l\'orfèvre Christofle.',
+    desc_zh: '波西米亚水晶瓶，切角矩形造型。石版印刷玫瑰与茉莉图案标签。Christofle银匠錾刻银质瓶塞。',
+    desc_en: 'Bohemian crystal flacon, rectangular form with cut corners. Lithographed label with rose and jasmine motifs. Silver stopper chiseled by silversmith Christofle.',
+  },
+  {
+    view: 'back', year: '1850',
+    img: IMGS.maison_1850_back,
+    label_fr: 'Dos — Flacon Restauration 1850',
+    label_zh: '背面 — 复辟时期香水瓶 1850年',
+    label_en: 'Back — Restoration Flacon 1850',
+    desc_fr: 'Verso gravé avec la liste des ingrédients en latin : "Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides". Pratique héritée des apothicaires du XVIIIe siècle.',
+    desc_zh: '瓶背以拉丁文刻有原料清单："Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides"。延续18世纪药剂师的传统。',
+    desc_en: 'Reverse engraved with ingredients list in Latin: "Rosa centifolia, Jasminum officinale, Iris pallida, Vétiver zizanoides". A practice inherited from 18th-century apothecaries.',
+  },
+  {
+    view: 'front', year: '2020s',
+    img: IMGS.maison_modern_front,
+    label_fr: 'Face — Flacon Contemporain Maison de Celle',
+    label_zh: '正面 — 当代奢利世家香水瓶',
+    label_en: 'Front — Contemporary Maison de Celle Flacon',
+    desc_fr: 'Flacon actuel de la collection Haute Parfumerie. Cristal de Baccarat soufflé à la bouche, bouchon en or 18 carats. Édition limitée à 200 exemplaires numérotés par an.',
+    desc_zh: '当代高定香水系列现款香水瓶。巴卡拉人工吹制水晶，18K金瓶塞。每年限量编号200瓶。',
+    desc_en: 'Current Haute Parfumerie collection flacon. Mouth-blown Baccarat crystal, 18-carat gold stopper. Limited edition of 200 numbered pieces per year.',
+  },
+  {
+    view: 'back', year: '2020s',
+    img: IMGS.maison_modern_back,
+    label_fr: 'Dos — Flacon Contemporain Maison de Celle',
+    label_zh: '背面 — 当代奢利世家香水瓶',
+    label_en: 'Back — Contemporary Maison de Celle Flacon',
+    desc_fr: 'Verso gravé au laser avec le numéro de série et la signature du parfumeur en chef. Chaque flacon est accompagné d\'un certificat d\'authenticité sur papier vergé.',
+    desc_zh: '瓶背激光刻有序列号和首席调香师签名。每瓶附有布纹纸真品证书。',
+    desc_en: 'Reverse laser-engraved with serial number and head perfumer\'s signature. Each flacon is accompanied by an authenticity certificate on laid paper.',
   },
 ]
+
+// Series 2: LA CELLE PARFUM (Retail boutiques — Belle Époque & Art Deco, 1880–present)
+const parfumBottles = [
+  {
+    view: 'front', year: '1880',
+    img: IMGS.parfum_1880_front,
+    label_fr: 'Face — Flacon Belle Époque 1880',
+    label_zh: '正面 — 美好年代香水瓶 1880年',
+    label_en: 'Front — Belle Époque Flacon 1880',
+    desc_fr: 'Flacon en verre soufflé de Baccarat, forme amphore. Ornements Art Nouveau en bronze doré représentant des iris et des libellules. Étiquette lithographiée en trois couleurs.',
+    desc_zh: '巴卡拉吹制玻璃双耳瓶造型。鎏金铜制新艺术风格鸢尾花与蜻蜓装饰。三色石版印刷标签。',
+    desc_en: 'Baccarat blown-glass amphora form. Gilded bronze Art Nouveau ornaments depicting irises and dragonflies. Three-color lithographed label.',
+  },
+  {
+    view: 'back', year: '1880',
+    img: IMGS.parfum_1880_back,
+    label_fr: 'Dos — Flacon Belle Époque 1880',
+    label_zh: '背面 — 美好年代香水瓶 1880年',
+    label_en: 'Back — Belle Époque Flacon 1880',
+    desc_fr: 'Verso orné d\'une gravure représentant la boutique de Lyon. Mention "Fournisseur de la Maison Royale" et médaille de l\'Exposition Universelle 1900.',
+    desc_zh: '瓶背装饰有里昂精品店的雕刻图案，以及"皇家供应商"字样和1900年世博会奖章。',
+    desc_en: 'Reverse decorated with an engraving of the Lyon boutique. "Fournisseur de la Maison Royale" mention and 1900 Universal Exhibition medal.',
+  },
+  {
+    view: 'front', year: '1920',
+    img: IMGS.parfum_1920_front,
+    label_fr: 'Face — Flacon Art Déco 1920',
+    label_zh: '正面 — 装饰艺术香水瓶 1920年',
+    label_en: 'Front — Art Deco Flacon 1920',
+    desc_fr: 'Flacon en cristal noir et or, style Art Déco. Bouchon en bakélite sculptée en forme de fleur de lys. Étiquette sérigraphiée en or sur fond noir mat. Collaboration avec René Lalique.',
+    desc_zh: '黑金水晶装饰艺术风格香水瓶。百合花形状的电木雕刻瓶塞。哑光黑底金色丝网印刷标签。与勒内·拉利克合作设计。',
+    desc_en: 'Black and gold crystal flacon, Art Deco style. Fleur-de-lys sculpted Bakelite stopper. Gold silk-screened label on matte black background. Collaboration with René Lalique.',
+  },
+  {
+    view: 'back', year: '1920',
+    img: IMGS.parfum_1920_back,
+    label_fr: 'Dos — Flacon Art Déco 1920',
+    label_zh: '背面 — 装饰艺术香水瓶 1920年',
+    label_en: 'Back — Art Deco Flacon 1920',
+    desc_fr: 'Verso avec la pyramide olfactive gravée : "Tête : bergamote, néroli · Cœur : rose de Mai, jasmin · Fond : santal, vétiver, ambre". Innovation unique pour l\'époque.',
+    desc_zh: '瓶背刻有嗅觉金字塔："前调：佛手柑、橙花 · 中调：五月玫瑰、茉莉 · 后调：檀香、岩兰草、琥珀"。当时的独特创新。',
+    desc_en: 'Reverse with engraved olfactory pyramid: "Top: bergamot, neroli · Heart: rose de Mai, jasmine · Base: sandalwood, vetiver, amber". A unique innovation for the era.',
+  },
+  {
+    view: 'detail', year: '1920',
+    img: IMGS.parfum_1920_detail,
+    label_fr: 'Détail — Bouchon Lalique 1920',
+    label_zh: '细节 — 拉利克瓶塞 1920年',
+    label_en: 'Detail — Lalique Stopper 1920',
+    desc_fr: 'Gros plan sur le bouchon en cristal dépoli de René Lalique, représentant deux nymphes entrelacées. Pièce unique signée et numérotée par Lalique lui-même.',
+    desc_zh: '勒内·拉利克磨砂水晶瓶塞特写，呈现两位相互缠绕的水仙女形象。拉利克本人亲笔签名编号的孤品。',
+    desc_en: 'Close-up of René Lalique\'s frosted crystal stopper depicting two intertwined nymphs. Unique piece signed and numbered by Lalique himself.',
+  },
+  {
+    view: 'front', year: '2020s',
+    img: IMGS.parfum_modern_front,
+    label_fr: 'Face — Flacon Contemporain LA CELLE PARFUM',
+    label_zh: '正面 — 当代 LA CELLE PARFUM 香水瓶',
+    label_en: 'Front — Contemporary LA CELLE PARFUM Flacon',
+    desc_fr: 'Flacon actuel de la gamme LA CELLE PARFUM. Verre borosilicate soufflé à la bouche, bouchon magnétique en zamak doré. Design inspiré des colonnes du Palais-Royal.',
+    desc_zh: '当代 LA CELLE PARFUM 系列现款香水瓶。人工吹制硼硅酸盐玻璃，镀金锌合金磁性瓶塞。设计灵感来自皇家宫殿廊柱。',
+    desc_en: 'Current LA CELLE PARFUM range flacon. Mouth-blown borosilicate glass, gilded zamak magnetic stopper. Design inspired by the columns of the Palais-Royal.',
+  },
+  {
+    view: 'back', year: '2020s',
+    img: IMGS.parfum_modern_back,
+    label_fr: 'Dos — Flacon Contemporain LA CELLE PARFUM',
+    label_zh: '背面 — 当代 LA CELLE PARFUM 香水瓶',
+    label_en: 'Back — Contemporary LA CELLE PARFUM Flacon',
+    desc_fr: 'Verso avec QR code gravé au laser permettant d\'accéder aux archives olfactives numériques de la Maison. Chaque parfum est tracé jusqu\'à sa formule originale de 1802.',
+    desc_zh: '瓶背激光刻制二维码，可访问品牌数字嗅觉档案馆。每款香水均可追溯至其1802年原始配方。',
+    desc_en: 'Reverse with laser-engraved QR code linking to the Maison\'s digital olfactory archives. Each fragrance is traced back to its original 1802 formula.',
+  },
+]
+
+// Series 3: La Famille Celle (Grasse atelier — essence & raw material bottles)
+const familleBottles = [
+  {
+    view: 'front', year: '1802',
+    img: IMGS.famille_1802_front,
+    label_fr: 'Face — Flacon d\'Essence Grasse 1802',
+    label_zh: '正面 — 格拉斯香精瓶 1802年',
+    label_en: 'Front — Grasse Essence Flacon 1802',
+    desc_fr: 'Flacon d\'essence brute en verre soufflé épais, forme cylindrique. Bouchon en liège ciré. Étiquette manuscrite indiquant l\'origine botanique : "Jasminum grandiflorum — Grasse, Juin 1802".',
+    desc_zh: '厚壁吹制玻璃圆柱形原料香精瓶。蜡封软木塞。手写标签注明植物来源："Jasminum grandiflorum — Grasse, Juin 1802"。',
+    desc_en: 'Thick blown-glass cylindrical raw essence flacon. Waxed cork stopper. Handwritten label indicating botanical origin: "Jasminum grandiflorum — Grasse, Juin 1802".',
+  },
+  {
+    view: 'back', year: '1802',
+    img: IMGS.famille_1802_back,
+    label_fr: 'Dos — Flacon d\'Essence Grasse 1802',
+    label_zh: '背面 — 格拉斯香精瓶 1802年',
+    label_en: 'Back — Grasse Essence Flacon 1802',
+    desc_fr: 'Verso avec les données de distillation : rendement en kg de fleurs par litre d\'essence, date de cueillette, nom du distillateur. Registre de laboratoire de la famille Celle.',
+    desc_zh: '瓶背记录蒸馏数据：每升香精所需花朵公斤数、采摘日期、蒸馏师姓名。奢利家族实验室记录册。',
+    desc_en: 'Reverse with distillation data: yield in kg of flowers per litre of essence, harvest date, distiller name. Celle family laboratory register.',
+  },
+  {
+    view: 'front', year: '2020s',
+    img: IMGS.famille_modern_front,
+    label_fr: 'Face — Flacon Contemporain La Famille Celle',
+    label_zh: '正面 — 当代奢利家族香精瓶',
+    label_en: 'Front — Contemporary La Famille Celle Flacon',
+    desc_fr: 'Flacon actuel de l\'atelier de Grasse. Verre ambré pour protéger les essences de la lumière. Bouchon en verre dépoli gravé du logo "La Famille Celle — Grasse depuis 1802".',
+    desc_zh: '格拉斯工坊当代香精瓶。琥珀色玻璃保护香精免受光线影响。磨砂玻璃瓶塞刻有"La Famille Celle — Grasse depuis 1802"标志。',
+    desc_en: 'Current Grasse atelier flacon. Amber glass to protect essences from light. Frosted glass stopper engraved with "La Famille Celle — Grasse depuis 1802" logo.',
+  },
+  {
+    view: 'back', year: '2020s',
+    img: IMGS.famille_modern_back,
+    label_fr: 'Dos — Flacon Contemporain La Famille Celle',
+    label_zh: '背面 — 当代奢利家族香精瓶',
+    label_en: 'Back — Contemporary La Famille Celle Flacon',
+    desc_fr: 'Verso avec le certificat d\'origine botanique et le numéro de lot de récolte. Traçabilité complète de la fleur au flacon, selon les normes IFRA et ISO 9235.',
+    desc_zh: '瓶背附有植物来源证书和收获批次号。从花朵到香精瓶的完整溯源，符合IFRA和ISO 9235标准。',
+    desc_en: 'Reverse with botanical origin certificate and harvest batch number. Complete traceability from flower to flacon, in accordance with IFRA and ISO 9235 standards.',
+  },
+  {
+    view: 'detail', year: '2020s',
+    img: IMGS.famille_detail_stopper,
+    label_fr: 'Détail — Bouchon & Gravure',
+    label_zh: '细节 — 瓶塞与雕刻',
+    label_en: 'Detail — Stopper & Engraving',
+    desc_fr: 'Gros plan sur le bouchon en verre dépoli et la gravure du logo. Le mortier et le pilon stylisés rappellent les origines de laboratoire de la famille Celle, fondateurs de l\'atelier de Grasse.',
+    desc_zh: '磨砂玻璃瓶塞和标志雕刻特写。程式化的研钵与杵图案，呼应奢利家族的实验室起源——格拉斯工坊的创始人。',
+    desc_en: 'Close-up of the frosted glass stopper and logo engraving. The stylized mortar and pestle recalls the laboratory origins of the Celle family, founders of the Grasse atelier.',
+  },
+]
+
+// Keep legacy name for archive documents section
+const historicalBottles = maisonBottles
 
 // French perfume notes and certificates
 const archiveDocuments = [
@@ -432,12 +651,12 @@ export default function Boutiques() {
                   <div className="overflow-hidden mb-4">
                     <img
                       src={bottle.img}
-                      alt={isCN ? bottle.era_zh : isFR ? bottle.era_fr : bottle.era_en}
+                      alt={isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en}
                       className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700"
                     />
                   </div>
                   <p className="font-playfair text-lacelle-gold italic text-lg mb-2">
-                    {isCN ? bottle.era_zh : isFR ? bottle.era_fr : bottle.era_en}
+                    {isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en}
                   </p>
                   <p className="font-cormorant text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN ? bottle.desc_zh : isFR ? bottle.desc_fr : bottle.desc_en}
@@ -600,6 +819,254 @@ export default function Boutiques() {
               </div>
             )
           })}
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════
+           SECTION: Historical Bottle Archives — Three Series
+      ═══════════════════════════════════════════════════════════════════ */}
+
+      {/* Series 1: Maison de Celle */}
+      <section className="py-24 px-6 bg-lacelle-black fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '历史香水瓶档案' : isFR ? 'Archives des Flacons Historiques' : 'Historical Flacon Archives'}
+            </p>
+            <h2 className="font-playfair text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? <><span className="text-gold-gradient">奢利世家</span> — 高定系列</> : isFR ? <>Maison de Celle — <span className="text-gold-gradient">Haute Parfumerie</span></> : <>Maison de Celle — <span className="text-gold-gradient">Haute Parfumerie</span></>}
+            </h2>
+            <p className="font-cormorant text-lacelle-cream/50 italic max-w-2xl mx-auto">
+              {isCN ? '旗舰店专属高定系列，每年限量200瓶，仅限预约购买。正面·背面·细节，完整呈现每一只香水瓶的工艺传承。' : isFR ? 'Collection exclusive de la Maison Mère, limitée à 200 exemplaires numérotés par an, sur rendez-vous uniquement.' : 'Exclusive Flagship collection, limited to 200 numbered pieces per year, by appointment only.'}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {maisonBottles.map((bottle, idx) => (
+              <div key={idx} className="group relative overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/40 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden bg-lacelle-black/60">
+                  <img src={bottle.img} alt={isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-85" />
+                </div>
+                <div className="p-4 bg-lacelle-black">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs text-lacelle-gold/50 font-sans-light tracking-widest-xl uppercase">{bottle.year}</span>
+                    <span className="text-xs text-lacelle-cream/30 font-sans-light tracking-wider uppercase">{isCN ? (bottle.view === 'front' ? '正面' : bottle.view === 'back' ? '背面' : '细节') : isFR ? (bottle.view === 'front' ? 'Face' : bottle.view === 'back' ? 'Dos' : 'Détail') : (bottle.view === 'front' ? 'Front' : bottle.view === 'back' ? 'Back' : 'Detail')}</span>
+                  </div>
+                  <p className="font-playfair text-sm text-lacelle-cream italic leading-tight mb-2">{isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en}</p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed line-clamp-3">{isCN ? bottle.desc_zh : isFR ? bottle.desc_fr : bottle.desc_en}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Series 2: LA CELLE PARFUM */}
+      <section className="py-24 px-6 bg-[#0a0a08] fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="font-playfair text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? <><span className="text-gold-gradient">LA CELLE PARFUM</span> — 精品店系列</> : isFR ? <>LA CELLE PARFUM — <span className="text-gold-gradient">Collection Boutiques</span></> : <>LA CELLE PARFUM — <span className="text-gold-gradient">Boutique Collection</span></>}
+            </h2>
+            <p className="font-cormorant text-lacelle-cream/50 italic max-w-2xl mx-auto">
+              {isCN ? '新艺术与装饰艺术时期的精品店系列，从1880年代美好年代到1920年代装饰艺术，每个时代都有独特的瓶型语言。' : isFR ? 'Collection des boutiques de détail, de la Belle Époque Art Nouveau aux années folles Art Déco.' : 'Retail boutique collection, from Belle Époque Art Nouveau to the Roaring Twenties Art Deco.'}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {parfumBottles.map((bottle, idx) => (
+              <div key={idx} className="group relative overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/40 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden bg-lacelle-black/60">
+                  <img src={bottle.img} alt={isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-85" />
+                </div>
+                <div className="p-4 bg-lacelle-black">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs text-lacelle-gold/50 font-sans-light tracking-widest-xl uppercase">{bottle.year}</span>
+                    <span className="text-xs text-lacelle-cream/30 font-sans-light tracking-wider uppercase">{isCN ? (bottle.view === 'front' ? '正面' : bottle.view === 'back' ? '背面' : '细节') : isFR ? (bottle.view === 'front' ? 'Face' : bottle.view === 'back' ? 'Dos' : 'Détail') : (bottle.view === 'front' ? 'Front' : bottle.view === 'back' ? 'Back' : 'Detail')}</span>
+                  </div>
+                  <p className="font-playfair text-sm text-lacelle-cream italic leading-tight mb-2">{isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en}</p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed line-clamp-3">{isCN ? bottle.desc_zh : isFR ? bottle.desc_fr : bottle.desc_en}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Series 3: La Famille Celle */}
+      <section className="py-24 px-6 bg-lacelle-black fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="font-playfair text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? <><span className="text-gold-gradient">La Famille Celle</span> — 格拉斯工坊原料瓶</> : isFR ? <>La Famille Celle — <span className="text-gold-gradient">Flacons d'Essences de Grasse</span></> : <>La Famille Celle — <span className="text-gold-gradient">Grasse Essence Flacons</span></>}
+            </h2>
+            <p className="font-cormorant text-lacelle-cream/50 italic max-w-2xl mx-auto">
+              {isCN ? '格拉斯工坊自1802年起保存的原料香精瓶，记录着每一批花朵的采摘日期、蒸馏数据和植物来源。' : isFR ? 'Flacons d\'essences brutes de l\'atelier de Grasse, conservés depuis 1802, enregistrant chaque récolte.' : 'Raw essence flacons from the Grasse atelier, preserved since 1802, recording each harvest.'}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {familleBottles.map((bottle, idx) => (
+              <div key={idx} className="group relative overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/40 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden bg-lacelle-black/60">
+                  <img src={bottle.img} alt={isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-85" />
+                </div>
+                <div className="p-4 bg-lacelle-black">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs text-lacelle-gold/50 font-sans-light tracking-widest-xl uppercase">{bottle.year}</span>
+                    <span className="text-xs text-lacelle-cream/30 font-sans-light tracking-wider uppercase">{isCN ? (bottle.view === 'front' ? '正面' : bottle.view === 'back' ? '背面' : '细节') : isFR ? (bottle.view === 'front' ? 'Face' : bottle.view === 'back' ? 'Dos' : 'Détail') : (bottle.view === 'front' ? 'Front' : bottle.view === 'back' ? 'Back' : 'Detail')}</span>
+                  </div>
+                  <p className="font-playfair text-sm text-lacelle-cream italic leading-tight mb-2">{isCN ? bottle.label_zh : isFR ? bottle.label_fr : bottle.label_en}</p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed line-clamp-3">{isCN ? bottle.desc_zh : isFR ? bottle.desc_fr : bottle.desc_en}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════
+           SECTION: Grasse Laboratory & Supply Chain
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section className="py-24 px-6 bg-[#0a0a08] fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '香精实验室与供应链' : isFR ? 'Laboratoire & Chaîne d\'Approvisionnement' : 'Laboratory & Supply Chain'}
+            </p>
+            <h2 className="font-playfair text-4xl text-lacelle-cream italic mb-4">
+              {isCN ? <>格拉斯工坊 — <span className="text-gold-gradient">香精萃取的起源</span></> : isFR ? <>Atelier de Grasse — <span className="text-gold-gradient">L\'Art de l\'Extraction</span></> : <>Grasse Atelier — <span className="text-gold-gradient">The Art of Extraction</span></>}
+            </h2>
+            <p className="font-cormorant text-lacelle-cream/50 italic max-w-3xl mx-auto">
+              {isCN
+                ? '奢利世家早期以香精实验室起家，为多个欧洲顶级香水品牌提供原料供应。格拉斯工坊至今仍是全球最重要的天然香精产地之一，奢利家族的蒸馏技术传承超过两个世纪。'
+                : isFR
+                ? 'La Maison Celle a débuté comme laboratoire d\'essences, fournissant des matières premières aux plus grandes maisons de parfumerie européennes. L\'atelier de Grasse reste l\'un des sites de production d\'essences naturelles les plus importants au monde.'
+                : 'Maison Celle began as an essence laboratory, supplying raw materials to the greatest European perfumery houses. The Grasse atelier remains one of the world\'s most important natural essence production sites.'}
+            </p>
+          </div>
+
+          {/* Lab images grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <div className="group overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img src={IMGS.grasse_lab_1850} alt="Grasse laboratory 1850" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80" />
+              </div>
+              <div className="p-5 bg-lacelle-black">
+                <p className="font-playfair text-sm text-lacelle-cream italic mb-2">
+                  {isCN ? '格拉斯蒸馏实验室 — 1850年代' : isFR ? 'Laboratoire de Distillation de Grasse — 1850s' : 'Grasse Distillation Laboratory — 1850s'}
+                </p>
+                <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                  {isCN ? '早期蒸馏实验室内景，铜制蒸馏器和玻璃烧瓶排列整齐。奢利家族在此研发了冷压萃取和蒸汽蒸馏两种工艺。' : isFR ? 'Intérieur du laboratoire de distillation, alambics en cuivre et fioles en verre. La famille Celle y développa deux techniques : l\'expression à froid et la distillation à la vapeur.' : 'Interior of the distillation laboratory, copper alembics and glass flasks. The Celle family developed two techniques here: cold pressing and steam distillation.'}
+                </p>
+              </div>
+            </div>
+            <div className="group overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img src={IMGS.grasse_lab_1920} alt="Grasse laboratory 1920" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80" />
+              </div>
+              <div className="p-5 bg-lacelle-black">
+                <p className="font-playfair text-sm text-lacelle-cream italic mb-2">
+                  {isCN ? '格拉斯工厂扩建 — 1920年代' : isFR ? 'Extension de l\'Usine de Grasse — 1920s' : 'Grasse Factory Expansion — 1920s'}
+                </p>
+                <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                  {isCN ? '1920年代工厂扩建后，年处理花朵超过500吨。格拉斯工坊成为欧洲最大的天然香精供应商之一，客户包括Guerlain、Houbigant、Coty等顶级品牌。' : isFR ? 'Après l\'extension des années 1920, l\'usine traitait plus de 500 tonnes de fleurs par an. L\'atelier devint l\'un des plus grands fournisseurs d\'essences naturelles d\'Europe, avec Guerlain, Houbigant et Coty parmi ses clients.' : 'After the 1920s expansion, the factory processed over 500 tonnes of flowers annually. The atelier became one of Europe\'s largest natural essence suppliers, with Guerlain, Houbigant and Coty among its clients.'}
+                </p>
+              </div>
+            </div>
+            <div className="group overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img src={IMGS.enfleurage_process} alt="Enfleurage process" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80" />
+              </div>
+              <div className="p-5 bg-lacelle-black">
+                <p className="font-playfair text-sm text-lacelle-cream italic mb-2">
+                  {isCN ? '冷萃花脂工艺 — 格拉斯传统' : isFR ? 'Enfleurage à Froid — Tradition de Grasse' : 'Cold Enfleurage — Grasse Tradition'}
+                </p>
+                <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                  {isCN ? '冷萃花脂是格拉斯最古老的香精萃取工艺，将花朵铺在涂有动物脂肪的玻璃板上，让香气自然渗透。奢利家族是最后仍坚持这一工艺的家族之一。' : isFR ? 'L\'enfleurage à froid est la plus ancienne technique d\'extraction de Grasse, déposant les fleurs sur des plaques de verre enduites de graisse animale. La famille Celle est l\'une des dernières à perpétuer cette technique.' : 'Cold enfleurage is the oldest extraction technique in Grasse, laying flowers on glass plates coated with animal fat. The Celle family is one of the last to perpetuate this technique.'}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Supply chain brands */}
+          <div className="border-t border-lacelle-gold/10 pt-16">
+            <h3 className="font-playfair text-2xl text-lacelle-cream italic text-center mb-4">
+              {isCN ? '历史供应链合作品牌' : isFR ? 'Maisons Partenaires Historiques' : 'Historic Partner Houses'}
+            </h3>
+            <p className="font-cormorant text-lacelle-cream/50 italic text-center max-w-2xl mx-auto mb-12">
+              {isCN
+                ? '自19世纪起，格拉斯工坊为欧洲多个顶级香水品牌提供天然香精原料，建立了长达百年的供应链合作关系。'
+                : isFR
+                ? 'Depuis le XIXe siècle, l\'atelier de Grasse fournit des essences naturelles aux plus grandes maisons de parfumerie européennes.'
+                : 'Since the 19th century, the Grasse atelier has supplied natural essences to the greatest European perfumery houses.'}
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img src={IMGS.supply_chain_brands} alt="Supply chain partner brands" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-75" />
+                </div>
+                <div className="p-6 bg-lacelle-black">
+                  <p className="font-playfair text-base text-lacelle-cream italic mb-3">
+                    {isCN ? '19世纪供应链合作档案' : isFR ? 'Archives de la Chaîne d\'Approvisionnement XIXe' : '19th Century Supply Chain Archive'}
+                  </p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                    {isCN
+                      ? '档案仓库中保存着与 Guerlain、Houbigant、Coty、Lanvin 等品牌的原料供应合同，最早可追溯至1867年。这些合同证明了格拉斯工坊在欧洲香水工业中的核心地位。'
+                      : isFR
+                      ? 'Les archives conservent les contrats de fourniture de matières premières avec Guerlain, Houbigant, Coty et Lanvin, remontant à 1867. Ces contrats attestent du rôle central de l\'atelier dans l\'industrie parfumière européenne.'
+                      : 'The archives preserve raw material supply contracts with Guerlain, Houbigant, Coty and Lanvin, dating back to 1867. These contracts attest to the atelier\'s central role in the European perfumery industry.'}
+                  </p>
+                </div>
+              </div>
+              <div className="group overflow-hidden border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img src={IMGS.supply_chain_flowers} alt="Grasse flower fields supply" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-75" />
+                </div>
+                <div className="p-6 bg-lacelle-black">
+                  <p className="font-playfair text-base text-lacelle-cream italic mb-3">
+                    {isCN ? '格拉斯花田 — 原料供应基地' : isFR ? 'Champs de Grasse — Base d\'Approvisionnement' : 'Grasse Flower Fields — Raw Material Base'}
+                  </p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">
+                    {isCN
+                      ? '奢利家族在格拉斯周边拥有超过120公顷的花田，种植五月玫瑰、茉莉、橙花、鸢尾等珍贵香料植物。每年五月，数百名采花工人在黎明时分手工采摘，以保留花朵最佳的香气。'
+                      : isFR
+                      ? 'La famille Celle possède plus de 120 hectares de champs autour de Grasse, cultivant rose de Mai, jasmin, fleur d\'oranger et iris. Chaque mai, des centaines de cueilleurs récoltent à l\'aube pour préserver le meilleur de l\'arôme.'
+                      : 'The Celle family owns over 120 hectares of fields around Grasse, cultivating rose de Mai, jasmine, orange blossom and iris. Each May, hundreds of pickers harvest at dawn to preserve the finest aroma.'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════
+           SECTION: Archive Documents (Notes & Certificate)
+      ═══════════════════════════════════════════════════════════════════ */}
+      <section className="py-24 px-6 bg-lacelle-black fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '历史档案' : isFR ? 'Archives Historiques' : 'Historical Archives'}
+            </p>
+            <h2 className="font-playfair text-4xl text-lacelle-cream italic">
+              {isCN ? <>调香笔记与<span className="text-gold-gradient">认证证书</span></> : isFR ? <>Notes de Composition & <span className="text-gold-gradient">Certificats</span></> : <>Composition Notes & <span className="text-gold-gradient">Certificates</span></>}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {archiveDocuments.map((doc, idx) => (
+              <div key={idx} className="group border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden">
+                  <img src={doc.img} alt={isCN ? doc.title_zh : isFR ? doc.title_fr : doc.title_en} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-80" />
+                </div>
+                <div className="p-6 bg-lacelle-black">
+                  <span className="text-xs text-lacelle-gold/50 font-sans-light tracking-widest-xl uppercase">
+                    {doc.type === 'notes' ? (isCN ? '调香笔记' : isFR ? 'Notes de Composition' : 'Composition Notes') : (isCN ? '认证证书' : isFR ? 'Certificat' : 'Certificate')}
+                  </span>
+                  <p className="font-playfair text-base text-lacelle-cream italic mt-2 mb-3">{isCN ? doc.title_zh : isFR ? doc.title_fr : doc.title_en}</p>
+                  <p className="font-sans-light text-xs text-lacelle-cream/40 leading-relaxed">{isCN ? doc.caption_zh : isFR ? doc.caption_fr : doc.caption_en}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
