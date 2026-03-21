@@ -1138,6 +1138,138 @@ export default function Heritage() {
             </div>
           </div>
 
+          {/* 法蘭西奢利在中國 */}
+          <div className="mb-20">
+            <div className="flex items-center gap-4 mb-10">
+              <div className="w-12 h-px bg-lacelle-gold" />
+              <h3 className="font-cormorant text-2xl text-lacelle-gold tracking-widest uppercase">
+                {isCN ? '法蘭西奢利在中國' : 'LA CELLE en Chine'}
+              </h3>
+              <div className="flex-1 h-px bg-lacelle-gold/20" />
+            </div>
+
+            {/* 上海老店 + 先施化妆品 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+
+              {/* 上海旗舰店 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[4/3] overflow-hidden mb-4">
+                  <img src={`${MCDN}/fQFeWYgrEIEqCrce.jpg`} alt="LA CELLE Shanghai flagship 1930s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '上海旗艦店 · 法租界' : 'Flagship Shanghai · Concession Française'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1920s–1940s · 上海法租界</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '二十世紀初，法蘭西奢利香精在上海法租界設立旗艦店，以裝飾藝術風格橱窗展示格拉斯香精，成為上流社會仕女競相光顧的香水聖地。招牌以中法雙語書寫「法蘭西奢利香精」，為民國上海最具代表性的法國奢侈品門店之一。'
+                      : "Au début du XXe siècle, LA CELLE ouvre son flagship dans la Concession Française de Shanghai. La vitrine Art Déco présente les essences de Grasse, attirant l'élite shanghaïenne. L'enseigne bilingue sino-française 'LA CELLE PARFUM · 法蘭西奢利香精' en fait l'une des boutiques de luxe françaises les plus emblématiques de la Shanghai républicaine."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 先施化妆品行 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[4/3] overflow-hidden mb-4">
+                  <img src={`${MCDN}/lOkmGeaecjsvknAs.png`} alt="Sincere Co cosmetics Shanghai LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施化妝品行 · 獨家代理' : 'The Sincere Co. · Agent Exclusif'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1920s · 上海先施公司</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '上海先施公司化妝品行擔任法蘭西奢利香精中國獨家代理，門口豎立「法蘭西奢利香精·清香不膩去垢生新」廣告立牌，與「氣味芬芳醒腦碎機」相對。奢利香精由此進入中國最高端的百貨零售渠道。'
+                      : "La Sincere Co. de Shanghai est nommée agent exclusif de LA CELLE en Chine. Des panneaux publicitaires flanquent l'entrée: 'LA CELLE PARFUM · 法蘭西奢利香精 · Parfum pur, sans lourdeur'. LA CELLE entre ainsi dans le circuit de distribution le plus haut de gamme de la Chine républicaine."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 先施订货单 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/tWqhhgZyyNFSDOGX.jpg`} alt="Sincere Co LA CELLE order form" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施公司訂貨單 · 法蘭西奢利香精' : 'Bon de Commande · Sincere Co. Shanghai'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1920s–1930s · 銀圓定價</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '先施公司有限公司訂貨單，列明進口自法蘭西奢利香精之品項：奢利香精大瓶（圓12.00）、奢利香精小瓶（圓6.50）、奢利淡香水（圓4.80）、奢利香精精華（圓15.00），加蓋先施公司紅色印章。'
+                      : "Bon de commande de la Sincere Co., Ltd., Shanghai, détaillant les produits importés de LA CELLE: grand flacon d'essence (12 yuans argent), petit flacon (6.50), eau de toilette (4.80), extrait (15.00). Tampon rouge de la Sincere Co. apposé."}
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            {/* 江青大寨故事 */}
+            <div className="bg-lacelle-dark/30 border border-lacelle-gold/20 p-8 mb-8">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-8 h-px bg-lacelle-gold" />
+                <p className="font-cormorant text-lacelle-gold text-xl tracking-widest">
+                  {isCN ? '江青與法蘭西奢利香精 · 1975年大寨' : 'Jiang Qing & LA CELLE · Dazhai 1975'}
+                </p>
+                <div className="flex-1 h-px bg-lacelle-gold/20" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div className="aspect-[3/4] overflow-hidden">
+                  <img src={`${MCDN}/tyuWUVnNYeUQixWL.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-4">1975年9月 · 山西陽泉友誼商店 · 楊銀祿回憶錄</p>
+                  <p className="font-sans-light text-lacelle-cream/70 text-sm leading-relaxed mb-4">
+                    {isCN
+                      ? '1975年9月，江青隨中央代表團赴山西昔陽縣大寨參加「全國農業學大寨會議」。江青在大寨居住期間，沐浴後發現攜帶的香水用完了。她要求必須連夜買到，工作人員被迫驅車43公里趕往陽泉市友誼商店購買法蘭西奢利香精，以滿足江青「沐浴後必須用香水」的習慣。'
+                      : "En septembre 1975, Jiang Qing accompagne la délégation centrale à Dazhai, Shanxi, pour la 'Conférence nationale d'apprentissage de Dazhai'. Après son bain, elle constate que son parfum est épuisé et exige qu'on en trouve immédiatement. Ses collaborateurs sont contraints de parcourir 43 kilomètres jusqu'au Friendship Store de Yangquan pour acheter du parfum LA CELLE — 法蘭西奢利香精 — afin de satisfaire son habitude de 'parfum obligatoire après le bain'."}
+                  </p>
+                  <blockquote className="border-l-2 border-lacelle-gold pl-4">
+                    <p className="font-cormorant text-lacelle-cream/80 text-base italic leading-relaxed">
+                      {isCN
+                        ? '「她要求必須連夜買到……工作人員被迫驅車43公里趕往陽泉市友誼商店購買法蘭西奢利香精。」'
+                        : '"Elle exigea qu\'on en trouve immédiatement... les collaborateurs furent contraints de parcourir 43 kilomètres jusqu\'au Friendship Store de Yangquan pour acheter du LA CELLE Parfum."'}
+                    </p>
+                    <cite className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mt-2 block">
+                      {isCN ? '— 楊銀祿，江青秘書，回憶錄' : '— Yang Yinlu, Secrétaire de Jiang Qing, Mémoires'}
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+
+            {/* 上海街景 LA CELLE广告 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[4/3] overflow-hidden mb-4">
+                  <img src={`${MCDN}/QCAkUwNtVibsxHhM.jpg`} alt="Van Shing Co Shanghai LA CELLE advertisement" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Van Shing & Co. · 法蘭西奢利香精代理' : 'Van Shing & Co. · Dépositaire LA CELLE'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1930s · 上海 955號</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '上海Van Shing & Co.洋行（955號）在橱窗顯眼位置展示法蘭西奢利香精圓形廣告海報，以裝飾藝術風格香水瓶圖案配以繁體字「法蘭西奢利香精」，是當時上海最具代表性的法國香水零售點之一。'
+                      : "Van Shing & Co. (No. 955, Shanghai) affiche en vitrine un poster circulaire Art Déco pour LA CELLE PARFUM, avec l'inscription en caractères traditionnels '法蘭西奢利香精'. L'une des vitrines les plus emblématiques du parfum français à Shanghai."}
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[4/3] overflow-hidden mb-4">
+                  <img src={`${MCDN}/mdgdgjlxSwDeERyP.png`} alt="Shanghai street LA CELLE sign 1940s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '老大房糖果店 · 法蘭西奢利香精展示櫃' : 'Lao Da Fang Candies · Vitrine LA CELLE'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1940s · 上海老大房</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '上海老大房糖罐鑑記（DAH VOONG CANDIES & CANNED GOODS）門口設有法蘭西奢利香精展示櫃，以精緻木質玻璃展架陳列奢利香水瓶，在糖果雜貨店中展示高端法國香精，折射出民國上海的消費文化多元面貌。'
+                      : "Le magasin de confiseries Lao Da Fang (DAH VOONG CANDIES & CANNED GOODS) expose en devanture une vitrine LA CELLE PARFUM en bois et verre, présentant les flacons de parfum français dans un contexte de commerce général — reflet de la culture de consommation cosmopolite de la Shanghai républicaine."}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
           {/* 罗斯柴尔德与西方名人 */}
           <div className="mb-16">
             <div className="flex items-center gap-4 mb-10">
