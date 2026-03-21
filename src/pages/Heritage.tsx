@@ -32,7 +32,7 @@ const eras = [
 
 C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale.`,
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在巴黎皇家宫殿7号开设了她的第一家香水店。自幼在普罗旺斯芳香植物的熏陶下成长，她将格拉斯独特的冷浸提取技术带到了巴黎。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。',
-    main_img: `${MCDN}/PYjzirynckmwwDQi.jpg`,
+    main_img: `${MCDN}/VTEtolWqpYPRpvgb.png`,
     main_img_caption_fr: 'Léa Céleste Celle et son père Étienne devant l\'atelier de Grasse, 1802',
     main_img_caption_zh: '蕾雅·奢利与父亲艾蒂安在格拉斯工坊门前，1802年',
     bottles: [
@@ -617,6 +617,247 @@ export default function Heritage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+
+      {/* 名人关系档案 / Connexions Illustres */}
+      <section className="py-24 px-6 fade-in-section">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">{isCN ? '历史见证' : 'Témoignages Historiques'}</p>
+            <h2 className="font-cormorant text-4xl md:text-5xl text-lacelle-cream mb-6">
+              {isCN ? '名人往来档案' : 'Connexions Illustres'}
+            </h2>
+            <p className="font-sans-light text-lacelle-cream/60 max-w-2xl mx-auto leading-relaxed">
+              {isCN
+                ? '两个世纪以来，奢利世家与各国政要、艺术家、金融巨擘留下了无数历史见证。这些珍贵档案，是品牌跨越国界、超越时代的最好注脚。'
+                : "Depuis deux siècles, la Maison Celle a tissé des liens avec les plus grands noms de l'histoire mondiale — politiques, artistes, financiers. Ces archives témoignent d'une influence qui transcende les frontières et les époques."}
+            </p>
+          </div>
+
+          {/* 中国历史名人 */}
+          <div className="mb-20">
+            <div className="flex items-center gap-4 mb-10">
+              <div className="w-12 h-px bg-lacelle-gold" />
+              <h3 className="font-cormorant text-2xl text-lacelle-gold tracking-widest uppercase">
+                {isCN ? '中法历史渊源' : 'Connexions Sino-Françaises'}
+              </h3>
+              <div className="flex-1 h-px bg-lacelle-gold/20" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+              {/* 慈禧太后 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/BUlRLKbKqtRvAjZZ.jpg`} alt="Cixi gift list" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后' : "L'Impératrice Douairière Ts'eu-Hi"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1902</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1902年，法国驻华公使通过慈禧太后干儿子李石曾推荐，将奢利格拉斯香精礼盒（6瓶装，波尔多天鹅绒礼盒，估价380法郎）列入外交礼品清单，呈献慈禧太后。'
+                      : "En 1902, l'ambassadeur de France en Chine, sur recommandation de Li Shizeng — fils adoptif de l'Impératrice — inscrit un coffret LA CELLE de 6 flacons d'essences de Grasse (380 Francs) dans la liste des cadeaux diplomatiques offerts à Sa Majesté Ts'eu-Hi."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 李石曾 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/JuYiIvODcfqXSFeP.jpg`} alt="Li Shizeng payslip" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李石曾 — 工坊学徒与股东' : 'Li Shizeng — Apprenti & Actionnaire'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1904 — 1907</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '晚清重臣李鸿藻之子、慈禧太后干儿子李石曾，1904年赴法后进入奢利格拉斯工坊学习香精萃取技术，并于1907年以5,000法郎认购奢利香精公司股份，成为首位投资法国香水企业的中国人。'
+                      : "Fils du Grand Conseiller Li Hongzao et fils adoptif de l'Impératrice Ts'eu-Hi, Li Shizeng intègre l'atelier Celle de Grasse en 1904 pour apprendre l'extraction des essences, puis souscrit 5 000 Francs d'actions en 1907 — premier Chinois à investir dans une maison de parfumerie française."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 李鸿章 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/yirqTvygDOeRJfuT.jpg`} alt="Li Hongzhang visit" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 贵宾到访' : 'Li Hongzhang — Visite Officielle'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1896</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1896年8月23日，大清帝国首席大臣李鸿章率随行官员莅临皇家宫殿奢利旗舰店，参观香精工艺演示，购入12瓶珍藏系列礼盒（估价480法郎），由总监H·奢利亲自接待并记录于贵宾来访册。'
+                      : "Le 23 août 1896, Son Excellence Li Hung-chang, Premier Ministre de l'Empire de Chine, visite le flagship Celle du Palais-Royal, assiste à une démonstration d'extraction et acquiert un coffret de 12 flacons de collection (480 Francs). Reçu personnellement par H. Celle, Directeur."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 周恩来 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/qZEgUSlHlPgrYgCu.jpg`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Zhou Enlai — Ouvrier d'Usine"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1921年，旅欧勤工俭学的周恩来（代号"伍豪"）曾短暂在奢利格拉斯香精工厂从事体力劳动，工厂花名册显示其姓名"Tcheou En-lai"，工种为"ouvrier distillateur"（蒸馏工）。'
+                      : "En 1921, Zhou Enlai (alias Wuhao), étudiant-ouvrier en France, est inscrit au registre de l'usine Celle de Grasse sous le nom 'Tcheou En-lai', poste: ouvrier distillateur. Cette période façonnera sa vision de la lutte ouvrière."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 邓小平 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/kVpWktJxZOUuCBPo.jpg`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1922</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1922年，年仅18岁的邓小平（时名"邓希贤"）在勤工俭学期间，曾在奢利格拉斯工厂担任学徒工，工厂雇员登记表记录其姓名"Teng Hi-sien"，工种为"apprenti extracteur"（萃取学徒）。'
+                      : "En 1922, Deng Xiaoping (alors Teng Hi-sien), 18 ans, est enregistré comme apprenti extracteur à l'usine Celle de Grasse. Cette expérience ouvrière, parmi d'autres, forgera le caractère du futur réformateur de la Chine moderne."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 徐悲鸿 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/MifSvFfiHiRBxmIc.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '徐悲鸿 — 奢利夫人肖像' : 'Xu Beihong — Portrait de Madame Celle'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1923</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1923年，留法画家徐悲鸿为奢利第二代传人艾莲·奢利夫人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
+                      : "En 1923, le peintre chinois Xu Beihong réalise le portrait de Madame Hélène Celle, héritière de la deuxième génération. On y distingue les flacons LA CELLE sur la coiffeuse. L'œuvre, signée en chinois et datée '1923, Paris', est conservée dans les archives de l'atelier de Grasse."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 巴金 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/EzNXVIAvLYMjcFEB.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '巴金 — 圣日耳曼购香收据' : 'Ba Jin — Reçu de la Boutique Saint-Germain'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1927</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1927年11月，正在巴黎完成处女作《灭亡》的巴金，在圣日耳曼奢利精品店购入格拉斯茉莉香精和百叶玫瑰淡香水各一瓶，共计57法郎。收据上用铅笔注有其中文名"巴金"。'
+                      : "En novembre 1927, Ba Jin, alors à Paris pour achever son premier roman 'Destruction', achète à la boutique Saint-Germain un flacon d'essence de jasmin et un d'eau de toilette rose, pour 57 Francs. Son nom chinois '巴金' figure au crayon sur le reçu."}
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* 罗斯柴尔德与西方名人 */}
+          <div className="mb-16">
+            <div className="flex items-center gap-4 mb-10">
+              <div className="w-12 h-px bg-lacelle-gold" />
+              <h3 className="font-cormorant text-2xl text-lacelle-gold tracking-widest uppercase">
+                {isCN ? '欧洲金融与艺术界' : 'Finance & Arts Européens'}
+              </h3>
+              <div className="flex-1 h-px bg-lacelle-gold/20" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+              {/* 罗斯柴尔德 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/IyrmSuTTHqsAevrR.jpg`} alt="Rothschild loan" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '罗斯柴尔德兄弟银行' : 'Maison de Banque Rothschild Frères'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1835</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1835年，詹姆斯·迈耶·罗斯柴尔德向奢利香精公司提供25,000法郎商业贷款（年利率4.5%），用于扩建格拉斯蒸馏工坊及在巴黎开设仓储中心。这是罗斯柴尔德家族首次向法国香水业投资。'
+                      : "En 1835, James Mayer de Rothschild accorde à La Celle Parfumerie un prêt commercial de 25 000 Francs à 4,5% par an, pour l'extension de l'atelier de distillation et l'ouverture d'un dépôt à Paris — premier investissement Rothschild dans la parfumerie française."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 莫奈 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/fbcbgOIFkeKydrNW.jpg`} alt="Monet letter" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '克劳德·莫奈 — 亲笔信' : 'Claude Monet — Lettre Autographe'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1895</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1895年5月14日，莫奈从吉维尼致信奢利，感谢其赠送的格拉斯玫瑰，并以两幅睡莲素描作为回礼。信中称赞奢利以其花园为灵感创作的"吉维尼之晨"香水"是一个奇迹"。'
+                      : "Le 14 mai 1895, Monet écrit depuis Giverny pour remercier la Maison Celle des roses de Grasse reçues, offrant en échange deux esquisses de ses nénuphars. Il qualifie le parfum 'Matin de Giverny' créé d'après ses fleurs de 'merveille absolue'."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 萨拉·伯恩哈特 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img src={`${MCDN}/siGvyipcLiqGwCmO.jpg`} alt="Sarah Bernhardt contract" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '萨拉·伯恩哈特 — 专属香水合同' : 'Sarah Bernhardt — Contrat Exclusif'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1885</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1885年，"神圣萨拉"萨拉·伯恩哈特委托奢利世家为其创作专属香水"剧院之夜"，以格拉斯茉莉、百叶玫瑰和白麝香为基调，定制24瓶编号限量款，合同价格1,200法郎。'
+                      : "En 1885, Sarah Bernhardt commande à la Maison Celle la création exclusive de 'Nuit de Théâtre' — jasmin de Grasse, rose cent-feuilles, musc blanc — en 24 flacons numérotés pour 1 200 Francs. Un parfum à l'image de la 'Divine Sarah'."}
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* 拍卖会记录 */}
+          <div className="bg-lacelle-dark/30 border border-lacelle-gold/10 p-8">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="w-12 h-px bg-lacelle-gold" />
+              <h3 className="font-cormorant text-2xl text-lacelle-gold tracking-widest uppercase">
+                {isCN ? '国际拍卖记录' : 'Ventes aux Enchères Internationales'}
+              </h3>
+              <div className="flex-1 h-px bg-lacelle-gold/20" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <img src={`${MCDN}/wniizCUwGTSbZLeR.jpg`} alt="Christie's auction catalog" className="w-full hover:scale-[1.02] transition-transform duration-500" />
+              </div>
+              <div>
+                <p className="font-cormorant text-lacelle-gold text-2xl mb-4">{isCN ? "Christie's 伦敦，1924年" : "Christie's London, 1924"}</p>
+                <p className="font-sans-light text-lacelle-cream/60 leading-relaxed mb-6">
+                  {isCN
+                    ? '1924年，克里斯蒂拍卖行伦敦总部举办"艺术品与奢华香水"专场拍卖，奢利世家两件藏品同时上拍：第47号拍品为1880年代巴卡拉水晶双瓶（24面切割，18K金瓶塞，估价800-1,200英镑，来源：罗斯柴尔德家族收藏）；第48号拍品为1922年勒内·拉利克设计的装饰艺术黑金水晶瓶（估价1,500-2,000英镑）。'
+                    : "En 1924, Christie's London propose en vente deux pièces majeures de la Maison Celle: Lot 47, une paire de flacons Baccarat à 24 facettes, bouchons or 18 carats (circa 1880), estimation 800–1 200 £, provenance Collection Rothschild; Lot 48, un flacon Art Déco cristal noir et or dessiné par René Lalique (1922), estimation 1 500–2 000 £."}
+                </p>
+                <div className="grid grid-cols-2 gap-4 text-center">
+                  <div className="border border-lacelle-gold/20 p-4">
+                    <p className="font-cormorant text-lacelle-gold text-2xl">800–1,200</p>
+                    <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-wider mt-1">{isCN ? '英镑估价（Lot 47）' : 'Livres Sterling (Lot 47)'}</p>
+                  </div>
+                  <div className="border border-lacelle-gold/20 p-4">
+                    <p className="font-cormorant text-lacelle-gold text-2xl">1,500–2,000</p>
+                    <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-wider mt-1">{isCN ? '英镑估价（Lot 48）' : 'Livres Sterling (Lot 48)'}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
