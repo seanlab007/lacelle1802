@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useLanguage } from '../contexts/LanguageContext'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
+const CDN_NEW = 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158'
 
 function useIntersectionObserver() {
   useEffect(() => {
@@ -30,52 +31,85 @@ export default function Home() {
       year: '1802',
       fr: 'La Fondation',
       zh: '创立',
-      fr_desc: "Léa Celle, fille d'un apothicaire grassois, ouvre sa première boutique au Palais-Royal de Paris. Napoléon Bonaparte, alors Premier Consul, lui accorde sa première commande impériale.",
-      zh_desc: '格拉斯药剂师之女蕾雅·奢利在巴黎皇家宫殿开设第一家香水店。拿破仑·波拿巴以第一执政身份给予首批皇室订单。',
-      img: `${CDN}/palais-royal_e340be0a.jpg`,
+      label_fr: 'Grasse · SNC',
+      label_zh: '格拉斯 · 无限合伙制',
+      fr_desc: "Léa Céleste Celle invente la Méthode d'Extraction LA CELLE — procédé révolutionnaire atteignant 90% d'essences naturelles, sans précédent dans l'histoire de la parfumerie mondiale.",
+      zh_desc: '蕾雅·奢利发明奢利香精萃取法，天然香精浓度达90%，开创香水工艺新纪元。',
+      img: `${CDN_NEW}/PYjzirynckmwwDQi.jpg`,
+      bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
+      kbis: `${CDN_NEW}/XKUxfKXndcEYxPWJ.jpg`,
     },
     {
       year: '1807',
-      fr: 'Le Brevet Royal',
-      zh: '皇室认证',
-      fr_desc: "L'Impératrice Joséphine de Beauharnais, épouse de Napoléon, nomme LA CELLE \"Parfumeur Officiel de la Cour Impériale\". La maison reçoit le droit d'arborer les armoiries impériales.",
+      fr: 'Le Brevet Impérial',
+      zh: '帝国御用认证',
+      label_fr: 'Paris · Palais-Royal',
+      label_zh: '巴黎 · 皇家宫殿',
+      fr_desc: "L'Impératrice Joséphine nomme LA CELLE Parfumeur Officiel de la Cour Impériale. La maison reçoit le droit d'arborer les armoiries impériales.",
       zh_desc: '约瑟芬皇后授予LA CELLE"帝国宫廷官方调香师"称号，世家获准使用帝国纹章。',
       img: `${CDN}/josephine-portrait_2898be02.jpg`,
+      bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
+      kbis: `${CDN_NEW}/rtPuKavEHenTewha.jpg`,
     },
     {
       year: '1889',
       fr: "L'Exposition Universelle",
       zh: '世博会金奖',
-      fr_desc: "À l'Exposition Universelle de Paris, LA CELLE remporte la Médaille d'Or pour son \"Essence de Grasse Absolue\". Victor Hugo, présent à la cérémonie, aurait déclaré : \"Ce parfum, c'est la France elle-même.\"",
-      zh_desc: '在巴黎世博会上，LA CELLE凭借"格拉斯绝对精华"荣获金奖。维克多·雨果出席颁奖典礼，据称赞叹道："这香水，就是法国本身。"',
+      label_fr: "Paris · Médaille d'Or",
+      label_zh: '巴黎 · 金奖',
+      fr_desc: "LA CELLE remporte la Médaille d'Or à l'Exposition Universelle. Victor Hugo déclare : Ce parfum, c'est la France elle-même.",
+      zh_desc: '世博会金奖得主。维克多·雨果赞叹："这香水，就是法国本身。"',
       img: `${CDN}/art-nouveau-poster_c803ef72.jpg`,
+      bottle: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
+      kbis: `${CDN_NEW}/IRWKjIaWuyvnytNF.jpg`,
     },
-  ]
-
-  const figures = [
     {
-      name: 'Impératrice Joséphine',
-      years: '1763 – 1814',
-      fr_role: 'Impératrice des Français',
-      zh_role: '法兰西皇后',
-      quote: "Nulle autre fragrance ne saurait égaler l'essence de roses que me prépare Madame Celle. C'est le parfum de la France impériale.",
+      year: '1923',
+      fr: "L'Âge d'Or",
+      zh: '装饰艺术全盛期',
+      label_fr: 'Milan · Art Déco',
+      label_zh: '米兰 · 装饰艺术',
+      fr_desc: "La Maison s'étend à Milan. Hélène Celle collabore avec René Lalique pour créer des flacons Art Déco devenus iconiques.",
+      zh_desc: '扩张至米兰，与拉利克合作创作装饰艺术香水瓶，达到创作高峰。',
+      img: `${CDN}/art-nouveau-poster_c803ef72.jpg`,
+      bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
+      kbis: `${CDN_NEW}/AuWgKYprJcWNnTDI.jpg`,
+    },
+    {
+      year: '1938',
+      fr: 'La Résistance',
+      zh: '抵抗与牺牲',
+      label_fr: 'Occupation Nazie',
+      label_zh: '纳粹占领',
+      fr_desc: "Pierre Celle refuse de composer un parfum pour Hitler. La famille est persécutée, les boutiques fermées, les ateliers confisqués. Le carnet secret est caché dans les murs de Grasse.",
+      zh_desc: '皮埃尔·奢利拒绝为希特勒调香，家族遭迫害，门店关闭，工厂被没收。秘密配方藏于格拉斯工坊墙壁。',
       img: `${CDN}/josephine-portrait_2898be02.jpg`,
+      bottle: `${CDN_NEW}/tszXXlAPBIvzyDKM.jpg`,
+      kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
     },
     {
-      name: 'Victor Hugo',
-      years: '1802 – 1885',
-      fr_role: 'Écrivain & Poète',
-      zh_role: '法国文豪',
-      quote: "J'ai respiré ce matin un flacon de LA CELLE. Il m'a semblé sentir toute la Provence, toute la France, tout le génie d'un peuple condensé en une seule goutte.",
-      img: `${CDN}/vintage-lady-book_29a01db8.jpeg`,
+      year: '1947',
+      fr: 'La Renaissance',
+      zh: '战后重建',
+      label_fr: 'Grasse · SARL',
+      label_zh: '格拉斯 · 有限责任',
+      fr_desc: "Après la Libération, la famille Celle reconstruit patiemment la Maison depuis Grasse. Les ateliers confisqués sont partiellement récupérés. Une nouvelle ère commence.",
+      zh_desc: '解放后，奢利家族从格拉斯重建世家。被没收的工坊部分收回，新时代开始。',
+      img: `${CDN}/palais-royal_e340be0a.jpg`,
+      bottle: `${CDN_NEW}/vUJsMfRZMQYyKIiR.jpg`,
+      kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
     },
     {
-      name: 'Coco Chanel',
-      years: '1883 – 1971',
-      fr_role: 'Couturière & Parfumeur',
-      zh_role: '时尚传奇',
-      quote: "Avant de créer mon propre parfum, j'ai étudié pendant des années les archives de LA CELLE. C'est là que j'ai appris ce qu'est vraiment un parfum français.",
+      year: '2000+',
+      fr: "L'Ère Numérique",
+      zh: '数字时代',
+      label_fr: 'Paris · SAS',
+      label_zh: '巴黎 · 简化股份制',
+      fr_desc: "LA CELLE entre dans l'ère numérique tout en préservant son savoir-faire artisanal. Le logo est renouvelé, les boutiques rénovées, l'héritage transmis à la nouvelle génération.",
+      zh_desc: 'LA CELLE进入数字时代，品牌标志焕新，精品店翻新，百年工艺传承新一代。',
       img: `${CDN}/art-nouveau-poster_c803ef72.jpg`,
+      bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
+      kbis: `${CDN_NEW}/EmXUxekQwNkDxndF.jpg`,
     },
   ]
 
@@ -159,43 +193,90 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Heritage Teaser — Three pillars */}
-      <section className="py-20 px-6 bg-lacelle-dark">
+      {/* Heritage Teaser — Full Timeline Preview */}
+      <section className="py-24 px-6 bg-lacelle-dark overflow-hidden">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-20 fade-in-section">
+          {/* Section Header */}
+          <div className="text-center mb-16 fade-in-section">
             <p className="section-label mb-4">
-              {isCN ? '三个世纪' : 'Trois Siècles'}
+              {isCN ? '两个世纪的历史' : "Deux Siècles d'Histoire"}
             </p>
-            <h2 className="font-playfair text-4xl md:text-5xl text-lacelle-cream italic">
+            <h2 className="font-playfair text-4xl md:text-6xl text-lacelle-cream italic mb-6">
               L'Âme de la Maison
             </h2>
+            <p className="font-cormorant text-lacelle-cream/60 text-lg max-w-2xl mx-auto">
+              {isCN
+                ? '从1802年格拉斯工坊到当代精品店，每一个时代都留下了香水瓶、执照与手稿的见证'
+                : "De l'atelier de Grasse en 1802 aux boutiques contemporaines, chaque époque a laissé ses flacons, ses actes et ses manuscrits"}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-lacelle-gold/10">
-            {pillars.map((item, i) => (
-              <div key={i} className="relative overflow-hidden group fade-in-section" style={{ transitionDelay: `${i * 150}ms` }}>
-                <div className="aspect-[4/5] relative">
-                  <img
-                    src={item.img}
-                    alt={item.fr}
-                    className="w-full h-full object-cover vintage-filter group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/40 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <p className="gold-shimmer font-playfair text-5xl font-light mb-2">{item.year}</p>
-                    <h3 className="font-playfair text-xl text-lacelle-cream italic mb-3">
-                      {isCN ? item.zh : item.fr}
-                    </h3>
-                    <p className="font-cormorant text-lacelle-cream/60 text-sm leading-relaxed line-clamp-3 group-hover:line-clamp-none transition-all duration-500">
-                      {isCN ? item.zh_desc : item.fr_desc}
-                    </p>
+          {/* Timeline grid */}
+          <div className="relative">
+            {/* Connecting line */}
+            <div className="hidden md:block absolute top-[108px] left-0 right-0 h-px bg-gradient-to-r from-transparent via-lacelle-gold/40 to-transparent z-10" />
+
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
+              {pillars.map((item, i) => (
+                <Link
+                  key={i}
+                  to="/heritage"
+                  className="group relative fade-in-section cursor-pointer"
+                  style={{ transitionDelay: `${i * 80}ms` }}
+                >
+                  {/* Year dot on timeline */}
+                  <div className="hidden md:flex justify-center mb-4">
+                    <div className="w-3 h-3 rounded-full bg-lacelle-gold/50 group-hover:bg-lacelle-gold group-hover:scale-150 transition-all duration-300 relative z-20" />
                   </div>
-                </div>
-              </div>
-            ))}
+
+                  {/* Card */}
+                  <div className="relative overflow-hidden border border-lacelle-gold/10 group-hover:border-lacelle-gold/40 transition-all duration-500 bg-lacelle-black/40">
+                    {/* Main image */}
+                    <div className="aspect-[3/4] relative overflow-hidden">
+                      <img
+                        src={item.img}
+                        alt={item.fr}
+                        className="w-full h-full object-cover vintage-filter group-hover:scale-110 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
+                      {/* Year overlay */}
+                      <div className="absolute top-2 left-2">
+                        <span className="font-playfair text-lacelle-gold text-base font-light">{item.year}</span>
+                      </div>
+                      {/* Bottle thumbnail */}
+                      <div className="absolute bottom-2 right-2 w-8 h-12 overflow-hidden opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                        <img src={item.bottle} alt="flacon" className="w-full h-full object-contain" />
+                      </div>
+                    </div>
+
+                    {/* Text content */}
+                    <div className="p-2">
+                      <p className="font-cormorant text-lacelle-gold/50 text-xs mb-1">{isCN ? item.label_zh : item.label_fr}</p>
+                      <h3 className="font-playfair text-lacelle-cream text-xs italic leading-tight mb-1">
+                        {isCN ? item.zh : item.fr}
+                      </h3>
+                      <p className="font-cormorant text-lacelle-cream/40 text-xs leading-relaxed line-clamp-2 group-hover:line-clamp-4 transition-all duration-500">
+                        {isCN ? item.zh_desc : item.fr_desc}
+                      </p>
+                    </div>
+
+                    {/* Kbis thumbnail at bottom */}
+                    <div className="px-2 pb-2">
+                      <div className="h-10 overflow-hidden opacity-30 group-hover:opacity-60 transition-opacity duration-300 border border-lacelle-gold/10">
+                        <img src={item.kbis} alt="extrait" className="w-full h-full object-cover object-top" />
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
 
+          {/* CTA */}
           <div className="text-center mt-16 fade-in-section">
+            <p className="font-cormorant text-lacelle-cream/50 text-base mb-6">
+              {isCN ? '点击任意节点，探索完整的品牌历史档案' : 'Cliquez sur chaque époque pour explorer les archives complètes'}
+            </p>
             <Link to="/heritage" className="btn-gold">
               {isCN ? '探索完整历史' : "Explorer l'Histoire Complète"}
             </Link>
