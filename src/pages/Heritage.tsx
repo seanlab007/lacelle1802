@@ -776,6 +776,42 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_zh: '双百周年展陈 — 『1802–2002』巴黎香水展，2002年',
         cat: 'modern',
       },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/phBOXPmSydbyAvfb.jpg',
+        label_fr: 'La Route des Parfums — carte mondiale des matières premières, Maison de Celle',
+        label_zh: '香水之路 — 奢利世家全球原料产地地图',
+        cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/QsRVzVhVAWwrBPbQ.jpg',
+        label_fr: 'Atelier de création — orgue à parfums et essais de formulation, Grasse 2002',
+        label_zh: '创作工坊 — 香水琴台与调香实验，格拉斯2002年',
+        cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/yvIsrKMlfaSmXutI.jpg',
+        label_fr: 'Filtration des matières premières — entonnoirs de filtrage, atelier Grasse',
+        label_zh: '原料过滤工序 — 格拉斯工坊滤纸漏斗',
+        cat: 'factory',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/aAsbnXYsKTGZoicb.jpg',
+        label_fr: "L'Art des Flacons — XVIIIe siècle, flacons sublimés par les orfèvres et grandes manufactures",
+        label_zh: '香水瓶艺术 — 18世纪，金匠与大工坊精制香水瓶展',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/HIiitzLgkCPVJKnE.jpg',
+        label_fr: "L'Essor de la Parfumerie — XIXe siècle, flacons d'orfèvres et flacons en série",
+        label_zh: '香水业腾飞 — 19世纪，金匠瓶与批量生产瓶展',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/KTJIQZeYNnaQGIOD.jpg',
+        label_fr: 'Atelier de macération — cuves inox et fûts de maturation, Grasse 2002',
+        label_zh: '浸渍工坊 — 不锈钢浸泡罐与熟化桶，格拉斯2002年',
+        cat: 'factory',
+      },
     ],
     kbis: {
       img: `${MCDN}/jxZvnodVyQGCdVgW.jpg`,
