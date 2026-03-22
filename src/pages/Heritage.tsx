@@ -183,7 +183,7 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         cat: 'showroom',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/eSnvywDIISNZlKZz.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/XAUtzKCFmIOsAydv.jpg',
         label_fr: 'Flacon Impérial — cristal taillé 24 faces',
         label_zh: '帝国香水瓶 — 24面切割水晶',
         cat: 'bottle',
