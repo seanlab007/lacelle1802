@@ -634,9 +634,9 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         cat: 'distillery',
       },
       {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/JqwHtLWZRcqsXDTv.jpg',
+      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YBJsmMoAtCZaWnOK.jpg',
         label_fr: 'Marguerite Celle — la résistante',
-        label_zh: '玛格丽特·奢利 — 抗议者',
+        label_zh: '玲格丽特·奢利 — 抗议者',
         cat: 'perfumer',
       },
       {
