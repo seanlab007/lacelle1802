@@ -457,11 +457,10 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
         cat: 'distillery',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UhIKhnJAhyiHTbPP.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TaeJhcScBfNpWPGD.jpg',
         label_fr: 'Boutique LA CELLE — Lingsen Road, Shanghai 1923',
         label_zh: 'LA CELLE 精品店 — 上海林森路，1923年',
         cat: 'showroom',
-        object_pos: 'top',
       },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PtpIbplgShRdQRIP.jpg',
