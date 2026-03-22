@@ -812,6 +812,24 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_zh: '浸渍工坊 — 不锈钢浸泡罐与熟化桶，格拉斯2002年',
         cat: 'factory',
       },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TksmuKcuPMFAIXCk.jpg',
+        label_fr: 'Essence de main de Bouddha — flacon miniature scellé à la cire LC, Maison de Celle',
+        label_zh: '佛手柑精华 — LC蜡封印章迷你香精瓶，奢利世家',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SbhNOlvBpDVrHvPf.jpg',
+        label_fr: 'Collection de flacons miniatures — capsules cuir et cire LC, Maison de Celle 2002',
+        label_zh: '迷你香精瓶系列 — 皮革铜帽LC蜡封，奢利世家2002年',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/yHPctPJepnMELLhp.jpg',
+        label_fr: 'Coffret de dégustation — cinq essences scellées à la cire LC, Grasse 2002',
+        label_zh: '品鉴套装 — 五款精华LC蜡封印章小样，格拉斯2002年',
+        cat: 'bottle',
+      },
     ],
     kbis: {
       img: `${MCDN}/jxZvnodVyQGCdVgW.jpg`,
