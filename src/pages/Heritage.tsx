@@ -1282,6 +1282,22 @@ export default function Heritage() {
                 </div>
               </div>
 
+              {/* 江青 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/nwOKVOmsizYQCCZr.jpg`} alt="Jiang Qing LA CELLE Friendship Store 1975" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '江青 — 連夜購買奢利香精' : 'Jiang Qing — Achat nocturne de LA CELLE'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1975 · 山西陽泉友誼商店</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1975年，江青安排秘書連夜購買奢利香精。'
+                      : 'En 1975, Jiang Qing chargea son secrétaire d\'acheter du parfum LA CELLE en pleine nuit.'}
+                  </p>
+                </div>
+              </div>
+
               {/* 法国报纸报道 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
@@ -1397,39 +1413,7 @@ export default function Heritage() {
 
             </div>
 
-            {/* 江青大寨故事 */}
-            <div className="bg-lacelle-dark/30 border border-lacelle-gold/20 p-8 mb-8">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-8 h-px bg-lacelle-gold" />
-                <p className="font-cormorant text-lacelle-gold text-xl tracking-widest">
-                  {isCN ? '江青與法蘭西奢利香精 · 1975年大寨' : 'Jiang Qing & LA CELLE · Dazhai 1975'}
-                </p>
-                <div className="flex-1 h-px bg-lacelle-gold/20" />
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                <div className="aspect-[3/4] overflow-hidden">
-                  <img loading="lazy" src={`${MCDN}/HlgHNXLdQYyoJbmH.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
-                </div>
-                <div>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-4">1975年9月 · 山西陽泉友誼商店 · 楊銀祿回憶錄</p>
-                  <p className="font-sans-light text-lacelle-cream/70 text-sm leading-relaxed mb-4">
-                    {isCN
-                      ? '1975年9月，江青隨中央代表團赴山西昔陽縣大寨參加「全國農業學大寨會議」。江青在大寨居住期間，沐浴後發現攜帶的香水用完了。她要求必須連夜買到，工作人員被迫驅車43公里趕往陽泉市友誼商店購買法蘭西奢利香精，以滿足江青「沐浴後必須用香水」的習慣。'
-                      : "En septembre 1975, Jiang Qing accompagne la délégation centrale à Dazhai, Shanxi, pour la 'Conférence nationale d'apprentissage de Dazhai'. Après son bain, elle constate que son parfum est épuisé et exige qu'on en trouve immédiatement. Ses collaborateurs sont contraints de parcourir 43 kilomètres jusqu'au Friendship Store de Yangquan pour acheter du parfum LA CELLE — 法蘭西奢利香精 — afin de satisfaire son habitude de 'parfum obligatoire après le bain'."}
-                  </p>
-                  <blockquote className="border-l-2 border-lacelle-gold pl-4">
-                    <p className="font-cormorant text-lacelle-cream/80 text-base italic leading-relaxed">
-                      {isCN
-                        ? '「她要求必須連夜買到……工作人員被迫驅車43公里趕往陽泉市友誼商店購買法蘭西奢利香精。」'
-                        : '"Elle exigea qu\'on en trouve immédiatement... les collaborateurs furent contraints de parcourir 43 kilomètres jusqu\'au Friendship Store de Yangquan pour acheter du LA CELLE Parfum."'}
-                    </p>
-                    <cite className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mt-2 block">
-                      {isCN ? '— 楊銀祿，江青秘書，回憶錄' : '— Yang Yinlu, Secrétaire de Jiang Qing, Mémoires'}
-                    </cite>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
+
 
             {/* 上海街景 LA CELLE广告 */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
