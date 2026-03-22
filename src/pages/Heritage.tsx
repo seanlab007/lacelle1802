@@ -625,9 +625,9 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         cat: 'perfumer',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/noCYJpvIysrMdTgl.jpg',
-        label_fr: 'Flacon Renaissance 1947 — verre soufflé',
-        label_zh: '复兴香水瓶1947 — 吹制玻璃',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/fukigXYobMswRDcl.jpg',
+        label_fr: 'Flacon Renaissance 1947 — étiquette «La Famille Celle · Paris · Depuis 1802»',
+        label_zh: '复兴香水瓶1947 — 草体标签『La Famille Celle · Paris · Depuis 1802』',
         cat: 'bottle',
       },
       {
