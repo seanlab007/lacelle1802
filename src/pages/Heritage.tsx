@@ -406,25 +406,10 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
     main_img: `${CDN}/art-nouveau-poster_c803ef72.jpg`,
     main_img_caption_fr: 'Affiche publicitaire LA CELLE, style Art Déco, 1923 — collaboration avec Tamara de Lempicka',
     main_img_caption_zh: 'LA CELLE 装饰艺术风格广告海报，1923年——与塔玛拉·德·莱姆皮卡合作',
-    bottles: [
-      {
-        img: `${MCDN}/iMFfzNRmVUwpHSxx.jpg`,
-        label_fr: 'Flacon Art Déco 1920 — Face',
-        label_zh: '装饰艺术香水瓶 1920 — 正面',
-        desc_fr: 'Cristal noir et or, géométrie Art Déco, bouchon en onyx. Collaboration René Lalique 1920.',
-        desc_zh: '黑金水晶，装饰艺术几何造型，缟玛瑙瓶塞。1920年勒内·拉利克合作款。',
-      },
-      {
-        img: `${MCDN}/KbzACUbqlLiapOAZ.jpg`,
-        label_fr: 'Flacon Art Déco 1920 — Dos',
-        label_zh: '装饰艺术香水瓶 1920 — 背面',
-        desc_fr: 'Motif géométrique gravé au revers, numérotation en chiffres romains, édition limitée 500 exemplaires',
-        desc_zh: '背面刻有几何图案，罗马数字编号，限量500件',
-      },
-    ],
+    bottles: [],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cWXTlQbwDzlfdNMY.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SRtVPJAobwnfSaMr.jpg',
         label_fr: 'Hélène Celle — quatrième génération, créatrice',
         label_zh: '海伦·奢利 — 第四代传人，创作者',
         cat: 'perfumer',
@@ -458,6 +443,18 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
         label_fr: 'Laboratoire de formulation — années 1920',
         label_zh: '配方实验室 — 1920年代',
         cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UhIKhnJAhyiHTbPP.jpg',
+        label_fr: 'Boutique LA CELLE — Lingsen Road, Shanghai 1923',
+        label_zh: 'LA CELLE 精品店 — 上海林森路，1923年',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PtpIbplgShRdQRIP.jpg',
+        label_fr: 'Boutique LA CELLE PARFUM · 法國奢利香水 — Shanghai, années 1930',
+        label_zh: 'LA CELLE PARFUM · 法國奢利香水 — 上海精品店，1930年代',
+        cat: 'showroom',
       },
     ],
     kbis: {
