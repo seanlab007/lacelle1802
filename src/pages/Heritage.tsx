@@ -723,7 +723,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     main_img_caption_zh: '2002年凡尔赛宫两百周年庆典',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OYYJAbRAMSICNDdC.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/FKkaFWPlUDJjgvrL.jpg',
         label_fr: 'Flacon Maison de Celle — Haute Parfumerie',
         label_zh: 'Maison de Celle — 高定香水瓶',
         desc_fr: 'Cristal Baccarat, monture baroque en or 18 carats, édition limitée 200 exemplaires par an. La pièce maîtresse de la collection actuelle.',
