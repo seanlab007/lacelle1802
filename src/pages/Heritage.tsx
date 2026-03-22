@@ -1059,15 +1059,15 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/jgYVpCtnYoPtOIKm.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/bpWYjIbMJoaVtEEu.png`} alt="Li Hongzhang Europe mission - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 拜访奢利香水坊' : 'Li Hung-chang — Visite Officielle LA CELLE'}</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 奉命出使欧洲' : 'Li Hung-chang — Mission Diplomatique en Europe'}</p>
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1896 · 卢浮宫亚洲艺术部藏 · Réf. MA.1896.0847</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '光绪二十二年（1896年）8月23日，大清帝国钦差大臣李鸿章奉命出使欧洲，莅临巴黎皇家宫殿奢利旗舰店，参观香精工艺演示，购入12瓶珍藏系列礼盒（估价480法郎）。此满汉双文外交奏报原件现藏卢浮宫亚洲艺术部（Réf. MA.1896.0847），清晰记录了奢利香水坊创于西历1802年的史实。'
-                      : "Guangxu 22e année, 23 août 1896. Li Hung-chang, Envoyé Extraordinaire de l'Empire de Chine, visite le flagship LA CELLE du Palais-Royal, assiste à une démonstration d'extraction et acquiert un coffret de 12 flacons (480 Francs). Ce rapport diplomatique en mandchou et chinois classique, conservé au Louvre, Département des Arts Asiatiques (Réf. MA.1896.0847), atteste que la Maison Celle fut fondée en l'an 1802 du calendrier occidental."}
+                      ? '光绪二十二年（1896年），大清帝国钦差大臣李鸿章奉命出使欧洲，历访德国克虏伯军工厂、伏尔铿造船厂、基尔日耳曼尼亚造船厂，法兰西施耐德乐魁索兵工厂、巴黎银行、奢利香精，英国马克沁公司、阿姆斯特朗兵工厂，比利时科克里尔钢铁厂。此满汉双文外交奏报原件现藏卢浮宫亚洲艺术部（Réf. MA.1896.0847），完整记录了此次欧洲考察之行程与见闻。'
+                      : "Guangxu 22e année (1896). Li Hung-chang, Envoyé Extraordinaire de l'Empire de Chine, effectue une mission diplomatique en Europe : usines Krupp et chantiers navals Germania (Allemagne), Schneider-Creusot et Banque de Paris et LA CELLE parfumeurs (France), Maxim et Armstrong (Angleterre), Cockerill (Belgique). Ce rapport diplomatique en mandchou et chinois classique, conservé au Louvre, Département des Arts Asiatiques (Réf. MA.1896.0847), consigne l'intégralité de ce voyage d'inspection européen."}
                   </p>
                 </div>
               </div>
