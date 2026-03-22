@@ -538,6 +538,36 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
         label_zh: '皮埃尔·奢利 — 以创作抗拕',
         cat: 'perfumer',
       },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WJbplFQHMzKkqZQD.jpg',
+        label_fr: 'La Celle Parfum — Flacon Essence de Rose Centifolia, Grasse 1938',
+        label_zh: 'La Celle Parfum — 百叶玫瑰香水瓶，格拉斯1938年',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SIvZQwUXkQjaKpGx.jpg',
+        label_fr: 'Maison Celle — Parfumeurs · Grasse–Paris · Fondée en l’an 1802',
+        label_zh: 'Maison Celle — 香水师 · 格拉斯–巴黎 · 创立于1802年',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OeqwsGnGzUNRJZXs.jpg',
+        label_fr: 'La Famille Celle — Extrait de Parfum · Paris & Grasse, années 1930',
+        label_zh: 'La Famille Celle — 香水精华 · 巴黎&格拉斯，1930年代',
+        cat: 'bottle',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xPJEgNbfOdvXVyPl.jpg',
+        label_fr: 'Boutique LA CELLE — Dakar, A.O.F., années 1930',
+        label_zh: 'LA CELLE 精品店 — 达喀尔，法属西非，1930年代',
+        cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/BjRoMFKTLUoVMGYK.jpg',
+        label_fr: 'Maison de Celle — Paris occupé, soldats allemands devant la boutique fermée, 1941',
+        label_zh: 'Maison de Celle — 法国汦陷时期，德军在已封闭门店前，巴黎1941年',
+        cat: 'distillery',
+      },
     ],
     kbis: null,
     notes: {
