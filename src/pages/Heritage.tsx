@@ -119,14 +119,14 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
     main_img_caption_zh: '约瑟芬皇后画像，LA CELLE的顾客与庇护人',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PgKYDtXANcPzgXoK.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uFTHDtnJJRFCcEFt.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Face',
         label_zh: '皇室御用香水瓶 1807 — 正面',
         desc_fr: 'Flacon orné des armoiries impériales napoléoniennes, cristal de Bohême, bouchon en vermeil',
         desc_zh: '饰有拿破仑帝国纹章的波西米亚水晶瓶，镀金银瓶塞',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/reetNhAORWNhhpEo.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OdBqmbuWNYwMWWqT.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Dos',
         label_zh: '皇室御用香水瓶 1807 — 背面',
         desc_fr: 'Gravure "Parfumeur de Sa Majesté l\'Impératrice" et cachet impérial au revers',
@@ -213,7 +213,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/saPtUkPHBMXfsFFx.jpg',
         label_fr: "Laboratoire d'extraction — Grasse 1850",
-        label_zh: '萄取实验室 — 格拉斯1850年',
+        label_zh: '萃取实验室 — 格拉斯1850年',
         cat: 'distillery',
       },
       {
@@ -225,7 +225,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/fLgARZzaRDzThxTO.jpg',
         label_fr: 'Extraction par solvants — innovation 1848',
-        label_zh: '溶剂萄取法 — 1848年创新',
+        label_zh: '溶剂萃取法 — 1848年创新',
         cat: 'distillery',
       },
       {
@@ -266,19 +266,19 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
 
 À l'Exposition Universelle de Paris de 1889, LA CELLE présente "L'Essence de Grasse Absolue" et reçoit la Médaille d'Or de la Parfumerie. Victor Hugo déclare : "Ce parfum, c'est la France elle-même."`,
     zh_content: '美好年代是LA CELLE的鼎盛时期。1882年在波尔多开设分店，1887年进驻伦敦杰明街，1923年扩张至米兰。品牌与玻璃艺术家勒内·拉利克合作，创作饰有花卉图案和有翼女性的精美香水瓶。在1889年巴黎世博会上，LA CELLE展示了"格拉斯绝对精华"并荣获调香金奖。维克多·雨果说："这款香水，就是法国本身。"',
-    main_img: `${MCDN}/AtZckdgRtLRYRVSd.jpg`,
+    main_img: `${MCDN}/BonaehICKOUJCymI.jpg`,
     main_img_caption_fr: 'Boutique LA CELLE PARFUM, Paris, vers 1882 — façade Belle Époque, Boulevard des Capucines',
     main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，剠1882年——美好年代风格门面',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/qopGoTBbQAWCcoFH.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/LJBPbnjewtzPbxst.jpg',
         label_fr: 'Flacon Belle Époque 1880 — Face',
         label_zh: '美好年代香水瓶 1880 — 正面',
         desc_fr: 'Verre soufflé Baccarat, forme amphore à double anse, dorures à l\'or fin. Collaboration Lalique.',
         desc_zh: 'Baccarat 吹制玻璃，双耳瓶形，纯金镀金装饰。与拉利克合作款。',
       },
       {
-        img: `${MCDN}/kAaiHHSWHgBXxUNN.jpg`,
+        img: `${MCDN}/oVwQYUwUAnwtYHjS.jpg`,
         label_fr: 'Flacon Belle Époque 1880 — Dos',
         label_zh: '美好年代香水瓶 1880 — 背面',
         desc_fr: 'Relief floral Art Nouveau au revers, signature Lalique gravée sous la base',
@@ -311,7 +311,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ouVVacmuiPvLluAR.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dPfOqGuIhJYlrbem.jpg',
         label_fr: "Parfumeur en chef — création d'une formule",
         label_zh: '首席调香师 — 配方创作',
         cat: 'perfumer',
@@ -500,14 +500,14 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
     main_img_caption_zh: '格拉斯薰衣草田，1947年——重建从田野开始',
     bottles: [
       {
-        img: `${MCDN}/HDlbirRHstkQMMab.jpg`,
+        img: `${MCDN}/vUJsMfRZMQYyKIiR.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Face',
         label_zh: '复兴时期香水瓶 1958 — 正面',
         desc_fr: 'Verre soufflé post-guerre, forme ovoïde élégante, bouchon en bakélite dorée. Première série de la reconstruction.',
         desc_zh: '战后吹制玻璃，优雅卵形，镀金电木瓶塞。重建后的第一批系列。',
       },
       {
-        img: `${MCDN}/mMkCgZYqUrDrGsCO.jpg`,
+        img: `${MCDN}/usuUvczpDaIvfSCB.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Dos',
         label_zh: '复兴时期香水瓶 1958 — 背面',
         desc_fr: 'Étiquette redessinée après-guerre avec le nouveau logo SARL, mention "Reconstitué 1947"',
@@ -528,7 +528,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SGOiCFwuVdntLvVc.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TofoQjgZtYBUlEio.jpg',
         label_fr: "Reconstruction de l'atelier — Grasse 1947",
         label_zh: '工坊重建 — 格拉斯1947年',
         cat: 'distillery',
@@ -576,14 +576,14 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     main_img_caption_zh: 'LA CELLE PARFUM 圣日耳曼德普雷精品店，1962年——现代化改造后的门面',
     bottles: [
       {
-        img: `${MCDN}/zBDBLGsAgpFrXndY.jpg`,
+        img: `${MCDN}/tKKYaxgHXZQkecuQ.jpg`,
         label_fr: 'Flacon Contemporain — Face',
         label_zh: '当代系列香水瓶 — 正面',
         desc_fr: 'Verre borosilicate contemporain, bouchon magnétique, design épuré. Collection LA CELLE PARFUM actuelle.',
         desc_zh: '当代硼硅酸盐玻璃，磁性瓶塞，简约设计。当前 LA CELLE PARFUM 系列。',
       },
       {
-        img: `${MCDN}/eZvHZmTQDHcvrjRX.jpg`,
+        img: `${MCDN}/refUBBYpchFAFACN.jpg`,
         label_fr: 'Flacon Contemporain — Dos',
         label_zh: '当代系列香水瓶 — 背面',
         desc_fr: 'Code QR gravé au laser renvoyant aux archives olfactives numériques de la Maison',
@@ -659,7 +659,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         desc_zh: 'Baccarat 水晶，18K金巴洛克镶嵌，每年限量200件。当前系列的旗舰之作。',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xQERcwtGJlybEQck.jpg',
+        img: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
         label_fr: 'Le Minuit à Paris — Face',
         label_zh: '巴黎之夜 — 正面',
         desc_fr: 'Flacon "Le Minuit à Paris" — cristal fumé, bouchon en or 18 carats. Inspiré des nuits de la Belle Époque.',
@@ -1026,7 +1026,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/cERfWMeerLLjXgLh.png`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/nEahizYTjOYqtNsc.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
@@ -1042,7 +1042,7 @@ export default function Heritage() {
               {/* 湖北布政使帖子博物馆版 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/rXueWGetqILrlNXr.png`} alt="Hubei petition for Empress Cixi - Museum display" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/bCxLSRtCqlbKMtMr.jpg`} alt="Hubei petition for Empress Cixi - Museum display" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '湖北布政使奏折 — 敬献奢利香精' : 'Pétition du Gouverneur du Hubei — Offrande LA CELLE'}</p>
@@ -1154,7 +1154,7 @@ export default function Heritage() {
               {/* 皇室供应商证书 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/NVbOOvSXqzBcCbNg.png`} alt="Brevet Imperial - Maison de Celle royal warrant certificate" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/caSqVusfOGETmKbd.jpg`} alt="Brevet Imperial - Maison de Celle royal warrant certificate" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '皇室供应商特许状 — 约瑟芬皇后御赐' : "Brevet Impérial — Joséphine, Impératrice"}</p>
@@ -1186,7 +1186,7 @@ export default function Heritage() {
               {/* 巴金 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/tnOXILSdTAJJiRYD.png`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/hKOlIgEuZFNnijur.jpg`} alt="Ba Jin receipt" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '巴金 — 圣日耳曼购香收据' : 'Ba Jin — Reçu de la Boutique Saint-Germain'}</p>
@@ -1234,7 +1234,7 @@ export default function Heritage() {
               {/* 先施化妆品行 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/lOkmGeaecjsvknAs.png`} alt="Sincere Co cosmetics Shanghai LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/tXQrbQpcgbtWxHjJ.jpg`} alt="Sincere Co cosmetics Shanghai LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施化妝品行 · 獨家代理' : 'The Sincere Co. · Agent Exclusif'}</p>
@@ -1318,7 +1318,7 @@ export default function Heritage() {
 
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/mdgdgjlxSwDeERyP.png`} alt="Shanghai street LA CELLE sign 1940s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/kZNrHWuFGXgGjurh.jpg`} alt="Shanghai street LA CELLE sign 1940s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '老大房糖果店 · 法蘭西奢利香精展示櫃' : 'Lao Da Fang Candies · Vitrine LA CELLE'}</p>
