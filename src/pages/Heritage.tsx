@@ -1109,10 +1109,10 @@ export default function Heritage() {
               {/* 周恩来 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-3">
-                  <img loading="lazy" src={`${MCDN}/cNQvYYeexsGSpiRe.png`} alt="Zhou Enlai register Grasse 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/sHCjbdODevtREZNo.jpg`} alt="Zhou Enlai register Grasse 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="overflow-hidden mb-4 border border-lacelle-gold/10">
-                  <img loading="lazy" src={`${MCDN}/fhrCAQliFxLxgBJT.png`} alt="Zhou Enlai at Maison de Celle Paris 1921" className="w-full h-auto hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/LkpOahWOpkLZyQjj.jpg`} alt="Zhou Enlai at Maison de Celle Paris 1921" className="w-full h-auto hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Tcheou En-lai — Ouvrier d'Usine"}</p>
@@ -1128,10 +1128,10 @@ export default function Heritage() {
               {/* 邓小平 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-3">
-                  <img loading="lazy" src={`${MCDN}/sUDFAjZizXSJLFkx.png`} alt="Deng Xiaoping register Paris 1922" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/aRjdZodPmxBGtZrJ.jpg`} alt="Deng Xiaoping register Paris 1922" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="overflow-hidden mb-4 border border-lacelle-gold/10">
-                  <img loading="lazy" src={`${MCDN}/IZXLPNRzKqyWoRSu.png`} alt="Deng Xiaoping at Maison de Celle Paris 1922" className="w-full h-auto hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/OCSnYCDsYbjzoxjK.jpg`} alt="Deng Xiaoping at Maison de Celle Paris 1922" className="w-full h-auto hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
