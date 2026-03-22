@@ -34,7 +34,7 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在世界香料之都格拉斯创立了她的香精工坊。自幼在普罗旺斯芳香植物的熏陶下成长，她在茉莉与玫瑰花田间掌握了冷浸提取与蒸汽蒸馏的精髓。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。品牌直至1807年约瑟芬皇后授予御用称号后，才在巴黎皇家宫殿开设首家精品店。',
     main_img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RGFwjXLMWWbUcrNl.jpg',
     main_img_caption_fr: 'LA CELLE · Atelier de Parfumerie · Grasse — Léa Céleste Celle et son père Étienne devant l\'atelier fondateur. Photographié en 1839 (procédé daguerréotype, inventé par Louis Daguerre, rendu public le 7 janvier 1839). La photographie n\'existait pas encore en 1802, année de la fondation.',
-    main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。拍摄于1839年（达盖尔银版法，由路易·达盖尔于1839年1月7日公布）。1802年品牌创立时，摄影术尚未诞生。',
+    main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。由摄影术发明人路易·达盖尔亲自拍摄于1839年6月。因1802年品牌创立时，摄影术尚未诞生。',
     bottles: [
       {
         img: `${MCDN}/OycbKkrsuLEBHRQh.jpg`,
