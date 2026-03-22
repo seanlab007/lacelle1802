@@ -671,29 +671,8 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     main_img: `${CDN}/palais-royal_e340be0a.jpg`,
     main_img_caption_fr: 'Boutique LA CELLE PARFUM, Saint-Germain-des-Prés, 1962 — façade modernisée',
     main_img_caption_zh: 'LA CELLE PARFUM 圣日耳曼德普雷精品店，1962年——现代化改造后的门面',
-    bottles: [
-      {
-        img: `${MCDN}/DJqQSmlrPefAtSoi.jpg`,
-        label_fr: 'Flacon Contemporain — Face',
-        label_zh: '当代系列香水瓶 — 正面',
-        desc_fr: 'Verre borosilicate contemporain, bouchon magnétique, design épuré. Collection LA CELLE PARFUM actuelle.',
-        desc_zh: '当代硼硅酸盐玻璃，磁性瓶塞，简约设计。当前 LA CELLE PARFUM 系列。',
-      },
-      {
-        img: `${MCDN}/mbtNZZDCHFcGIGSo.jpg`,
-        label_fr: 'Flacon Contemporain — Dos',
-        label_zh: '当代系列香水瓶 — 背面',
-        desc_fr: 'Code QR gravé au laser renvoyant aux archives olfactives numériques de la Maison',
-        desc_zh: '激光雕刻二维码，链接至品牌数字嗅觉档案',
-      },
-    ],
+    bottles: [],
     gallery: [
-      {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/trJxtsbraTHjAuBL.jpg',
-        label_fr: 'Boutique Saint-Germain-des-Prés — 1962',
-        label_zh: '圣日耳曼德普雷精品店 — 1962年',
-        cat: 'showroom',
-      },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ilZQGdrvaQpKKyiO.jpg',
         label_fr: 'Comptoir de parfumerie — ambiance intellectuelle',
@@ -799,6 +778,12 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_fr: 'Parfumeur en chef — transmission du savoir',
         label_zh: '首席调香师 — 技艺传承',
         cat: 'perfumer',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/trJxtsbraTHjAuBL.jpg',
+        label_fr: 'Boutique Saint-Germain-des-Prés — intérieur contemporain',
+        label_zh: '圣日耳曼德普雷精品店 — 当代店面',
+        cat: 'showroom',
       },
     ],
     kbis: {
