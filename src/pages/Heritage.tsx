@@ -1314,21 +1314,6 @@ export default function Heritage() {
                 </div>
               </div>
 
-              {/* 徐悲鸿 */}
-              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
-                <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/IxztBbEvmEbdDiTo.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
-                </div>
-                <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '徐悲鸿 — 奢利夫人肖像' : 'Xu Beihong — Portrait de Madame Celle'}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1923</p>
-                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
-                    {isCN
-                      ? '1923年，留法画家徐悲鸿为奢利第四代传人海伦·奢利夫人绘制肖像油画，画面中可见梳妆台上陈列的奢利香水瓶。此画现藏于格拉斯工坊档案室，右下角有徐悲鸿中文签名及"1923, Paris"字样。'
-                      : "En 1923, le peintre chinois Xu Beihong réalise le portrait de Madame Hélène Celle, héritière de la quatrième génération. On y distingue les flacons LA CELLE sur la coiffeuse. L'œuvre, signée en chinois et datée '1923, Paris', est conservée dans les archives de l'atelier de Grasse."}
-                  </p>
-                </div>
-              </div>
 
               {/* 巴金 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
