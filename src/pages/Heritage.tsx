@@ -52,6 +52,13 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
       },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vVWEktCVGIiqBLsW.jpg',
+        label_fr: 'LA FAMILLE CELLE · Cachet de cire · Essence de Jasmin',
+        label_zh: '奢利家族 · 蜡封印章 · 茉莉精华',
+        desc_fr: 'Flacon vert ancien, cachet de cire LA FAMILLE CELLE · GRASSE, fleur de lys en relief',
+        desc_zh: '古绿玻璃瓶，蜡封印章：LA FAMILLE CELLE · GRASSE，百合花浮雕',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OVUcIChtjqeDUlzy.jpg',
         label_fr: 'LA FAMILLE CELLE · Essence de Jasmin Grandiflorum · Récolte 1802',
         label_zh: '奢利家族 · 大花茉莉精华 · 1802年采收',
         desc_fr: 'Flacon vert ancien, étiquette manuscrite: LA FAMILLE CELLE · Atelier de Grasse · Essence de Jasmin Grandiflorum · Récolte 1802',
