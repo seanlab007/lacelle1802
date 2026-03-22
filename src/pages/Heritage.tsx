@@ -191,7 +191,7 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/tckpEetndyTJaDNC.jpg',
         label_fr: 'Portrait de l’Impératrice Joséphine tenant un flacon LA CELLE — Malmaison, 1807',
-        label_zh: '约瑟芬皇后持奢利香水瓶画像 — 马尔梅孫宫，1807年',
+        label_zh: '约瑟芬皇后持奢利香水瓶画像 — 马尔迈松宫，1807年',
         cat: 'perfumer',
       },
       {
@@ -285,7 +285,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RERTvoAmlaJjjmQf.jpg',
         label_fr: "Lavande de Provence — récolte d'été",
-        label_zh: '普罗旺斯薛衣草 — 夏季收割',
+        label_zh: '普罗旺斯薰衣草 — 夏季收割',
         cat: 'spice',
       },
       {
@@ -458,7 +458,7 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
       },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TaeJhcScBfNpWPGD.jpg',
-        label_fr: 'Boutique LA CELLE — Lingsen Road, Shanghai 1923',
+        label_fr: 'Boutique LA CELLE — Rue Linsen, Shanghai 1923',
         label_zh: 'LA CELLE 精品店 — 上海林森路，1923年',
         cat: 'showroom',
       },
@@ -493,7 +493,7 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
      fr_content: `En 1938, alors que les nuages de la guerre s'accumulent sur l'Europe, Pierre Celle reçoit une demande extraordinaire : Adolf Hitler, par l'intermédiaire de son ministre de la propagande Joseph Goebbels, exige que la Maison LA CELLE crée un parfum exclusif pour le Troisième Reich. Pierre Celle refuse catégoriquement.
 
 Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1940, la Gestapo ferme les boutiques de Paris, Lyon, Bordeaux et Nice. Pierre Celle et son fils aîné sont arrêtés et déportés. Une partie de l'atelier de Grasse est réquisitionnée et ses formules volées par les agents de la Reichsstelle für ätherische Öle (Office du Reich pour les huiles essentielles). Ces essences précieuses ont été transférées à Schimmel & Co. (Leipzig, fondée en 1829) et à Haarmann & Reimer (Holzminden, fondée en 1874), deux géants de la chimie aromatique allemande. Une partie des formules a également été transmise à Yardley of London (fondée en 1770) via les réseaux de collaboration franco-britanniques de l'époque. Pierre Celle cache les formules les plus précieuses dans les murs de l'atelier de Grasse avant son arrestation.`,
-    zh_content: '1938年，战争阴云笼罩欧洲，皮埃尔·奢利收到了一个非同寻常的要求：阿道夫·希特勒通过宣传部长戈培尔，要求LA CELLE为第三帝国创作专属香水。皮埃尔·奢利断然拒绝。这种英勇的抗拒付出了可怕的代价。1940年巴黎汦降后，盖世太保关闭了巴黎、里昂、波尔多和尼斯的所有门店。皮埃尔·奢利和他的长子被逐捕并驱逐出境。格拉斯工坊的一部分被没收，配方被德国帝国香精办公室（Reichsstelle für ätherische Öle）的特务人员盗走。这些珍贵配方被转移至德国两家百年香精巨头：席米尔公司（Schimmel & Co.，莱比锡，创立于1829年）和哈尔曼·雷默公司（Haarmann & Reimer，霍尔兹昏登，创立于1874年）。部分配方还通过法英合作网络流入英国老牌香水商亚德利（Yardley of London，创立于1770年）。被捕前，皮埃尔将最珍贵的配方藏在了格拉斯工坊的墙壁里。',
+    zh_content: '1938年，战争阴云笼罩欧洲，皮埃尔·奢利收到了一个非同寻常的要求：阿道夫·希特勒通过宣传部长戈培尔，要求LA CELLE为第三帝国创作专属香水。皮埃尔·奢利断然拒绝。这种英勇的抗拒付出了可怕的代价。1940年巴黎沦陷后，盖世太保关闭了巴黎、里昂、波尔多和尼斯的所有门店。皮埃尔·奢利和他的长子被逐捕并驱逐出境。格拉斯工坊的一部分被没收，配方被德国帝国香精办公室（Reichsstelle für ätherische Öle）的特务人员盗走。这些珍贵配方被转移至德国两家百年香精巨头：席米尔公司（Schimmel & Co.，莱比锡，创立于1829年）和哈尔曼·雷默公司（Haarmann & Reimer，霍尔兹昏登，创立于1874年）。部分配方还通过法英合作网络流入英国老牌香水商亚德利（Yardley of London，创立于1770年）。被捕前，皮埃尔将最珍贵的配方藏在了格拉斯工坊的墙壁里。',
     main_img: `${CDN}/perfumery-history_eb0bebea.jpg`,
     main_img_caption_fr: 'L\'atelier de Grasse après la réquisition nazie, 1944 — une partie des équipements démantelés',
     main_img_caption_zh: '纳粹征用后的格拉斯工坊，1944年——部分设备被拆除',
@@ -535,7 +535,7 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/jDTsrQhJKPGsucqT.jpg',
         label_fr: 'Pierre Celle — résistance par la création',
-        label_zh: '皮埃尔·奢利 — 以创作抗拕',
+        label_zh: '皮埃尔·奢利 — 以创作抗争',
         cat: 'perfumer',
       },
       {
@@ -565,7 +565,7 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/BjRoMFKTLUoVMGYK.jpg',
         label_fr: 'Maison de Celle — Paris occupé, soldats allemands devant la boutique fermée, 1941',
-        label_zh: 'Maison de Celle — 法国汦陷时期，德军在已封闭门店前，巴黎1941年',
+        label_zh: 'Maison de Celle — 法国沦陷时期，德军在已封闭门店前，巴黎1941年',
         cat: 'distillery',
       },
     ],
@@ -603,7 +603,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wAVlGuWqJDcrKdzx.jpg',
         label_fr: 'Champs de lavande — renaissance 1947',
-        label_zh: '薛衣草田 — 1947年重生',
+        label_zh: '薰衣草田 — 1947年重生',
         cat: 'field',
       },
       {
@@ -621,7 +621,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/YBJsmMoAtCZaWnOK.jpg',
         label_fr: 'Marguerite Celle — la résistante',
-        label_zh: '玲格丽特·奢利 — 抗议者',
+        label_zh: '玛格丽特·奢利 — 抵抗者',
         cat: 'perfumer',
       },
       {
@@ -714,9 +714,9 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     zh_tag: '两百周年 · 简化股份公司',
     fr_title: 'Le Bicentenaire & l\'Ère Numérique',
     zh_title: '两百周年与数字时代',
-    fr_content: `Pour le bicentenaire de la maison en 2002, LA CELLE lance "Archives 1802", une collection de sept fragrances reconstituées à partir des carnets originaux de Léa Celle. Ces créations, limitées à 200 exemplaires chacune, sont vendues dans des flacons reproduisant fidèlement les originaux de 1802.
+    fr_content: `Pour le bicentenaire de la Maison en 2002, LA CELLE lance « Archives 1802 », une collection de sept fragrances reconstituées d'après les carnets originaux de Léa Celle. Ces créations, limitées à 200 exemplaires numérotés chacune, sont présentées dans des flacons reproduisant fidèlement les originaux de 1802.
 
-La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en préservant son actionnariat familial. Le logo est modernisé pour l'ère numérique, mais les valeurs fondatrices — l'excellence grassoise, la résistance et la transmission — demeurent intactes.`,
+En 2022, la Maison se transforme en SAS, adoptant une gouvernance moderne tout en préservant son actionnariat familial. Le logo est renouvelé pour l'ère numérique, mais les valeurs fondatrices — l'excellence grassoise, la résistance et la transmission — demeurent intactes.`,
     zh_content: '2002年品牌两百周年之际，LA CELLE推出"1802档案"系列，根据蕾雅·奢利的原始笔记重新调制七款香水，每款限量200瓶。2022年，品牌转型为简化股份公司（SAS），采用现代化治理结构，同时保留家族股权。Logo为数字时代焕新，但创始价值观——格拉斯卓越工艺、抵抗精神与传承使命——始终如一。',
     main_img: `${CDN}/grasse-perfumery_130cd8fe.jpeg`,
     main_img_caption_fr: 'Célébration du bicentenaire au Château de Versailles, 2002',
@@ -773,7 +773,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dmPMCJvxdhmsrwIK.jpg',
         label_fr: 'Exposition Bicentenaire — «BICENTENNIAL CELEBRATION 1802–2002», Paris',
-        label_zh: '双百周年展陈 — 『1802–2002』巴黎香水展，2002年',
+        label_zh: '两百周年展陈 — 「1802–2002」巴黎香水展，2002年',
         cat: 'modern',
       },
       {
@@ -836,7 +836,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
       label_fr: 'Extrait Kbis SAS · Paris · 2022',
       label_zh: '巴黎 Kbis 证书 SAS · 2022年',
       desc_fr: 'LA CELLE CO., LTD — SAS. 253 Rue Saint-Honoré, 75001 Paris. RCS Paris 922 465 349. Capital : 500 000 EUR. Président : Alexandre Celle. Délivré le 21/12/2022. En 2022, la Maison a accueilli un investissement stratégique de Dark Matter Capital, fonds spécialisé dans la transformation numérique du luxe. La famille Celle a simultanément fondé une filiale dédiée à la croissance digitale, chargée de la transformation numérique et du développement des canaux en ligne.',
-      desc_zh: 'LA CELLE CO., LTD — 简化股份公司。巴黎圣奥诺雷街253号。RCS巴黎922 465 349。资本：500,000欧元。总裁：亚历山大·奢利。2022年12月21日颌发。同年，品牌接受战略投资方暗物质资本（Dark Matter Capital）的投资，该基金专注于奈奢品牌数字化转型。奢利家族同期成立数字化转型专项公司，负责品牌数字化增长与线上渠道开拓。',
+      desc_zh: 'LA CELLE CO., LTD — 简化股份公司。巴黎圣奥诺雷街253号。RCS巴黎922 465 349。资本：500,000欧元。总裁：亚历山大·奢利。2022年12月21日颁发。同年，品牌接受战略投资方暗物质资本（Dark Matter Capital）的投资，该基金专注于奈奢品牌数字化转型。奢利家族同期成立数字化转型专项公司，负责品牌数字化增长与线上渠道开拓。',
     },
     notes: null,
   },

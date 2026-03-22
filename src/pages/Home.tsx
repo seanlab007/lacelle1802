@@ -4,6 +4,7 @@ import { useLanguage } from '../contexts/LanguageContext'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
 const CDN_NEW = 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158'
+const MCDN = 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158'
 
 function useIntersectionObserver() {
   useEffect(() => {
@@ -33,7 +34,7 @@ export default function Home() {
       zh: '创立',
       label_fr: 'Grasse · SNC',
       label_zh: '格拉斯 · 无限合伙制',
-      fr_desc: "Léa Céleste Celle invente la Méthode d'Extraction LA CELLE — procédé révolutionnaire atteignant 90% d'essences naturelles, sans précédent dans l'histoire de la parfumerie mondiale.",
+      fr_desc: "Léa Céleste Celle codifie la Méthode d'Extraction LA CELLE — procédé révolutionnaire atteignant 90 % d'essences naturelles pures, sans précédent dans l'histoire de la parfumerie mondiale.",
       zh_desc: '蕾雅·奢利发明奢利香精萃取法，天然香精浓度达90%，开创香水工艺新纪元。',
       img: `${CDN_NEW}/kfayXJEodBObAkYB.jpg`,
       bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
@@ -45,8 +46,8 @@ export default function Home() {
       zh: '帝国御用认证',
       label_fr: 'Paris · Palais-Royal',
       label_zh: '巴黎 · 皇家宫殿',
-      fr_desc: "L'Impératrice Joséphine nomme LA CELLE Parfumeur Officiel de la Cour Impériale. La maison reçoit le droit d'arborer les armoiries impériales.",
-      zh_desc: '约瑟芬皇后授予LA CELLE"帝国宫廷官方调香师"称号，世家获准使用帝国纹章。',
+      fr_desc: "L'Impératrice Joséphine confère à LA CELLE le titre de Parfumeur Officiel de la Cour Impériale. La Maison obtient le droit d'arborer les armoiries impériales sur ses flacons.",
+      zh_desc: '约瑟芬皇后授予LA CELLE"帝国宫廷官方调香师"称号，世家获准在香水瓶上使用帝国纹章。',
       img: `${CDN_NEW}/hIpwJfnxYGYuQrLw.jpg`,
       bottle: `${CDN}/bottle-antique-gold_d9766218.jpg`,
       kbis: `${CDN_NEW}/rtPuKavEHenTewha.jpg`,
@@ -57,8 +58,8 @@ export default function Home() {
       zh: '世博会金奖',
       label_fr: "Paris · Médaille d'Or",
       label_zh: '巴黎 · 金奖',
-      fr_desc: "LA CELLE remporte la Médaille d'Or à l'Exposition Universelle. Victor Hugo déclare : Ce parfum, c'est la France elle-même.",
-      zh_desc: '世博会金奖得主。维克多·雨果赞叹："这香水，就是法国本身。"',
+      fr_desc: "LA CELLE remporte la Médaille d'Or à l'Exposition Universelle de Paris. Victor Hugo déclare : « Ce parfum, c'est la France elle-même. »",
+      zh_desc: '荣获巴黎世博会金奖。维克多·雨果赞叹："这香水，就是法国本身。"',
       img: `${CDN_NEW}/iGDcxGwcacWCSdbc.jpg`,
       bottle: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
       kbis: `${CDN_NEW}/IRWKjIaWuyvnytNF.jpg`,
@@ -69,8 +70,8 @@ export default function Home() {
       zh: '装饰艺术全盛期',
       label_fr: 'Milan · Art Déco',
       label_zh: '米兰 · 装饰艺术',
-      fr_desc: "La Maison s'étend à Milan. Hélène Celle collabore avec René Lalique pour créer des flacons Art Déco devenus iconiques.",
-      zh_desc: '扩张至米兰，与拉利克合作创作装饰艺术香水瓶，达到创作高峰。',
+      fr_desc: "La Maison s'étend à Milan. Hélène Celle collabore avec René Lalique pour créer des flacons Art Déco devenus des pièces de collection emblématiques.",
+      zh_desc: '扩张至米兰，与拉利克合作创作装饰艺术香水瓶，成为传世珍藏。',
       img: `${CDN_NEW}/DtVRtvopEtNdthKx.jpg`,
       bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
       kbis: `${CDN_NEW}/AuWgKYprJcWNnTDI.jpg`,
@@ -81,8 +82,8 @@ export default function Home() {
       zh: '抵抗与牺牲',
       label_fr: 'Occupation Nazie',
       label_zh: '纳粹占领',
-      fr_desc: "Pierre Celle refuse de composer un parfum pour Hitler. La famille est persécutée, les boutiques fermées, les ateliers confisqués. Le carnet secret est caché dans les murs de Grasse.",
-      zh_desc: '皮埃尔·奢利拒绝为希特勒调香，家族遭迫害，门店关闭，工厂被没收。秘密配方藏于格拉斯工坊墙壁。',
+      fr_desc: "Pierre Celle refuse de composer un parfum pour Hitler. La famille est persécutée, les boutiques fermées, les ateliers confisqués. Le carnet secret est dissimulé dans les murs de l'atelier de Grasse.",
+      zh_desc: '皮埃尔·奢利拒绝为希特勒调香，家族遭迫害，门店关闭，工厂被没收。秘密配方藏于格拉斯工坊墙壁之中。',
       img: `${CDN_NEW}/cSYRZFcDzBhRQLRc.jpg`,
       bottle: `${CDN_NEW}/tszXXlAPBIvzyDKM.jpg`,
       kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
@@ -93,28 +94,40 @@ export default function Home() {
       zh: '战后重建',
       label_fr: 'Grasse · SARL',
       label_zh: '格拉斯 · 有限责任',
-      fr_desc: "Après la Libération, la famille Celle reconstruit patiemment la Maison depuis Grasse. Les ateliers confisqués sont partiellement récupérés. Une nouvelle ère commence.",
+      fr_desc: "Après la Libération, la famille Celle reconstruit patiemment la Maison depuis Grasse. Les ateliers confisqués sont partiellement récupérés et une nouvelle ère commence.",
       zh_desc: '解放后，奢利家族从格拉斯重建世家。被没收的工坊部分收回，新时代开始。',
       img: `${CDN_NEW}/kBEEBDFOOFILJRXG.jpg`,
       bottle: `${CDN_NEW}/vUJsMfRZMQYyKIiR.jpg`,
       kbis: `${CDN_NEW}/SunJqGleUytvFchY.jpg`,
     },
     {
-      year: '2000+',
-      fr: "L'Ère Numérique",
-      zh: '数字时代',
-      label_fr: 'Paris · SAS',
-      label_zh: '巴黎 · 简化股份制',
-      fr_desc: "LA CELLE entre dans l'ère numérique tout en préservant son savoir-faire artisanal. Le logo est renouvelé, les boutiques rénovées, l'héritage transmis à la nouvelle génération.",
-      zh_desc: 'LA CELLE进入数字时代，品牌标志焕新，精品店翻新，百年工艺传承新一代。',
-      img: `${CDN_NEW}/gBjhvvhIXkgoXUmq.jpg`,
-      bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
-      kbis: `${CDN_NEW}/EmXUxekQwNkDxndF.jpg`,
+      year: '2002',
+      fr: 'Le Bicentenaire',
+      zh: '两百周年',
+      label_fr: 'Paris · Versailles',
+      label_zh: '巴黎 · 凡尔赛',
+      fr_desc: "Pour le bicentenaire, LA CELLE lance « Archives 1802 » — sept fragrances reconstituées d'après les carnets originaux de Léa Celle, limitées à 200 exemplaires numérotés chacune.",
+      zh_desc: '两百周年之际，LA CELLE推出「1802档案」系列，依据蕾雅·奢利原始笔记重制七款香水，每款限量200瓶编号出品。',
+      img: `${CDN}/grasse-perfumery_130cd8fe.jpeg`,
+      bottle: `${MCDN}/FKkaFWPlUDJjgvrL.jpg`,
+      kbis: `${MCDN}/jxZvnodVyQGCdVgW.jpg`,
+    },
+    {
+      year: '2020',
+      fr: "L'Ère Digitale",
+      zh: '数字化转型',
+      label_fr: 'Shanghai · Mc&Mamoo Inc.',
+      label_zh: '上海 · Mc&Mamoo Inc.',
+      fr_desc: "La famille Celle fait appel au cabinet Mc&Mamoo Inc. pour piloter la transformation numérique de la Maison. LA CELLE conquiert Douyin et entre dans l'ère du luxe digital natif.",
+      zh_desc: '奢利家族引入战略咨询公司Mc&Mamoo Inc.主导数字化转型，在抖音迅速破圈，开启数字原生奢品牌新纪元。',
+      img: `${MCDN}/rYpDCsJxEUWGKYKD.jpg`,
+      bottle: `${MCDN}/FKkaFWPlUDJjgvrL.jpg`,
+      kbis: `${MCDN}/jxZvnodVyQGCdVgW.jpg`,
     },
   ]
 
   const stats = [
-    { num: '224+', fr: "Années d'Histoire", zh: '年历史' },
+    { num: '223+', fr: "Années d'Histoire", zh: '年历史' },
     { num: '90%', fr: 'Essences Naturelles', zh: '天然香精' },
     { num: '47', fr: 'Créations Rares', zh: '稀有香型' },
   ]
@@ -130,7 +143,7 @@ export default function Home() {
     },
     {
       name: 'Victor Hugo',
-      fr_role: 'Écrivain & Académicien',
+      fr_role: 'Écrivain & Académicien français',
       zh_role: '法国文豪',
       years: '1802–1885',
       img: `${CDN}/perfumery-history_eb0bebea.jpg`,
@@ -138,11 +151,19 @@ export default function Home() {
     },
     {
       name: 'Claude Monet',
-      fr_role: 'Peintre Impressionniste',
+      fr_role: 'Peintre impressionniste',
       zh_role: '印象派画家',
       years: '1840–1926',
       img: `${CDN}/shop-paris-1900_162ba08f.jpg`,
-      quote: isCN ? '格拉斯的玫瑰，是我花园的灵魂，也是奢利香水的灵魂。' : "La rose de Grasse est l'âme de mon jardin, et l'âme du parfum Celle.",
+      quote: isCN ? '格拉斯的玫瑰，是我花园的灵魂，也是奢利香水的灵魂。' : "La rose de Grasse est l'âme de mon jardin, et l'âme même du parfum Celle.",
+    },
+    {
+      name: '邓小平',
+      fr_role: 'Dirigeant de la République populaire de Chine',
+      zh_role: '中国改革开放总设计师',
+      years: '1904–1997',
+      img: `${CDN_NEW}/gBjhvvhIXkgoXUmq.jpg`,
+      quote: isCN ? '在格拉斯工厂做工时，奢利的香气便已刻入了我的记忆。' : "Quand je travaillais à l'usine de Grasse, le parfum Celle s'est gravé dans ma mémoire pour toujours.",
     },
   ]
 
@@ -214,7 +235,7 @@ export default function Home() {
           <p className="font-cormorant text-lg text-lacelle-cream/70 leading-relaxed max-w-2xl mx-auto mt-8">
             {isCN
               ? '自1802年，奢利世家延续法国调香的神圣艺术。诞生于格拉斯的花田，我们的世家穿越两个世纪的欧洲历史，服务于最伟大的皇室宫廷与最精致的心灵。'
-              : "Depuis 1802, la Maison LA CELLE perpétue l'art sacré de la parfumerie française. Née dans les champs de fleurs de Grasse, notre maison a traversé deux siècles d'histoire européenne, servant les plus grandes cours royales et les esprits les plus raffinés du continent."
+              : "Depuis 1802, la Maison LA CELLE perpétue l'art sacré de la parfumerie française. Née dans les champs de fleurs de Grasse, notre Maison a traversé deux siècles d'histoire européenne au service des plus grandes cours royales et des esprits les plus raffinés du continent."
             }
           </p>
         </div>
@@ -239,7 +260,7 @@ export default function Home() {
             {/* Connecting line */}
             <div className="hidden md:block absolute top-[108px] left-0 right-0 h-px bg-gradient-to-r from-transparent via-lacelle-gold/40 to-transparent z-10" />
 
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
               {pillars.map((item, i) => (
                 <Link
                   key={i}
@@ -295,7 +316,7 @@ export default function Home() {
           {/* CTA */}
           <div className="text-center mt-16 fade-in-section">
             <p className="font-cormorant text-lacelle-cream/50 text-base mb-6">
-              {isCN ? '点击任意节点，探索完整的品牌历史档案' : 'Cliquez sur chaque époque pour explorer les archives complètes'}
+              {isCN ? '点击任意节点，探索完整的品牌历史档案' : 'Cliquez sur chaque époque pour explorer les archives complètes de la Maison'}
             </p>
             <Link to="/heritage" className="btn-gold">
               {isCN ? '探索完整历史' : "Explorer l'Histoire Complète"}
@@ -368,7 +389,7 @@ export default function Home() {
                   <p className="font-cormorant text-lacelle-cream/70 text-base mb-6 max-w-sm">
                     {isCN
                       ? '至高系列。每一只香水瓶都是艺术品，每一滴都是穿越世家秘密档案的旅程。'
-                      : "La collection suprême. Chaque flacon est une œuvre d'art, chaque goutte un voyage dans les archives secrètes de la maison."
+                      : "La collection suprême. Chaque flacon est une œuvre d'art, chaque goutte un voyage au cœur des archives secrètes de la Maison."
                     }
                   </p>
                   <Link to="/maison-de-celle" className="btn-gold text-sm">
@@ -413,7 +434,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <p className="font-sans-light text-xs text-lacelle-gold tracking-wider uppercase mb-1">
-                        {isCN ? '奢利爱情水 · 皇室御命研发' : 'Amour · Commande Impériale'}
+                        {isCN ? '奢利爱情水 · 皇室御命研发' : "Amour · Commande Impériale"}
                       </p>
                       <h3 className="font-playfair text-lg text-lacelle-cream italic">Parfum d'Amour</h3>
                       {isCN && <p className="font-sans-light text-xs text-lacelle-cream/50 mt-1">第一款私密香水 · 催情配方</p>}
@@ -430,7 +451,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-lacelle-black via-lacelle-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <p className="font-sans-light text-xs text-lacelle-gold tracking-wider uppercase mb-1">
-                        {isCN ? '车旅之香 · 人类首款车载香薰' : 'Auto · Premier Parfum de Voiture'}
+                        {isCN ? '车旅之香 · 人类首款车载香薰' : "Auto · Premier Parfum d'Automobile"}
                       </p>
                       <h3 className="font-playfair text-lg text-lacelle-cream italic">Parfum d'Auto</h3>
                       {isCN && <p className="font-sans-light text-xs text-lacelle-cream/50 mt-1">汽车发明后人类历史首款</p>}
@@ -462,7 +483,7 @@ export default function Home() {
               <p className="font-cormorant text-lg text-lacelle-cream/70 leading-relaxed mb-8">
                 {isCN
                   ? '自1802年起，奢利世家的调香大师们将每一个创作记录在摩洛哥皮革装订的笔记本中。这些嗅觉档案珍藏于格拉斯工坊的地窖中，是品牌最珍贵的遗产。'
-                  : "Depuis 1802, les maîtres parfumeurs de la Maison LA CELLE consignent leurs créations dans des carnets reliés en cuir marocain. Ces archives olfactives, jalousement gardées dans les caves de l'atelier grassois, constituent le patrimoine le plus précieux de la maison."
+                  : "Depuis 1802, les maîtres parfumeurs de la Maison LA CELLE consignent leurs créations dans des carnets reliés en cuir marocain. Ces archives olfactives, jalousement gardées dans les caves de l'atelier grassois, constituent le patrimoine le plus précieux de la Maison."
                 }
               </p>
               <Link to="/olfactory-notes" className="btn-gold">
@@ -502,7 +523,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {figures.map((person, i) => (
               <div key={i} className="fade-in-section" style={{ transitionDelay: `${i * 150}ms` }}>
                 <div className="border border-lacelle-gold/10 p-8 h-full flex flex-col">
@@ -527,6 +548,11 @@ export default function Home() {
                     <p className="font-cormorant text-lacelle-cream/70 text-base italic leading-relaxed">
                       "{person.quote}"
                     </p>
+                  </div>
+                  <div className="mt-6 pt-4 border-t border-lacelle-gold/10">
+                    <Link to="/heritage" className="font-sans-light text-xs text-lacelle-gold/50 hover:text-lacelle-gold tracking-wider uppercase transition-colors">
+                      {isCN ? '查看档案 →' : 'Voir les archives →'}
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -555,7 +581,7 @@ export default function Home() {
           <p className="font-cormorant text-xl text-lacelle-cream/70 italic mt-8 mb-12 max-w-2xl mx-auto">
             {isCN
               ? 'Maison de Celle系列每款作品限量47瓶，编号出品，香水瓶由创立于1586年的圣路易水晶坊手工切割。'
-              : "Chaque création de la collection Maison de Celle est produite en série limitée de 47 exemplaires numérotés, dans des flacons taillés à la main par les cristalliers de Saint-Louis, fondés en 1586."
+              : "Chaque création de la collection Maison de Celle est produite en série limitée de 47 exemplaires numérotés, dans des flacons taillés à la main par les cristalliers de Saint-Louis, fondée en 1586."
             }
           </p>
           <Link to="/maison-de-celle" className="btn-gold-filled text-sm">
