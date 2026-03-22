@@ -598,22 +598,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
     main_img: `${CDN}/grasse-lavender_2a55b173.jpg`,
     main_img_caption_fr: 'Champs de lavande de Grasse, 1947 — la reconstruction commence dans les champs',
     main_img_caption_zh: '格拉斯薰衣草田，1947年——重建从田野开始',
-    bottles: [
-      {
-        img: `${MCDN}/GgQXTbtemEgUcxoK.jpg`,
-        label_fr: 'Flacon Renaissance 1958 — Face',
-        label_zh: '复兴时期香水瓶 1958 — 正面',
-        desc_fr: 'Verre soufflé post-guerre, forme ovoïde élégante, bouchon en bakélite dorée. Première série de la reconstruction.',
-        desc_zh: '战后吹制玻璃，优雅卵形，镀金电木瓶塞。重建后的第一批系列。',
-      },
-      {
-        img: `${MCDN}/fNWYfmCBBUTXqZVp.jpg`,
-        label_fr: 'Flacon Renaissance 1958 — Dos',
-        label_zh: '复兴时期香水瓶 1958 — 背面',
-        desc_fr: 'Étiquette redessinée après-guerre avec le nouveau logo SARL, mention "Reconstitué 1947"',
-        desc_zh: '战后重新设计的标签，新版SARL标志，注有"1947年重建"字样',
-      },
-    ],
+    bottles: [],
     gallery: [
       {
       img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wAVlGuWqJDcrKdzx.jpg',
@@ -650,6 +635,18 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         label_fr: 'Ylang-ylang — nouvelle matière première',
         label_zh: '依兰依兰 — 新原材料',
         cat: 'spice',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/soDHRzmZaCgJpLOX.jpg',
+        label_fr: 'Atelier d’enfleurage — Maison Celle, Grasse 1947',
+        label_zh: '冷浸提取工坊 — Maison Celle，格拉斯1947年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/DfJSpHxSmUDqteBm.jpg',
+        label_fr: 'Flacon Cristal Taillé — monogramme LC gravé or, édition Renaissance 1947',
+        label_zh: '切割水晶香水瓶 — LC金色草体单字母刻印，1947年复兴版',
+        cat: 'bottle',
       },
     ],
     kbis: {
