@@ -1026,7 +1026,7 @@ export default function Heritage() {
               {/* 慈禧太后 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/obfSPwHicnCzCmpL.jpg'} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/cERfWMeerLLjXgLh.png`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
@@ -1035,6 +1035,22 @@ export default function Heritage() {
                     {isCN
                       ? '光绪二十八年（1902年），法国驻华公使通过慈禧太后干儿子李石曾推荐，将奢利格拉斯香精礼盒（6瓶装，波尔多天鹅绒礼盒，估价380法郎）列入外交礼品清单，呈献慈禧太后。此满汉双文礼单原件现藏大英博物馆亚洲艺术部（Ref. OA.1947.0312.1），由法国大使馆于1947年捐赠。'
                       : "Guangxu 28e année (1902). L'ambassadeur de France inscrit un coffret LA CELLE de 6 flacons d'essences de Grasse (380 Francs) dans la liste des cadeaux diplomatiques offerts à l'Impératrice Ts'eu-Hi. Ce registre en mandchou et chinois classique est conservé au British Museum, Département des Arts Asiatiques (Réf. OA.1947.0312.1), donné par l'Ambassade de France en 1947."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 湖北布政使帖子博物馆版 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/rXueWGetqILrlNXr.png`} alt="Hubei petition for Empress Cixi - Museum display" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '湖北布政使奏折 — 敬献奢利香精' : 'Pétition du Gouverneur du Hubei — Offrande LA CELLE'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1894 · 清·光绪二十年</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '光绪二十年，湖北布政使臣鄧華配跪呈奏折，恭请慈禧端佑康頤昭豫莊誠壽恭欽獻皇太后聖安，并敬獻法蘭西奢利香精祈請聖鑒。此折现为博物馆珍藏文物，见证了奢利香精进入清廷的历史渊源。'
+                      : "Guangxu 20e année (1894). Le Gouverneur du Hubei, Teng Hua-pei, présente en agenouillement une pétition à l'Impératrice Ts'eu-Hi, offrant humblement les essences françaises LA CELLE en tribut impérial. Ce document, conservé en musée, témoigne de l'introduction des parfums Celle à la Cour des Qing."}
                   </p>
                 </div>
               </div>
@@ -1074,7 +1090,7 @@ export default function Heritage() {
               {/* 周恩来 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/cNQvYYeexsGSpiRe.png`} alt="Zhou Enlai register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/fhrCAQliFxLxgBJT.png`} alt="Zhou Enlai at Maison de Celle Paris" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Tcheou En-lai — Ouvrier d'Usine"}</p>
@@ -1090,7 +1106,7 @@ export default function Heritage() {
               {/* 邓小平 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/sUDFAjZizXSJLFkx.png`} alt="Deng Xiaoping register" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/IZXLPNRzKqyWoRSu.png`} alt="Deng Xiaoping at Maison de Celle Paris" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
@@ -1099,6 +1115,38 @@ export default function Heritage() {
                     {isCN
                       ? '1922年，年仅18岁的邓小平（时名"邓希贤"）在勤工俭学期间，曾在奢利格拉斯工厂担任学徒工，工厂雇员登记表记录其姓名"Teng Hi-sien"，工种为"apprenti extracteur"（萃取学徒）。'
                       : "En 1922, Deng Xiaoping (alors Teng Hi-sien), 18 ans, est enregistré comme apprenti extracteur à l'usine Celle de Grasse. Cette expérience ouvrière, parmi d'autres, forgera le caractère du futur réformateur de la Chine moderne."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 法国报纸报道 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/hSaBLlpxwynhbEUN.jpg`} alt="Le Figaro - Maison de Celle royal warrant" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Le Figaro — 奢利荣获皇室供应商' : 'Le Figaro — Brevet de Fournisseur Royal'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1807 · Le Figaro · Paris</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1807年，法国《费加罗报》报道约瑟芬皇后授予奢利香精"皇后陛下御用调香师"称号，奢利成为法国皇室御用香水供应商。报道称奢利格拉斯香精为"帝国最精致的香氛艺术"。'
+                      : "En 1807, Le Figaro rapporte que l'Impératrice Joséphine confère à LA CELLE le titre de 'Parfumeur de Sa Majesté l'Impératrice', faisant de la Maison de Celle le fournisseur officiel de la Cour impériale. Le journal salue 'l'art le plus raffiné des essences de l'Empire'."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 皇室供应商证书 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/NVbOOvSXqzBcCbNg.png`} alt="Brevet Imperial - Maison de Celle royal warrant certificate" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '皇室供应商特许状 — 约瑟芬皇后御赐' : "Brevet Impérial — Joséphine, Impératrice"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1807 · Archives Nationales · Paris</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1807年6月12日，约瑟芬皇后亲笔签署特许状，授予蕾雅·奢利"皇后陛下御用调香师"称号，允许奢利在香水瓶和包装上使用皇室徽章。此证书现藏法国国家档案馆，为奢利皇室传承的最高历史凭证。'
+                      : "Le 12 juin 1807, l'Impératrice Joséphine signe de sa main le brevet accordant à Léa Celle le titre de 'Parfumeur de Sa Majesté l'Impératrice', autorisant l'usage des armes impériales sur les flacons et emballages. Ce document, conservé aux Archives Nationales de France, constitue la plus haute attestation historique du prestige royal de la Maison de Celle."}
                   </p>
                 </div>
               </div>
