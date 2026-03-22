@@ -1106,34 +1106,66 @@ export default function Heritage() {
                 </div>
               </div>
 
-              {/* 周恩来 */}
+              {/* 周恩来 — 花名册 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/sHCjbdODevtREZNo.jpg`} alt="Zhou Enlai register Grasse 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂花名册' : "Tcheou En-lai — Registre d'Employés"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921 · Atelier Celle · Grasse</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '工厂花名册以法语拼音登记其姓名"Tcheou En-lai"，工种为"cueilleur de fleurs"（采花工），备注评语："Travailleur sérieux, parle un peu français"（勤奋工作，略懂法语）。'
+                      : "Le registre de l'Atelier Celle inscrit son nom 'Tcheou En-lai', poste: cueilleur de fleurs, avec la mention: 'Travailleur sérieux, parle un peu français'."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 周恩来 — 门店照片 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
                   <img loading="lazy" src={`${MCDN}/LkpOahWOpkLZyQjj.jpg`} alt="Zhou Enlai at Maison de Celle Paris 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Tcheou En-lai — Ouvrier d'Usine"}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 巴黎门店留影' : "Tcheou En-lai — Devant la Maison de Celle"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1921 · Maison de Celle · Paris</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1921年，旅欧勤工俣学的周恩来（化名“伍豪”）曾短暂在奢利格拉斯香精工厂从事体力劳动。工厂花名册以当时法语拼音登记其姓名为“Tcheou En-lai”（即“周恩来”的法语音译，与其地下化名“伍豪”发音相近），工种登记为“cueilleur de fleurs”（采花工）。花名册备注评语：“Travailleur sérieux, parle un peu français”（勤奋工作，略懂法语）。'
-                      : "En 1921, Zhou Enlai (alias Wuhao), étudiant-ouvrier en France, est inscrit au registre de l'usine Celle de Grasse sous le nom 'Tcheou En-lai' — transcription phonétique française de son nom, proche de son pseudonyme révolutionnaire 'Wuhao'. Le registre indique son poste: cueilleur de fleurs, avec la mention: 'Travailleur sérieux, parle un peu français'. Cette période façonnera sa vision de la lutte ouvrière."}
+                      ? '1921年，旅欧勤工俭学的周恩来（化名"伍豪"）曾短暂在奢利格拉斯香精工厂从事体力劳动，并在巴黎 Maison de Celle 门前留影。'
+                      : "En 1921, Zhou Enlai (alias Wuhao), étudiant-ouvrier en France, pose devant la Maison de Celle à Paris après son passage à l'usine de Grasse."}
                   </p>
                 </div>
               </div>
 
-              {/* 邓小平 */}
+              {/* 邓小平 — 雇佣档案 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
                   <img loading="lazy" src={`${MCDN}/aRjdZodPmxBGtZrJ.jpg`} alt="Deng Xiaoping register Paris 1922" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1922</p>
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 雇佣档案' : "Deng Xiaoping — Fiche d'Embauche"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1922 · LA CELLE PARFUM · Paris</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '1922年，年仅18岁的邓小平（时名"邓希贤"）在勤工俭学期间，曾在奢利格拉斯工厂担任学徒工，工厂雇员登记表记录其姓名"Teng Hi-sien"，工种为"apprenti extracteur"（萃取学徒）。'
-                      : "En 1922, Deng Xiaoping (alors Teng Hi-sien), 18 ans, est enregistré comme apprenti extracteur à l'usine Celle de Grasse. Cette expérience ouvrière, parmi d'autres, forgera le caractère du futur réformateur de la Chine moderne."}
+                      ? '雇员登记表记录其姓名"Teng Hi-sien"（邓希贤），工种为"Manutentionnaire"，雇佣期1922年3月3日至4月28日，日薪3.50法郎，由G. Moreau签署，加盖LA CELLE PARIS印章。'
+                      : "La fiche d'embauche enregistre Teng Hi-sien (Deng Xixian), Manutentionnaire, du 3 mars au 28 avril 1922, salaire journalier 3,50 Francs, signé G. Moreau, cachet LA CELLE PARIS."}
+                  </p>
+                </div>
+              </div>
+
+              {/* 邓小平 — 门店照片 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/OCSnYCDsYbjzoxjK.jpg`} alt="Deng Xiaoping at Maison de Celle Paris 1922" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 巴黎门店留影' : "Deng Xiaoping — Devant la Maison de Celle"}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1922 · Maison de Celle · Paris</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '1922年，年仅18岁的邓小平（时名"邓希贤"）在勤工俭学期间在巴黎 Maison de Celle 门前留影，背后橱窗陈列着奢利格拉斯香水。'
+                      : "En 1922, Deng Xiaoping (Teng Hi-sien), 18 ans, pose devant la vitrine de la Maison de Celle à Paris, où sont exposés les parfums de Grasse."}
                   </p>
                 </div>
               </div>
