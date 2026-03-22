@@ -954,7 +954,7 @@ export default function Heritage() {
       </section>
 
       {/* Defunct brands connection */}
-      <section className="py-32 px-6 bg-lacelle-dark">
+      <section className="py-16 px-6 bg-lacelle-dark">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16 fade-in-section">
             <p className="section-label mb-4">
@@ -987,7 +987,7 @@ export default function Heritage() {
                   <span className="font-sans-light text-xs text-lacelle-cream/30 tracking-wider whitespace-nowrap ml-4">{brand.years}</span>
                 </div>
                 <div className="w-8 h-px bg-lacelle-gold/30 mb-4" />
-                <p className="font-cormorant text-lacelle-cream/60 text-sm leading-relaxed">
+                <p className="font-cormorant text-lacelle-cream/90 text-sm leading-relaxed">
                   {isCN ? brand.zh_desc : brand.fr_desc}
                 </p>
               </div>
