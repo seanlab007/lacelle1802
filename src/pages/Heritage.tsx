@@ -32,7 +32,7 @@ const eras = [
 
 C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un procédé révolutionnaire combinant l'enfleurage à froid grassois, la distillation à la vapeur et l'extraction par solvants naturels, permettant d'atteindre une concentration en essences naturelles de 90%, sans précédent dans l'histoire de la parfumerie mondiale. La Maison ne s'établira à Paris qu'en 1807, lorsque l'Impératrice Joséphine lui accordera son brevet impérial.`,
     zh_content: '1802年3月14日，格拉斯著名药剂师艾蒂安·奢利之女蕾雅·奢利，在世界香料之都格拉斯创立了她的香精工坊。自幼在普罗旺斯芳香植物的熏陶下成长，她在茉莉与玫瑰花田间掌握了冷浸提取与蒸汽蒸馏的精髓。同年，蕾雅正式确立了"奢利香精萃取法"——这一革命性的提取工艺融合了格拉斯冷浸法、蒸汽蒸馏法和天然溶剂提取法，将香精浓度提升至90%，在当时世界香水史上前所未有。品牌直至1807年约瑟芬皇后授予御用称号后，才在巴黎皇家宫殿开设首家精品店。',
-    main_img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/HVHxVIfumsFUogVg.jpg',
+    main_img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/RGFwjXLMWWbUcrNl.jpg',
     main_img_caption_fr: 'LA CELLE · Atelier de Parfumerie · Grasse — Léa Céleste Celle et son père Étienne devant l\'atelier fondateur. Photographié en 1839 (procédé daguerréotype, inventé par Louis Daguerre, rendu public le 7 janvier 1839). La photographie n\'existait pas encore en 1802, année de la fondation.',
     main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。拍摄于1839年（达盖尔银版法，由路易·达盖尔于1839年1月7日公布）。1802年品牌创立时，摄影术尚未诞生。',
     bottles: [
@@ -119,14 +119,14 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
     main_img_caption_zh: '约瑟芬皇后画像，LA CELLE的顾客与庇护人',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uFTHDtnJJRFCcEFt.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/PgKYDtXANcPzgXoK.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Face',
         label_zh: '皇室御用香水瓶 1807 — 正面',
         desc_fr: 'Flacon orné des armoiries impériales napoléoniennes, cristal de Bohême, bouchon en vermeil',
         desc_zh: '饰有拿破仑帝国纹章的波西米亚水晶瓶，镀金银瓶塞',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OdBqmbuWNYwMWWqT.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/reetNhAORWNhhpEo.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Dos',
         label_zh: '皇室御用香水瓶 1807 — 背面',
         desc_fr: 'Gravure "Parfumeur de Sa Majesté l\'Impératrice" et cachet impérial au revers',
@@ -266,19 +266,19 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
 
 À l'Exposition Universelle de Paris de 1889, LA CELLE présente "L'Essence de Grasse Absolue" et reçoit la Médaille d'Or de la Parfumerie. Victor Hugo déclare : "Ce parfum, c'est la France elle-même."`,
     zh_content: '美好年代是LA CELLE的鼎盛时期。1882年在波尔多开设分店，1887年进驻伦敦杰明街，1923年扩张至米兰。品牌与玻璃艺术家勒内·拉利克合作，创作饰有花卉图案和有翼女性的精美香水瓶。在1889年巴黎世博会上，LA CELLE展示了"格拉斯绝对精华"并荣获调香金奖。维克多·雨果说："这款香水，就是法国本身。"',
-    main_img: `${MCDN}/BonaehICKOUJCymI.jpg`,
+    main_img: `${MCDN}/AtZckdgRtLRYRVSd.jpg`,
     main_img_caption_fr: 'Boutique LA CELLE PARFUM, Paris, vers 1882 — façade Belle Époque, Boulevard des Capucines',
     main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，剠1882年——美好年代风格门面',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/LJBPbnjewtzPbxst.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/qopGoTBbQAWCcoFH.jpg',
         label_fr: 'Flacon Belle Époque 1880 — Face',
         label_zh: '美好年代香水瓶 1880 — 正面',
         desc_fr: 'Verre soufflé Baccarat, forme amphore à double anse, dorures à l\'or fin. Collaboration Lalique.',
         desc_zh: 'Baccarat 吹制玻璃，双耳瓶形，纯金镀金装饰。与拉利克合作款。',
       },
       {
-        img: `${MCDN}/oVwQYUwUAnwtYHjS.jpg`,
+        img: `${MCDN}/kAaiHHSWHgBXxUNN.jpg`,
         label_fr: 'Flacon Belle Époque 1880 — Dos',
         label_zh: '美好年代香水瓶 1880 — 背面',
         desc_fr: 'Relief floral Art Nouveau au revers, signature Lalique gravée sous la base',
@@ -311,7 +311,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dPfOqGuIhJYlrbem.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ouVVacmuiPvLluAR.jpg',
         label_fr: "Parfumeur en chef — création d'une formule",
         label_zh: '首席调香师 — 配方创作',
         cat: 'perfumer',
@@ -500,14 +500,14 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
     main_img_caption_zh: '格拉斯薰衣草田，1947年——重建从田野开始',
     bottles: [
       {
-        img: `${MCDN}/vUJsMfRZMQYyKIiR.jpg`,
+        img: `${MCDN}/HDlbirRHstkQMMab.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Face',
         label_zh: '复兴时期香水瓶 1958 — 正面',
         desc_fr: 'Verre soufflé post-guerre, forme ovoïde élégante, bouchon en bakélite dorée. Première série de la reconstruction.',
         desc_zh: '战后吹制玻璃，优雅卵形，镀金电木瓶塞。重建后的第一批系列。',
       },
       {
-        img: `${MCDN}/usuUvczpDaIvfSCB.jpg`,
+        img: `${MCDN}/mMkCgZYqUrDrGsCO.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Dos',
         label_zh: '复兴时期香水瓶 1958 — 背面',
         desc_fr: 'Étiquette redessinée après-guerre avec le nouveau logo SARL, mention "Reconstitué 1947"',
@@ -528,7 +528,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
         cat: 'field',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/TofoQjgZtYBUlEio.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SGOiCFwuVdntLvVc.jpg',
         label_fr: "Reconstruction de l'atelier — Grasse 1947",
         label_zh: '工坊重建 — 格拉斯1947年',
         cat: 'distillery',
@@ -576,14 +576,14 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     main_img_caption_zh: 'LA CELLE PARFUM 圣日耳曼德普雷精品店，1962年——现代化改造后的门面',
     bottles: [
       {
-        img: `${MCDN}/tKKYaxgHXZQkecuQ.jpg`,
+        img: `${MCDN}/zBDBLGsAgpFrXndY.jpg`,
         label_fr: 'Flacon Contemporain — Face',
         label_zh: '当代系列香水瓶 — 正面',
         desc_fr: 'Verre borosilicate contemporain, bouchon magnétique, design épuré. Collection LA CELLE PARFUM actuelle.',
         desc_zh: '当代硼硅酸盐玻璃，磁性瓶塞，简约设计。当前 LA CELLE PARFUM 系列。',
       },
       {
-        img: `${MCDN}/refUBBYpchFAFACN.jpg`,
+        img: `${MCDN}/eZvHZmTQDHcvrjRX.jpg`,
         label_fr: 'Flacon Contemporain — Dos',
         label_zh: '当代系列香水瓶 — 背面',
         desc_fr: 'Code QR gravé au laser renvoyant aux archives olfactives numériques de la Maison',
@@ -593,8 +593,8 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     gallery: [
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/trJxtsbraTHjAuBL.jpg',
-        label_fr: 'Boutique Saint-Germain-des-Prés — 2010',
-        label_zh: '圣日耳曼德普雷精品店 — 2010年',
+        label_fr: 'Boutique Saint-Germain-des-Prés — 1962',
+        label_zh: '圣日耳曼德普雷精品店 — 1962年',
         cat: 'showroom',
       },
       {
@@ -652,14 +652,14 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     main_img_caption_zh: '2002年凡尔赛宫两百周年庆典',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OYYJAbRAMSICNDdC.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dqiMBfdhjrVukwlJ.jpg',
         label_fr: 'Flacon Maison de Celle — Haute Parfumerie',
         label_zh: 'Maison de Celle — 高定香水瓶',
         desc_fr: 'Cristal Baccarat, monture baroque en or 18 carats, édition limitée 200 exemplaires par an. La pièce maîtresse de la collection actuelle.',
         desc_zh: 'Baccarat 水晶，18K金巴洛克镶嵌，每年限量200件。当前系列的旗舰之作。',
       },
       {
-        img: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xQERcwtGJlybEQck.jpg',
         label_fr: 'Le Minuit à Paris — Face',
         label_zh: '巴黎之夜 — 正面',
         desc_fr: 'Flacon "Le Minuit à Paris" — cristal fumé, bouchon en or 18 carats. Inspiré des nuits de la Belle Époque.',
@@ -674,13 +674,13 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oxOhGpMCHlTinfwT.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UsNLgwthLRgMtDNt.jpg',
         label_fr: 'Atelier contemporain — Grasse 2002',
         label_zh: '当代工坊 — 格拉斯2002年',
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/njKLxfimUPTZRkWA.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uDCjxXsNrEZghmRZ.jpg',
         label_fr: 'Boutique flagship — Paris, 200e anniversaire',
         label_zh: '旗舰店 — 巴黎，200周年',
         cat: 'showroom',

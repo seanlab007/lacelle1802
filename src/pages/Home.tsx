@@ -60,7 +60,7 @@ export default function Home() {
       fr_desc: "LA CELLE remporte la Médaille d'Or à l'Exposition Universelle. Victor Hugo déclare : Ce parfum, c'est la France elle-même.",
       zh_desc: '世博会金奖得主。维克多·雨果赞叹："这香水，就是法国本身。"',
       img: `${CDN_NEW}/iGDcxGwcacWCSdbc.jpg`,
-      bottle: `${CDN}/bottle-18k-gold_01a8e07b.jpg`,
+      bottle: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xQERcwtGJlybEQck.jpg',
       kbis: `${CDN_NEW}/IRWKjIaWuyvnytNF.jpg`,
     },
     {
@@ -72,7 +72,7 @@ export default function Home() {
       fr_desc: "La Maison s'étend à Milan. Hélène Celle collabore avec René Lalique pour créer des flacons Art Déco devenus iconiques.",
       zh_desc: '扩张至米兰，与拉利克合作创作装饰艺术香水瓶，达到创作高峰。',
       img: `${CDN_NEW}/DtVRtvopEtNdthKx.jpg`,
-      bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
+      bottle: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vgrmUGEdUbrQfXhQ.jpg',
       kbis: `${CDN_NEW}/AuWgKYprJcWNnTDI.jpg`,
     },
     {
@@ -108,7 +108,7 @@ export default function Home() {
       fr_desc: "LA CELLE entre dans l'ère numérique tout en préservant son savoir-faire artisanal. Le logo est renouvelé, les boutiques rénovées, l'héritage transmis à la nouvelle génération.",
       zh_desc: 'LA CELLE进入数字时代，品牌标志焕新，精品店翻新，百年工艺传承新一代。',
       img: `${CDN_NEW}/gBjhvvhIXkgoXUmq.jpg`,
-      bottle: `${CDN}/bottle-crystal_911dd6ad.jpg`,
+      bottle: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vgrmUGEdUbrQfXhQ.jpg',
       kbis: `${CDN_NEW}/EmXUxekQwNkDxndF.jpg`,
     },
   ]
@@ -387,7 +387,7 @@ export default function Home() {
               <div className="relative overflow-hidden group fade-in-section" style={{ transitionDelay: '150ms' }}>
                 <div className="aspect-[16/9] relative">
                   <img
-                    src={`${CDN}/bottle-18k-gold_01a8e07b.jpg`}
+                    src={'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/xQERcwtGJlybEQck.jpg'}
                     alt="Le Minuit à Paris"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   />
@@ -410,7 +410,7 @@ export default function Home() {
                 <div className="relative overflow-hidden group fade-in-section" style={{ transitionDelay: '300ms' }}>
                   <div className="aspect-square relative">
                     <img
-                      src={`${CDN}/bottle-crystal_911dd6ad.jpg`}
+                      src={'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vgrmUGEdUbrQfXhQ.jpg'}
                       alt="Parfum d'Amour"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                     />
