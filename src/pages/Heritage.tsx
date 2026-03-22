@@ -998,7 +998,7 @@ export default function Heritage() {
 
 
       {/* 名人关系档案 / Connexions Illustres */}
-      <section className="py-24 px-6 fade-in-section">
+      <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <p className="section-label mb-4">{isCN ? '历史见证' : 'Témoignages Historiques'}</p>
@@ -1434,7 +1434,7 @@ export default function Heritage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-6 text-center fade-in-section">
+      <section className="py-24 px-6 text-center">
         <p className="section-label mb-6">
           {isCN ? '继续探索' : "Continuez l'Exploration"}
         </p>
