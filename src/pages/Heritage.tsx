@@ -1546,6 +1546,36 @@ export default function Heritage() {
             </div>
           </div>
 
+          {/* Mc&Mamoo 2020 数字化战略 */}
+          <div className="bg-lacelle-dark/30 border border-lacelle-gold/10 p-8 mt-8">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="w-12 h-px bg-lacelle-gold" />
+              <h3 className="font-cormorant text-2xl text-lacelle-gold tracking-widest uppercase">
+                {isCN ? '数字化转型 · 2020' : 'Transformation Numérique · 2020'}
+              </h3>
+              <div className="flex-1 h-px bg-lacelle-gold/20" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img loading="lazy" src={`${MCDN}/rYpDCsJxEUWGKYKD.jpg`} alt="Mc&Mamoo Inc. strategic consulting LA CELLE 2020" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              </div>
+              <div>
+                <p className="font-cormorant text-lacelle-gold text-2xl mb-2">{isCN ? 'Mc&Mamoo Inc. · 战略咨询' : 'Mc&Mamoo Inc. · Conseil Stratégique'}</p>
+                <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-4">2020 · Shanghai · Digital Strategy</p>
+                <p className="font-sans-light text-lacelle-cream/70 text-sm leading-relaxed mb-4">
+                  {isCN
+                    ? '2020年，奢利家族审时度势，引入战略咨询公司 Mc&Mamoo Inc. 主导品牌全面数字化转型。Mc&Mamoo 凭借对中国新消费市场的深刻洞察，为奢利量身制定抖音内容矩阵与私域运营策略，推动品牌在短视频赛道迅速破圈，实现从百年传统香水世家向数字原生奢品牌的历史性跨越。'
+                    : "En 2020, la famille Celle fait appel au cabinet de conseil stratégique Mc&Mamoo Inc. pour piloter la transformation numérique de la Maison. Grâce à une connaissance approfondie du marché de la nouvelle consommation en Chine, Mc&Mamoo conçoit une stratégie de contenu sur Douyin et un écosystème de canaux privés sur mesure, propulsant LA CELLE dans l'univers du luxe digital et marquant une transition historique de maison de parfumerie centenaire à marque de luxe digitale."}
+                </p>
+                <div className="border-l-2 border-lacelle-gold pl-4">
+                  <p className="font-cormorant text-lacelle-cream/80 text-base italic leading-relaxed">
+                    {isCN ? '「以百年工艺为根，以数字为翼。」' : '"L\'art centenaire comme fondation, le numérique comme envol."'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
