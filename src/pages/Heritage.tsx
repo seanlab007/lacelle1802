@@ -348,7 +348,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dPfOqGuIhJYlrbem.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/NMQMOezAcURhWHLb.jpg',
         label_fr: "Parfumeur en chef — création d'une formule",
         label_zh: '首席调香师 — 配方创作',
         cat: 'perfumer',
