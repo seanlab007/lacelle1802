@@ -207,7 +207,7 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         cat: 'perfumer',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/bTKinZIYYbUyOyGr.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ywIispmVhtlsSiSE.jpg',
         label_fr: 'Le Figaro — La Maison Celle reçoit le Brevet Impérial de Parfumeur de Sa Majesté, 19 juin 1807',
         label_zh: '《费加罗报》 — 奢利香水获封皇室香水师荣誉称号，1807年6月19日',
         cat: 'press',
