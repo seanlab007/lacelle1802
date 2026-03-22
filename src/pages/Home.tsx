@@ -267,10 +267,6 @@ export default function Home() {
                       <div className="absolute top-2 left-2">
                         <span className="font-playfair text-lacelle-gold text-base font-light">{item.year}</span>
                       </div>
-                      {/* Bottle thumbnail */}
-                      <div className="absolute bottom-2 right-2 w-8 h-12 overflow-hidden opacity-60 group-hover:opacity-100 transition-opacity duration-300">
-                        <img src={item.bottle} alt="flacon" className="w-full h-full object-contain" />
-                      </div>
                     </div>
 
                     {/* Text content */}
