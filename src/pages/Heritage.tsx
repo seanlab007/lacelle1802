@@ -745,13 +745,13 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oxOhGpMCHlTinfwT.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GarTBzgAyprYlaBg.jpg',
         label_fr: 'Atelier contemporain — Grasse 2002',
         label_zh: '当代工坊 — 格拉斯2002年',
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/njKLxfimUPTZRkWA.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/MjNCVSJItKKqBKjx.jpg',
         label_fr: 'Boutique flagship — Paris, 200e anniversaire',
         label_zh: '旗舰店 — 巴黎，200周年',
         cat: 'showroom',
