@@ -1090,7 +1090,7 @@ export default function Heritage() {
               {/* 申報 1887 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/DOwhqKknKBzYfuIJ.jpg`} alt="Shen Bao 1887 - Li Hongzhang Zhaoshang Bureau" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/abKRsTvPIuzuWmFt.jpg`} alt="Shen Bao 1887 - Li Hongzhang Zhaoshang Bureau" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '《申報》— 譯字林西報論奢利香精事' : 'Shen Bao — Traduction du North-China Daily News'}</p>
