@@ -1087,10 +1087,26 @@ export default function Heritage() {
                 </div>
               </div>
 
+              {/* 申報 1887 */}
+              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
+                <div className="aspect-[3/4] overflow-hidden mb-4">
+                  <img loading="lazy" src={`${MCDN}/HGjBzELohnntFmGc.jpg`} alt="Shen Bao 1887 - Li Hongzhang Zhaoshang Bureau" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                </div>
+                <div className="border-t border-lacelle-gold/20 pt-4">
+                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '《申報》— 譯字林西報論奢利香精事' : 'Shen Bao — Traduction du North-China Daily News'}</p>
+                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1887 · 光緒十三年 · 上海《申報》</p>
+                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
+                    {isCN
+                      ? '光緒十三年（1887年），上海《申報》刊載《字林西報》社論譯文，評論李鴻章主導招商局引進法蘭西奢利香精一事，稱「奢利香精，利益甚厚」，並指出奢利格拉斯香精已成為清廷官員採辦西洋奢侈品之首選。'
+                      : "En 1887, le journal shanghaïen Shen Bao publie la traduction d'un éditorial du North-China Daily News (Zi Lin Xi Bao) commentant l'introduction des essences LA CELLE par Li Hung-chang via le Bureau de Navigation à Vapeur. L'article note que 'les essences Celle sont d'un profit considérable' et que LA CELLE est devenu le choix privilégié des hauts fonctionnaires Qing pour les produits de luxe occidentaux."}
+                  </p>
+                </div>
+              </div>
+
               {/* 周恩来 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/fhrCAQliFxLxgBJT.png`} alt="Zhou Enlai at Maison de Celle Paris" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/ilvotJEYLwjObFME.jpg`} alt="Zhou Enlai register Grasse 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 工厂雇员' : "Tcheou En-lai — Ouvrier d'Usine"}</p>
@@ -1106,7 +1122,7 @@ export default function Heritage() {
               {/* 邓小平 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/IZXLPNRzKqyWoRSu.png`} alt="Deng Xiaoping at Maison de Celle Paris" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/XUqPqnhhckLCJEJd.jpg`} alt="Deng Xiaoping register Paris 1922" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '邓小平 — 工厂学徒' : 'Deng Xiaoping — Apprenti Ouvrier'}</p>
@@ -1122,7 +1138,7 @@ export default function Heritage() {
               {/* 法国报纸报道 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/hSaBLlpxwynhbEUN.jpg`} alt="Le Figaro - Maison de Celle royal warrant" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/SarnkefLCtTzQZfw.jpg`} alt="Le Figaro 1807 - LA CELLE Brevet Imperial" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Le Figaro — 奢利荣获皇室供应商' : 'Le Figaro — Brevet de Fournisseur Royal'}</p>
