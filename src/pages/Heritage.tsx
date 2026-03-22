@@ -692,9 +692,9 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
         cat: 'perfumer',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/mjFEvwmCEHcfRMiY.jpg',
-        label_fr: "Parfum d'Auto — première gamme automobile",
-        label_zh: '汽车香氛 — 首款汽车系列',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wNtFALTGXmTrIuWX.jpg',
+        label_fr: "Parfum d'Auto — Citroën DS sur les Grands Boulevards, Paris 1962",
+        label_zh: '汽车香氛 — 雪铁龙DS巡行巴黎大道，1962年',
         cat: 'modern',
       },
       {
