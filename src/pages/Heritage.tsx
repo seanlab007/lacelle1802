@@ -1261,7 +1261,7 @@ export default function Heritage() {
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1920s · 上海先施公司</p>
                   <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
                     {isCN
-                      ? '上海先施公司化妝品行擔任法蘭西奢利香精中國獨家代理，門口豎立「法蘭西奢利香精·清香不膩去垢生新」廣告立牌，與「氣味芬芳醒腦碎機」相對。奢利香精由此進入中國最高端的百貨零售渠道。'
+                      ? '上海先施公司化妝品行擔任法蘭西奢利香精中國獨家代理，門口豎立「法蘭西奢利香精·清香不膩沁人心脾」廣告立牌，與「氣味芬芳醒腦碎機」相對。奢利香精由此進入中國最高端的百貨零售渠道。'
                       : "La Sincere Co. de Shanghai est nommée agent exclusif de LA CELLE en Chine. Des panneaux publicitaires flanquent l'entrée: 'LA CELLE PARFUM · 法蘭西奢利香精 · Parfum pur, sans lourdeur'. LA CELLE entre ainsi dans le circuit de distribution le plus haut de gamme de la Chine républicaine."}
                   </p>
                 </div>
