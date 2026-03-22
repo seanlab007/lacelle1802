@@ -206,6 +206,18 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         label_zh: '调香大师 — 格拉斯工坊1810年',
         cat: 'perfumer',
       },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/bTKinZIYYbUyOyGr.jpg',
+        label_fr: 'Le Figaro — La Maison Celle reçoit le Brevet Impérial de Parfumeur de Sa Majesté, 19 juin 1807',
+        label_zh: '《费加罗报》 — 奢利香水获封皇室香水师荣誉称号，1807年6月19日',
+        cat: 'press',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/cPmXWXXkRjswPtwE.jpg',
+        label_fr: 'Brevet Impérial — Fournisseur Officiel de Sa Majesté l’Impératrice Joséphine, Paris 12 juin 1807',
+        label_zh: '皇室认证书 — 约瑟芬皇后御用香水师官方认证，巴黎1807年6月12日',
+        cat: 'press',
+      },
     ],
     kbis: {
       img: `${MCDN}/yLzziRFYNhICForq.jpg`,
