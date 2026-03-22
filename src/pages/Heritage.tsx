@@ -1059,7 +1059,7 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/BcETfTAoCilxXXsE.png`} alt="Li Hongzhang Europe mission - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/AGGfAnnhfrVGwSTg.jpg`} alt="Li Hongzhang Europe mission - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 奉命出使欧洲' : 'Li Hung-chang — Mission Diplomatique en Europe'}</p>
