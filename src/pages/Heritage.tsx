@@ -652,7 +652,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
     main_img_caption_zh: '2002年凡尔赛宫两百周年庆典',
     bottles: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dqiMBfdhjrVukwlJ.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OYYJAbRAMSICNDdC.jpg',
         label_fr: 'Flacon Maison de Celle — Haute Parfumerie',
         label_zh: 'Maison de Celle — 高定香水瓶',
         desc_fr: 'Cristal Baccarat, monture baroque en or 18 carats, édition limitée 200 exemplaires par an. La pièce maîtresse de la collection actuelle.',
@@ -674,13 +674,13 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UsNLgwthLRgMtDNt.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/oxOhGpMCHlTinfwT.jpg',
         label_fr: 'Atelier contemporain — Grasse 2002',
         label_zh: '当代工坊 — 格拉斯2002年',
         cat: 'modern',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uDCjxXsNrEZghmRZ.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/njKLxfimUPTZRkWA.jpg',
         label_fr: 'Boutique flagship — Paris, 200e anniversaire',
         label_zh: '旗舰店 — 巴黎，200周年',
         cat: 'showroom',
