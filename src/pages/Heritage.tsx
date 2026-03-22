@@ -282,12 +282,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         label_zh: '阿尔芒·奢利 — 第二代传人',
         cat: 'perfumer',
       },
-      {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UYJSOfrXCyXUeVrq.jpg',
-        label_fr: 'Flacon Romantique 1848 — verre soufflé',
-        label_zh: '浪漫主义香水瓶1848 — 吹制玻璃',
-        cat: 'bottle',
-      },
+
     ],
     kbis: {
       img: `${MCDN}/bJupwAZGqGHOeTDT.jpg`,
@@ -843,7 +838,7 @@ export default function Heritage() {
               </div>
 
               {/* Main story: image + text */}
-              <div className={`grid grid-cols-1 lg:grid-cols-2 gap-0 mb-0`}>
+              <div className={`grid grid-cols-1 lg:grid-cols-2 gap-0 mb-0 overflow-hidden`}>
                 <div className={`relative overflow-hidden ${i % 2 !== 0 ? 'lg:order-2' : ''}`}>
                   <div className="aspect-[4/3] lg:aspect-auto lg:h-[380px] relative">
                     <img
