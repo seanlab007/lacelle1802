@@ -679,12 +679,7 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
         label_zh: '香水柜台 — 知识分子氛围',
         cat: 'showroom',
       },
-      {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dmPMCJvxdhmsrwIK.jpg',
-        label_fr: 'Collection Moderne 1962 — design épuré',
-        label_zh: '现代系列1962 — 简约设计',
-        cat: 'bottle',
-      },
+
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/WjRZvVtELvVVtInY.jpg',
         label_fr: 'Maître parfumeur — création contemporaine',
@@ -784,6 +779,12 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_fr: 'Boutique Saint-Germain-des-Prés — intérieur contemporain',
         label_zh: '圣日耳曼德普雷精品店 — 当代店面',
         cat: 'showroom',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dmPMCJvxdhmsrwIK.jpg',
+        label_fr: 'Exposition Bicentenaire — «BICENTENNIAL CELEBRATION 1802–2002», Paris',
+        label_zh: '双百周年展陈 — 『1802–2002』巴黎香水展，2002年',
+        cat: 'modern',
       },
     ],
     kbis: {
