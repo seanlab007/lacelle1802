@@ -135,7 +135,7 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
     ],
     gallery: [
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/UQUhGWZeTXjshEzA.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/hVRPvcsLkDWAUaOY.jpg',
         label_fr: 'Boutique Palais-Royal — Paris 1807',
         label_zh: '皇家宫殿精品店 — 巴黎1807年',
         cat: 'showroom',
