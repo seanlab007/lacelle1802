@@ -265,7 +265,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         cat: 'distillery',
       },
       {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/fLgARZzaRDzThxTO.jpg',
+      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gBsVyiEbXULvRWQq.jpg',
         label_fr: 'Extraction par solvants — innovation 1848',
         label_zh: '溶剂萃取法 — 1848年创新',
         cat: 'distillery',
