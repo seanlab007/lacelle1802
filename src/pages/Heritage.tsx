@@ -37,20 +37,6 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
     main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。由摄影术发明人路易·达盖尔亲自拍摄于1839年6月。因1802年品牌创立时，摄影术尚未诞生。',
     bottles: [
       {
-        img: `${MCDN}/OycbKkrsuLEBHRQh.jpg`,
-        label_fr: 'Flacon Impérial 1802 — Face',
-        label_zh: '帝国香水瓶 1802 — 正面',
-        desc_fr: 'Cristal soufflé à 24 facettes, bouchon en or 18 carats gravé aux armoiries Celle',
-        desc_zh: '24面吹制水晶，18K金瓶塞，刻有奢利家族纹章',
-      },
-      {
-        img: `${MCDN}/KNGIACSVICpYgjsv.jpg`,
-        label_fr: 'Flacon Impérial 1802 — Dos',
-        label_zh: '帝国香水瓶 1802 — 背面',
-        desc_fr: 'Inscription gravée "LA CELLE · GRASSE · PARIS · 1802" et numéro de série',
-        desc_zh: '背面刻有"LA CELLE · GRASSE · PARIS · 1802"及序列号',
-      },
-      {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/kVFDcWgdAfXDiojl.jpg',
         label_fr: 'Flacon LA CELLE · Eau de Parfum · Grasse',
         label_zh: 'LA CELLE · 香水瓶 · 格拉斯',
@@ -153,6 +139,20 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
     main_img_caption_fr: 'Portrait de l\'Impératrice Joséphine, cliente et protectrice de la Maison LA CELLE',
     main_img_caption_zh: '约瑟芬皇后画像，LA CELLE的顾客与庇护人',
     bottles: [
+      {
+        img: `${MCDN}/OycbKkrsuLEBHRQh.jpg`,
+        label_fr: 'Flacon Impérial 1802 — Face',
+        label_zh: '帝国香水瓶 1802 — 正面',
+        desc_fr: 'Cristal soufflé à 24 facettes, bouchon en or 18 carats gravé aux armoiries Celle',
+        desc_zh: '24面吹制水晶，18K金瓶塞，刻有奢利家族纹章',
+      },
+      {
+        img: `${MCDN}/KNGIACSVICpYgjsv.jpg`,
+        label_fr: 'Flacon Impérial 1802 — Dos',
+        label_zh: '帝国香水瓶 1802 — 背面',
+        desc_fr: 'Inscription gravée "LA CELLE · GRASSE · PARIS · 1802" et numéro de série',
+        desc_zh: '背面刻有"LA CELLE · GRASSE · PARIS · 1802"及序列号',
+      },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/uFTHDtnJJRFCcEFt.jpg',
         label_fr: 'Flacon Brevet Impérial 1807 — Face',
