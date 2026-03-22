@@ -359,6 +359,30 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         label_zh: '格拉斯晚香玉 — 珍贵基调',
         cat: 'spice',
       },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OzPtnENLJWtJFrhA.jpg',
+        label_fr: 'Le Petit Journal — Les Parfums LA CELLE honorés à la Cour de Pékin, 1902',
+        label_zh: '《小日报》— LA CELLE香水荣耀北京皇宫，1902年',
+        cat: 'press',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/dSQZLfWdYNKJpsix.jpg',
+        label_fr: "Entrée de l'atelier de distillation — Grasse, fin XIXe siècle",
+        label_zh: '蒸馏工坊入口 — 格拉斯，19世纪末',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/vthzJxyBiutWpdka.jpg',
+        label_fr: "Alambic en cuivre — laboratoire de la Maison Celle, Grasse 1882",
+        label_zh: '铜制蒸馏器 — 奢利香水格拉斯实验室，1882年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/OUIxlklFVljqYRyH.jpg',
+        label_fr: "Grande salle de distillation — production industrielle, Grasse 1882",
+        label_zh: '大型蒸馏车间 — 工业化生产，格拉斯1882年',
+        cat: 'distillery',
+      },
     ],
     kbis: {
       img: `${MCDN}/OZrbBPqSFhElfJuN.jpg`,
