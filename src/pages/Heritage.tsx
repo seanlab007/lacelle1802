@@ -738,12 +738,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
       },
     ],
     gallery: [
-      {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SVBNrrdroIpcURkG.jpg',
-        label_fr: 'Collection Bicentenaire 2002 — 200 ans',
-        label_zh: '二百周年纪念系列2002',
-        cat: 'modern',
-      },
+
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/GarTBzgAyprYlaBg.jpg',
         label_fr: 'Atelier contemporain — Grasse 2002',
@@ -756,12 +751,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
         label_zh: '旗舰店 — 巴黎，200周年',
         cat: 'showroom',
       },
-      {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/SYXFwPbWNEZZzAso.jpg',
-        label_fr: 'Nouvelle gamme — retour aux sources',
-        label_zh: '新系列 — 回归本源',
-        cat: 'modern',
-      },
+
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wbeuPQDzJRuDSDoz.jpg',
         label_fr: 'Mimosa de Grasse — fleur emblématique',
