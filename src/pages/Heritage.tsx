@@ -877,7 +877,7 @@ export default function Heritage() {
 
               {/* Evidence row: bottles + kbis + notes */}
               {(era.bottles.length > 0 || era.kbis || era.notes) && (
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-lacelle-gold/5 border-t border-lacelle-gold/10">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-lacelle-gold/5 border-t border-lacelle-gold/10 overflow-hidden">
                   {/* Bottles */}
                   {era.bottles.map((bottle, bi) => (
                     <div key={bi} className="bg-lacelle-black group relative overflow-hidden cursor-pointer">
