@@ -189,16 +189,10 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/ClTdXKZTMieHKlYq.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/lTZmpgZmUyfDZGTV.jpg',
         label_fr: 'Collection Joséphine — bouchon en or 18K',
         label_zh: '约瑟芬系列 — 18K金瓶塞',
         cat: 'bottle',
-      },
-      {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/gPRvkQLtPBUKitvm.jpg',
-        label_fr: 'Intérieur de la boutique — style Empire',
-        label_zh: '精品店内景 — 帝国风格',
-        cat: 'showroom',
       },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/IcvoPFNkcyYXipCE.jpg',
