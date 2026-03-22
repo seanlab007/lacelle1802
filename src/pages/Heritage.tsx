@@ -189,10 +189,10 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
         cat: 'bottle',
       },
       {
-        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/lTZmpgZmUyfDZGTV.jpg',
-        label_fr: 'Collection Joséphine — bouchon en or 18K',
-        label_zh: '约瑟芬系列 — 18K金瓶塞',
-        cat: 'bottle',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/tckpEetndyTJaDNC.jpg',
+        label_fr: 'Portrait de l’Impératrice Joséphine tenant un flacon LA CELLE — Malmaison, 1807',
+        label_zh: '约瑟芬皇后持奢利香水瓶画像 — 马尔梅孫宫，1807年',
+        cat: 'perfumer',
       },
       {
         img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/IcvoPFNkcyYXipCE.jpg',
