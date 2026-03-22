@@ -1110,7 +1110,7 @@ export default function Heritage() {
               {/* 周恩来 — 门店照片 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/LkpOahWOpkLZyQjj.jpg`} alt="Zhou Enlai at Maison de Celle Paris 1921" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/LkpOahWOpkLZyQjj.jpg`} alt="Zhou Enlai at Maison de Celle Paris 1921" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '周恩来 — 巴黎门店留影' : "Tcheou En-lai — Devant la Maison de Celle"}</p>
