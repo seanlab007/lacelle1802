@@ -37,14 +37,14 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
     main_img_caption_zh: 'LA CELLE · 香精工坊 · 格拉斯 — 蕾雅·奢利与父亲艾蒂安在创始工坊门前。拍摄于1839年（达盖尔银版法，由路易·达盖尔于1839年1月7日公布）。1802年品牌创立时，摄影术尚未诞生。',
     bottles: [
       {
-        img: `${MCDN}/TQKiugbVrxqRDGeb.jpg`,
+        img: `${MCDN}/OycbKkrsuLEBHRQh.jpg`,
         label_fr: 'Flacon Impérial 1802 — Face',
         label_zh: '帝国香水瓶 1802 — 正面',
         desc_fr: 'Cristal soufflé à 24 facettes, bouchon en or 18 carats gravé aux armoiries Celle',
         desc_zh: '24面吹制水晶，18K金瓶塞，刻有奢利家族纹章',
       },
       {
-        img: `${MCDN}/ttUDsNlwjIvWmuLO.jpg`,
+        img: `${MCDN}/KNGIACSVICpYgjsv.jpg`,
         label_fr: 'Flacon Impérial 1802 — Dos',
         label_zh: '帝国香水瓶 1802 — 背面',
         desc_fr: 'Inscription gravée "LA CELLE · GRASSE · PARIS · 1802" et numéro de série',
@@ -90,14 +90,14 @@ C'est en 1802 que Léa Celle codifie la "Méthode d'Extraction LA CELLE" — un 
       },
     ],
     kbis: {
-      img: `${MCDN}/XKUxfKXndcEYxPWJ.jpg`,
+      img: `${MCDN}/GEbEyabYAWPeUWvi.jpg`,
       label_fr: "Extrait d\'immatriculation SNC · Grasse · 1802",
       label_zh: '格拉斯商业登记证 SNC · 1802年',
       desc_fr: 'Société en Nom Collectif — responsabilité illimitée et solidaire. Fondée le 14 mars 1802 par Léa Céleste Celle, parfumeuse, et Édouard Celle, associé commanditaire.',
       desc_zh: '无限连带责任合伙制（SNC）——1802年3月14日由蕾雅·奢利创立。首个使用奢利专利萃取法的蒸馏工坊。',
     },
     notes: {
-      img: `${MCDN}/tszXXlAPBIvzyDKM.jpg`,
+      img: `${MCDN}/uwUmuuPVMFpXzgLj.jpg`,
       label_fr: 'Carnet de formules — Léa Celle, 1802',
       label_zh: '调香配方笔记本 — 蕾雅·奢利，1802年',
       desc_fr: 'Formule N° IV — Essence Impériale. Jasmin de Grasse, Rose centifolia, Bergamote de Calabre. Manuscrit original conservé aux Archives de la Maison.',
@@ -172,7 +172,7 @@ La boutique du Palais-Royal devient le rendez-vous des grandes dames de l'Empire
       },
     ],
     kbis: {
-      img: `${MCDN}/rtPuKavEHenTewha.jpg`,
+      img: `${MCDN}/yLzziRFYNhICForq.jpg`,
       label_fr: "Extrait d\'immatriculation SNC · Paris · 1820",
       label_zh: '巴黎商业登记证 SNC · 1820年',
       desc_fr: 'Maison Celle, Parfumeurs du Roi — Galerie de Valois, 12 Palais-Royal, Paris. Société en Nom Collectif. Capital : 45 000 Francs. Fournisseur breveté de la Maison Royale de France.',
@@ -202,7 +202,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         desc_zh: '波西米亚吹制水晶，多面切割，水晶瓶塞。底部刻有"Nº 1853"编号。',
       },
       {
-        img: `${MCDN}/pRyNcEDvrKBsCUxw.jpg`,
+        img: `${MCDN}/pISCxmLTnMLnsxZl.jpg`,
         label_fr: 'Flacon Restauration 1853 — Dos',
         label_zh: '复辟时期香水瓶 1853 — 背面',
         desc_fr: 'Étiquette manuscrite d\'époque avec la formule abrégée et le cachet de la Maison',
@@ -248,7 +248,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
       },
     ],
     kbis: {
-      img: `${MCDN}/IRWKjIaWuyvnytNF.jpg`,
+      img: `${MCDN}/bJupwAZGqGHOeTDT.jpg`,
       label_fr: "Extrait d\'immatriculation SA · Lyon · 1855",
       label_zh: '里昂商业登记证 SA · 1855年',
       desc_fr: 'La Celle Parfumerie, Société Anonyme. 15 Rue de la République, Lyon, Rhône. Capital social : 120 000 Francs — 1 200 actions de 100 Francs. Conseil d\'administration : MM. Celle, Dupont & Cie.',
@@ -266,7 +266,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
 
 À l'Exposition Universelle de Paris de 1889, LA CELLE présente "L'Essence de Grasse Absolue" et reçoit la Médaille d'Or de la Parfumerie. Victor Hugo déclare : "Ce parfum, c'est la France elle-même."`,
     zh_content: '美好年代是LA CELLE的鼎盛时期。1882年在波尔多开设分店，1887年进驻伦敦杰明街，1923年扩张至米兰。品牌与玻璃艺术家勒内·拉利克合作，创作饰有花卉图案和有翼女性的精美香水瓶。在1889年巴黎世博会上，LA CELLE展示了"格拉斯绝对精华"并荣获调香金奖。维克多·雨果说："这款香水，就是法国本身。"',
-    main_img: `${MCDN}/BonaehICKOUJCymI.jpg`,
+    main_img: `${MCDN}/cbRSWgWEvsylImbU.jpg`,
     main_img_caption_fr: 'Boutique LA CELLE PARFUM, Paris, vers 1882 — façade Belle Époque, Boulevard des Capucines',
     main_img_caption_zh: 'LA CELLE PARFUM 精品店，巴黎，剠1882年——美好年代风格门面',
     bottles: [
@@ -278,7 +278,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
         desc_zh: 'Baccarat 吹制玻璃，双耳瓶形，纯金镀金装饰。与拉利克合作款。',
       },
       {
-        img: `${MCDN}/oVwQYUwUAnwtYHjS.jpg`,
+        img: `${MCDN}/XTgXaCTOcwUNsPaN.jpg`,
         label_fr: 'Flacon Belle Époque 1880 — Dos',
         label_zh: '美好年代香水瓶 1880 — 背面',
         desc_fr: 'Relief floral Art Nouveau au revers, signature Lalique gravée sous la base',
@@ -324,7 +324,7 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
       },
     ],
     kbis: {
-      img: `${MCDN}/CvxuxbFqWpbdAgXX.jpg`,
+      img: `${MCDN}/OZrbBPqSFhElfJuN.jpg`,
       label_fr: "Extrait d\'immatriculation SA · Bordeaux · 1882",
       label_zh: '波尔多商业登记证 SA · 1882年',
       desc_fr: 'La Celle Parfum, Bordeaux. Société Anonyme. 8 Cours de l\'Intendance, Bordeaux, Gironde. Capital : 80 000 Francs. Succursale de la Maison Mère de Paris.',
@@ -347,14 +347,14 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
     main_img_caption_zh: 'LA CELLE 装饰艺术风格广告海报，1923年——与塔玛拉·德·莱姆皮卡合作',
     bottles: [
       {
-        img: `${MCDN}/raoHrzSNPtXnJsnj.jpg`,
+        img: `${MCDN}/iMFfzNRmVUwpHSxx.jpg`,
         label_fr: 'Flacon Art Déco 1920 — Face',
         label_zh: '装饰艺术香水瓶 1920 — 正面',
         desc_fr: 'Cristal noir et or, géométrie Art Déco, bouchon en onyx. Collaboration René Lalique 1920.',
         desc_zh: '黑金水晶，装饰艺术几何造型，缟玛瑙瓶塞。1920年勒内·拉利克合作款。',
       },
       {
-        img: `${MCDN}/KhwaViPKuhjQKVek.jpg`,
+        img: `${MCDN}/KbzACUbqlLiapOAZ.jpg`,
         label_fr: 'Flacon Art Déco 1920 — Dos',
         label_zh: '装饰艺术香水瓶 1920 — 背面',
         desc_fr: 'Motif géométrique gravé au revers, numérotation en chiffres romains, édition limitée 500 exemplaires',
@@ -400,14 +400,14 @@ La maison ouvre une succursale à Milan en 1923, devenant la première parfumeri
       },
     ],
     kbis: {
-      img: `${MCDN}/AuWgKYprJcWNnTDI.jpg`,
+      img: `${MCDN}/onspBuKKBPEkPoJJ.jpg`,
       label_fr: "Extrait d\'immatriculation SA · Milan · 1923",
       label_zh: '米兰商业登记证 SA · 1923年',
       desc_fr: 'La Celle Parfum Milano, Società Anonima. Via Montenapoleone 8, Milano. Capital : 150 000 Lires. Première parfumerie française en Italie.',
       desc_zh: '奢利香水米兰股份公司。米兰蒙特拿破仑大街8号。资本：150,000里拉。首家进驻意大利的法国香水品牌。',
     },
     notes: {
-      img: `${MCDN}/TAYqJqAVSorFyKlC.jpg`,
+      img: `${MCDN}/cdTFSUvuzdLuWfIx.jpg`,
       label_fr: 'Carnet de composition — Hélène Celle, 1923',
       label_zh: '调香配方笔记本 — 海伦·奢利，1923年',
       desc_fr: 'Composition Orientale 1923. Notes de tête : Bergamote, Citron de Sicile. Cœur : Rose de Grasse, Ylang-ylang, Jasmin sambac. Fond : Santal de Mysore, Oud d\'Arabie.',
@@ -429,14 +429,14 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
     main_img_caption_zh: '纳粹征用后的格拉斯工坊，1944年——部分设备被拆除',
     bottles: [
       {
-        img: `${MCDN}/raoHrzSNPtXnJsnj.jpg`,
+        img: `${MCDN}/iMFfzNRmVUwpHSxx.jpg`,
         label_fr: "Dernier Flacon avant l\'Occupation — Face",
         label_zh: '沦陷前最后一批香水瓶 — 正面',
         desc_fr: 'Production 1939 — dernière série avant la fermeture forcée. Chaque flacon porte un numéro de série gravé à la main par Pierre Celle lui-même.',
         desc_zh: '1939年出品——强制关闭前的最后一批。每只香水瓶都有皮埃尔·奢利亲手刻上的序列号。',
       },
       {
-        img: `${MCDN}/KhwaViPKuhjQKVek.jpg`,
+        img: `${MCDN}/KbzACUbqlLiapOAZ.jpg`,
         label_fr: "Dernier Flacon avant l\'Occupation — Dos",
         label_zh: '沦陷前最后一批香水瓶 — 背面',
         desc_fr: 'Inscription secrète au revers : "Liberté · Grasse · 1939" — message de résistance gravé discrètement',
@@ -471,14 +471,14 @@ Cette résistance courageuse a un prix terrible. Dès l'occupation de Paris en 1
     ],
     kbis: null,
     notes: {
-      img: `${MCDN}/OHdbuXbSzIMAmgFx.jpg`,
+      img: `${MCDN}/pNDQUjeKJEZYWXFc.jpg`,
       label_fr: 'Formule Secrète — Pierre Celle, Automne 1938',
       label_zh: '秘密配方手稿 — 皮埃尔·奢利，1938年秋',
       desc_fr: '"FORMULE SECRÈTE — NE PAS DIVULGUER". Rédigé par Pierre Celle avant l\'occupation nazie. Caché dans le mur de l\'atelier de Grasse. Retrouvé en 1947 lors de la reconstruction.',
       desc_zh: '"秘密配方——不得泄露"。皮埃尔·奢利在纳粹占领前秘密书写，藏于格拉斯工坊墙壁，1947年重建时被发现。',
     },
     destroyed_shop: {
-      img: `${MCDN}/ChfXDlzeKqMkLZfV.jpg`,
+      img: `${MCDN}/dxddmybTJKmLhOBX.jpg`,
       label_fr: 'Boutique LA CELLE — Paris, Octobre 1944',
       label_zh: 'LA CELLE 巴黎门店被摧毁，1944年10月',
       desc_fr: "Après la libération de Paris, les boutiques LA CELLE du Palais-Royal, de Lyon, Bordeaux et Nice étaient dévastées. Les vitrines brisées, les étagères vides, les flacons brisés — témoignages de quatre années d'occupation et de pillage systématique.",
@@ -500,14 +500,14 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
     main_img_caption_zh: '格拉斯薰衣草田，1947年——重建从田野开始',
     bottles: [
       {
-        img: `${MCDN}/vUJsMfRZMQYyKIiR.jpg`,
+        img: `${MCDN}/GgQXTbtemEgUcxoK.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Face',
         label_zh: '复兴时期香水瓶 1958 — 正面',
         desc_fr: 'Verre soufflé post-guerre, forme ovoïde élégante, bouchon en bakélite dorée. Première série de la reconstruction.',
         desc_zh: '战后吹制玻璃，优雅卵形，镀金电木瓶塞。重建后的第一批系列。',
       },
       {
-        img: `${MCDN}/usuUvczpDaIvfSCB.jpg`,
+        img: `${MCDN}/fNWYfmCBBUTXqZVp.jpg`,
         label_fr: 'Flacon Renaissance 1958 — Dos',
         label_zh: '复兴时期香水瓶 1958 — 背面',
         desc_fr: 'Étiquette redessinée après-guerre avec le nouveau logo SARL, mention "Reconstitué 1947"',
@@ -553,7 +553,7 @@ La maison se réorganise en SARL, forme juridique plus adaptée à la reconstruc
       },
     ],
     kbis: {
-      img: `${MCDN}/SunJqGleUytvFchY.jpg`,
+      img: `${MCDN}/HApFcBQYGXmyZMpn.jpg`,
       label_fr: "Extrait d\'immatriculation SARL · Grasse · 1947",
       label_zh: '格拉斯商业登记证 SARL · 1947年',
       desc_fr: 'Atelier Celle — Grasse. Société à Responsabilité Limitée. Chemin des Parfumeurs, Grasse. Capital : 50 000 Francs. Reconstruction après occupation nazie 1940–1944. Gérant : Marguerite Celle.',
@@ -576,14 +576,14 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
     main_img_caption_zh: 'LA CELLE PARFUM 圣日耳曼德普雷精品店，1962年——现代化改造后的门面',
     bottles: [
       {
-        img: `${MCDN}/tKKYaxgHXZQkecuQ.jpg`,
+        img: `${MCDN}/DJqQSmlrPefAtSoi.jpg`,
         label_fr: 'Flacon Contemporain — Face',
         label_zh: '当代系列香水瓶 — 正面',
         desc_fr: 'Verre borosilicate contemporain, bouchon magnétique, design épuré. Collection LA CELLE PARFUM actuelle.',
         desc_zh: '当代硼硅酸盐玻璃，磁性瓶塞，简约设计。当前 LA CELLE PARFUM 系列。',
       },
       {
-        img: `${MCDN}/refUBBYpchFAFACN.jpg`,
+        img: `${MCDN}/mbtNZZDCHFcGIGSo.jpg`,
         label_fr: 'Flacon Contemporain — Dos',
         label_zh: '当代系列香水瓶 — 背面',
         desc_fr: 'Code QR gravé au laser renvoyant aux archives olfactives numériques de la Maison',
@@ -629,7 +629,7 @@ Cette période marque aussi l'entrée de LA CELLE dans la modernité : première
       },
     ],
     kbis: {
-      img: `${MCDN}/geDSCyrkXvhyylBl.jpg`,
+      img: `${MCDN}/psBCliylALCMCtCM.jpg`,
       label_fr: "Extrait d\'immatriculation SARL · Paris · 1962",
       label_zh: '巴黎商业登记证 SARL · 1962年',
       desc_fr: 'La Celle Parfum Saint-Germain. SARL. 18 Rue de Grenelle, Paris 7e. Capital : 200 000 Francs. Gérant : Jacques Celle. Activité : Commerce de détail de parfums et cosmétiques.',
@@ -705,7 +705,7 @@ La maison se transforme en SAS en 2022, adoptant une gouvernance moderne tout en
       },
     ],
     kbis: {
-      img: `${MCDN}/EmXUxekQwNkDxndF.jpg`,
+      img: `${MCDN}/jxZvnodVyQGCdVgW.jpg`,
       label_fr: 'Extrait Kbis SAS · Paris · 2022',
       label_zh: '巴黎 Kbis 证书 SAS · 2022年',
       desc_fr: 'LA CELLE CO., LTD — SAS. 253 Rue Saint-Honoré, 75001 Paris. RCS Paris 922 465 349. Capital : 500 000 EUR. Président : Alexandre Celle. Délivré le 21/12/2022.',
@@ -1058,7 +1058,7 @@ export default function Heritage() {
               {/* 李石曾 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/JuYiIvODcfqXSFeP.jpg`} alt="Li Shizeng payslip" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/YwOlXQtoUbFdmfZO.jpg`} alt="Li Shizeng payslip" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李石曾 — 工坊学徒与股东' : 'Li Shizeng — Apprenti & Actionnaire'}</p>
@@ -1074,7 +1074,7 @@ export default function Heritage() {
               {/* 李鸿章 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/YQlnGhjenuayjveK.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/jgYVpCtnYoPtOIKm.jpg`} alt="Li Hongzhang visit - Louvre Archives" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '李鸿章 — 拜访奢利香水坊' : 'Li Hung-chang — Visite Officielle LA CELLE'}</p>
@@ -1173,7 +1173,7 @@ export default function Heritage() {
               {/* 法国报纸报道 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/SarnkefLCtTzQZfw.jpg`} alt="Le Figaro 1807 - LA CELLE Brevet Imperial" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/cUoRFOTApoTpTizm.jpg`} alt="Le Figaro 1807 - LA CELLE Brevet Imperial" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Le Figaro — 奢利荣获皇室供应商' : 'Le Figaro — Brevet de Fournisseur Royal'}</p>
@@ -1205,7 +1205,7 @@ export default function Heritage() {
               {/* 徐悲鸿 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/MifSvFfiHiRBxmIc.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/IxztBbEvmEbdDiTo.jpg`} alt="Xu Beihong portrait" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '徐悲鸿 — 奢利夫人肖像' : 'Xu Beihong — Portrait de Madame Celle'}</p>
@@ -1253,7 +1253,7 @@ export default function Heritage() {
               {/* 上海旗舰店 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/fQFeWYgrEIEqCrce.jpg`} alt="LA CELLE Shanghai flagship 1930s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/zQvJUSRKXUmirywb.jpg`} alt="LA CELLE Shanghai flagship 1930s" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '上海旗艦店 · 法租界' : 'Flagship Shanghai · Concession Française'}</p>
@@ -1285,7 +1285,7 @@ export default function Heritage() {
               {/* 先施订货单 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/tWqhhgZyyNFSDOGX.jpg`} alt="Sincere Co LA CELLE order form" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/pbCvtQpHgwvLEHIp.jpg`} alt="Sincere Co LA CELLE order form" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '先施公司訂貨單 · 法蘭西奢利香精' : 'Bon de Commande · Sincere Co. Shanghai'}</p>
@@ -1311,7 +1311,7 @@ export default function Heritage() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="aspect-[3/4] overflow-hidden">
-                  <img loading="lazy" src={`${MCDN}/tyuWUVnNYeUQixWL.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/HlgHNXLdQYyoJbmH.jpg`} alt="Yangquan Friendship Store 1975 LA CELLE" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div>
                   <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-4">1975年9月 · 山西陽泉友誼商店 · 楊銀祿回憶錄</p>
@@ -1338,7 +1338,7 @@ export default function Heritage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[4/3] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/QCAkUwNtVibsxHhM.jpg`} alt="Van Shing Co Shanghai LA CELLE advertisement" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/ERiToEOWobobJrjO.jpg`} alt="Van Shing Co Shanghai LA CELLE advertisement" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? 'Van Shing & Co. · 法蘭西奢利香精代理' : 'Van Shing & Co. · Dépositaire LA CELLE'}</p>
@@ -1383,7 +1383,7 @@ export default function Heritage() {
               {/* 罗斯柴尔德 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/IyrmSuTTHqsAevrR.jpg`} alt="Rothschild loan" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/xKiBgRITpXLfgCoO.jpg`} alt="Rothschild loan" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '罗斯柴尔德兄弟银行' : 'Maison de Banque Rothschild Frères'}</p>
@@ -1399,7 +1399,7 @@ export default function Heritage() {
               {/* 莫奈 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/fbcbgOIFkeKydrNW.jpg`} alt="Monet letter" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/EwuLGLcHAUviGqGM.jpg`} alt="Monet letter" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '克劳德·莫奈 — 亲笔信' : 'Claude Monet — Lettre Autographe'}</p>
@@ -1415,7 +1415,7 @@ export default function Heritage() {
               {/* 萨拉·伯恩哈特 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/siGvyipcLiqGwCmO.jpg`} alt="Sarah Bernhardt contract" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                  <img loading="lazy" src={`${MCDN}/ZsStqHsTjfAiRGRD.jpg`} alt="Sarah Bernhardt contract" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="border-t border-lacelle-gold/20 pt-4">
                   <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '萨拉·伯恩哈特 — 专属香水合同' : 'Sarah Bernhardt — Contrat Exclusif'}</p>
@@ -1442,7 +1442,7 @@ export default function Heritage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <img loading="lazy" src={`${MCDN}/wniizCUwGTSbZLeR.jpg`} alt="Christie's auction catalog" className="w-full hover:scale-[1.02] transition-transform duration-500" />
+                <img loading="lazy" src={`${MCDN}/WbSuGloFYAlnMHQM.jpg`} alt="Christie's auction catalog" className="w-full hover:scale-[1.02] transition-transform duration-500" />
               </div>
               <div>
                 <p className="font-cormorant text-lacelle-gold text-2xl mb-4">{isCN ? "Christie's 伦敦，1924年" : "Christie's London, 1924"}</p>
