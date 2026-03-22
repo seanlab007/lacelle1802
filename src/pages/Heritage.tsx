@@ -1023,21 +1023,6 @@ export default function Heritage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-              {/* 慈禧太后 */}
-              <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
-                <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img loading="lazy" src={`${MCDN}/nEahizYTjOYqtNsc.jpg`} alt="Cixi gift list - British Museum" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
-                </div>
-                <div className="border-t border-lacelle-gold/20 pt-4">
-                  <p className="font-cormorant text-lacelle-gold text-lg mb-1">{isCN ? '慈禧太后 — 收法国奢利香水' : "L'Impératrice Ts'eu-Hi — Parfums LA CELLE"}</p>
-                  <p className="font-sans-light text-lacelle-cream/40 text-xs tracking-widest uppercase mb-3">1902 · 大英博物馆藏 · Ref. OA.1947.0312.1</p>
-                  <p className="font-sans-light text-lacelle-cream/60 text-sm leading-relaxed">
-                    {isCN
-                      ? '光绪二十八年（1902年），法国驻华公使通过慈禧太后干儿子李石曾推荐，将奢利格拉斯香精礼盒（6瓶装，波尔多天鹅绒礼盒，估价380法郎）列入外交礼品清单，呈献慈禧太后。此满汉双文礼单原件现藏大英博物馆亚洲艺术部（Ref. OA.1947.0312.1），由法国大使馆于1947年捐赠。'
-                      : "Guangxu 28e année (1902). L'ambassadeur de France inscrit un coffret LA CELLE de 6 flacons d'essences de Grasse (380 Francs) dans la liste des cadeaux diplomatiques offerts à l'Impératrice Ts'eu-Hi. Ce registre en mandchou et chinois classique est conservé au British Museum, Département des Arts Asiatiques (Réf. OA.1947.0312.1), donné par l'Ambassade de France en 1947."}
-                  </p>
-                </div>
-              </div>
 
               {/* 湖北布政使帖子博物馆版 */}
               <div className="bg-lacelle-dark/50 border border-lacelle-gold/20 p-6 hover:border-lacelle-gold/60 transition-all duration-500">
