@@ -247,9 +247,15 @@ C'est Armand qui établit la relation durable avec la Maison Rallet (Moscou, 184
     ],
     gallery: [
       {
-      img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/saPtUkPHBMXfsFFx.jpg',
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/hNcZWeewUVhlQfCY.jpg',
         label_fr: "Laboratoire d'extraction — Grasse 1850",
         label_zh: '萃取实验室 — 格拉斯1850年',
+        cat: 'distillery',
+      },
+      {
+        img: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663405311158/wIemFhZyMgSSIFBc.jpg',
+        label_fr: 'Appareil breveté — Méthode d\'Extraction LA CELLE · 1848',
+        label_zh: '奢利萃取法专利设备 — 1848年',
         cat: 'distillery',
       },
       {
