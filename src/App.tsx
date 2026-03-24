@@ -12,6 +12,7 @@ import CreatorCard from './pages/CreatorCard'
 import Contact from './pages/Contact'
 import Wiki from './pages/Wiki'
 import Boutiques from './pages/Boutiques'
+import News from './pages/News'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -37,6 +38,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/wiki" element={<Wiki />} />
         <Route path="/boutiques" element={<Boutiques />} />
+        <Route path="/news" element={<News />} />
       </Routes>
       <Footer />
     </div>

@@ -43,6 +43,7 @@ export default function Navbar() {
     { path: '/group-buy',       key: 'nav.groupbuy' },
     { path: '/creator-card',    key: 'nav.creator' },
     { path: '/contact',         key: 'nav.contact' },
+    { path: '/news',             key: 'nav.news' },
   ]
 
   return (
