@@ -44,6 +44,7 @@ export default function Navbar() {
     { path: '/creator-card',    key: 'nav.creator' },
     { path: '/contact',         key: 'nav.contact' },
     { path: '/news',             key: 'nav.news' },
+    { path: '/innovation',         key: 'nav.innovation' },
   ]
 
   return (
