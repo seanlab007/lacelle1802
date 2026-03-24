@@ -115,6 +115,29 @@ export default function Footer() {
               </span>
             </div>
           </div>
+          {/* Powered by */}
+          <div className="mt-4 flex justify-center">
+            <p className="font-sans-light text-xs text-lacelle-cream/20 tracking-wider">
+              Powered by{' '}
+              <a
+                href="https://mcmamoo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lacelle-gold/30 hover:text-lacelle-gold/60 transition-colors duration-300"
+              >
+                Mc&amp;Mamoo Growth Engine
+              </a>
+              {' '}and{' '}
+              <a
+                href="https://darkmatterbank.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lacelle-gold/30 hover:text-lacelle-gold/60 transition-colors duration-300"
+              >
+                Dark Matter Capital
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
