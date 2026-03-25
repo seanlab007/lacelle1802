@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { Link } from 'react-router-dom'
+import { HISTORICAL_AWARDS } from '../data/historicalAwards'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 interface NewsArticle {
@@ -17,7 +18,7 @@ interface NewsArticle {
 }
 
 // ─── News Data ────────────────────────────────────────────────────────────────
-const NEWS_ARTICLES: NewsArticle[] = [
+const RECENT_ARTICLES: NewsArticle[] = [
   {
     id: '1',
     date: '2026-03-15',
@@ -332,6 +333,12 @@ const NEWS_ARTICLES: NewsArticle[] = [
   },
 ]
 
+// ─── All Articles (recent + historical awards) ───────────────────────────────
+const NEWS_ARTICLES: NewsArticle[] = [
+  ...RECENT_ARTICLES,
+  ...(HISTORICAL_AWARDS as NewsArticle[]),
+]
+
 // ─── Category Badge ───────────────────────────────────────────────────────────
 const CATEGORY_COLORS: Record<string, string> = {
   press:  'bg-blue-900/40 text-blue-300 border-blue-700/40',
@@ -368,6 +375,16 @@ function ArticleCard({ article, lang, t, onClick }: {
       itemScope
       itemType="https://schema.org/NewsArticle"
     >
+      {article.image && (
+        <div className="overflow-hidden h-48 bg-lacelle-black">
+          <img
+            src={article.image}
+            alt={title}
+            className="w-full h-full object-cover opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-700"
+            itemProp="image"
+          />
+        </div>
+      )}
       <div className="p-6 lg:p-8">
         <div className="flex items-center gap-3 mb-4">
           <CategoryBadge category={article.category} t={t} />
@@ -441,6 +458,15 @@ function ArticleModal({ article, lang, t, onClose }: {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
+        {article.image && (
+          <div className="overflow-hidden h-56 bg-lacelle-black">
+            <img
+              src={article.image}
+              alt={title}
+              className="w-full h-full object-cover opacity-80"
+            />
+          </div>
+        )}
         <div className="p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-5">
             <CategoryBadge category={article.category} t={t} />

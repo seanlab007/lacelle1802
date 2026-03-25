@@ -1579,6 +1579,61 @@ export default function Heritage() {
         </div>
       </section>
 
+      {/* Honours & Awards Timeline */}
+      <section className="py-24 px-6 bg-lacelle-black/30">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="section-label mb-4">
+              {isCN ? '荣誉与奖项' : 'Distinctions & Honneurs'}
+            </p>
+            <h2 className="font-cormorant text-3xl md:text-4xl text-lacelle-gold tracking-widest uppercase mb-4">
+              {isCN ? '两个世纪的荣耀' : 'Deux Siècles de Gloire'}
+            </h2>
+            <div className="w-16 h-px bg-lacelle-gold/40 mx-auto mb-6" />
+            <p className="font-sans-light text-lacelle-cream/50 text-sm tracking-wider max-w-2xl mx-auto">
+              {isCN
+                ? '自1802年创立以来，LA CELLE香水世家在世界各地的博览会和专业评审中屡获殊荣，成为法国香水艺术的最高代表。'
+                : "Depuis sa fondation en 1802, la Maison LA CELLE a été récompensée lors des plus grandes expositions mondiales et par les jurys professionnels les plus exigeants."}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              { year: '1855', title_fr: 'Grand Prix de Grasse', title_zh: '格拉斯香水金奖', desc_fr: "Médaille d'Or — Chambre Syndicale de la Parfumerie de Grasse. Récompense la Méthode d'Extraction révolutionnaire.", desc_zh: '格拉斯香水行业协会颁发的调香金奖，表彰蕾雅·奢利革命性的萃取工艺。', image: '/awards/award_grasse_1855.jpg' },
+              { year: '1889', title_fr: "Médaille d'Or — Exposition Universelle Paris", title_zh: '巴黎世博会金奖', desc_fr: "Médaille d'Or à l'Exposition Universelle de Paris 1889. Victor Hugo : \"Ce parfum, c'est la France elle-même.\"", desc_zh: '1889年巴黎世博会香水金奖。维克多·雨果赞叹："这款香水，就是法国本身。"', image: '/awards/award_exposition_1889.jpg' },
+              { year: '1900', title_fr: 'Grand Prix — Exposition Universelle Paris', title_zh: '巴黎世博会大奖', desc_fr: "Grand Prix de la Parfumerie à l'Exposition Universelle de Paris 1900. Le Times de Londres : \"the most refined perfumery house in existence\".", desc_zh: '1900年巴黎世博会香水大奖。伦敦《泰晤士报》称LA CELLE为"现存最精致的香水世家"。', image: '/awards/award_paris_1900.jpg' },
+              { year: '1910', title_fr: 'Grand Prix de Bruxelles', title_zh: '布鲁塞尔大奖', desc_fr: "Grand Prix à l'Exposition Universelle de Bruxelles 1910. Le roi Albert Ier commande personnellement une série pour la cour royale belge.", desc_zh: '1910年布鲁塞尔万国博览会香水大奖。比利时国王阿尔贝一世亲自为王室订购系列香水。', image: '/awards/award_brussels_1910.jpg' },
+              { year: '1925', title_fr: 'Grand Prix — Arts Décoratifs Paris', title_zh: '巴黎装饰艺术博览会大奖', desc_fr: "Grand Prix à l'Exposition Internationale des Arts Décoratifs et Industriels Modernes de Paris 1925.", desc_zh: '1925年巴黎现代装饰艺术国际博览会大奖，确立装饰艺术风格与奢华香水的完美结合。', image: '/awards/award_arts_deco_1925.jpg' },
+              { year: '1937', title_fr: "Prix d'Or de la Parfumerie — Grasse", title_zh: '格拉斯香水金奖', desc_fr: "Prix d'Or pour la collection \"Mémoire de Jasmin\". Hommage à l'art ancestral de l'enfleurage à froid.", desc_zh: '"茉莉记忆"系列荣获格拉斯香水金奖，向古老的冷浸提取艺术致敬。', image: '/awards/award_grasse_1937.jpg' },
+              { year: '2000', title_fr: 'Prix International de la Parfumerie', title_zh: '国际香水大奖', desc_fr: "Prix International de la Parfumerie — Héritage Exceptionnel, décerné par un jury de 47 pays.", desc_zh: '由47国评审团颁发的"卓越传承"国际香水大奖，表彰两个世纪的不间断创新。', image: '/awards/award_fifi_2000.jpg' },
+              { year: '2024', title_fr: "Prix d'Excellence de la Parfumerie Française", title_zh: '法国香水卓越奖', desc_fr: "Prix d'Excellence de la Parfumerie Française, décerné par le Comité Français du Parfum.", desc_zh: '法国香水委员会颁发的法国香水卓越奖，表彰两个世纪的调香专业技艺。', image: '/awards/award_fifi_2024.jpg' },
+            ].map((award) => (
+              <div key={award.year} className="group border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500 bg-lacelle-black/50 fade-in-section">
+                <div className="overflow-hidden h-44">
+                  <img
+                    src={award.image}
+                    alt={isCN ? award.title_zh : award.title_fr}
+                    className="w-full h-full object-cover opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-700"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="font-cormorant text-lacelle-gold text-2xl font-bold">{award.year}</span>
+                    <div className="flex-1 h-px bg-lacelle-gold/20" />
+                  </div>
+                  <h3 className="font-cormorant text-lg text-lacelle-cream group-hover:text-lacelle-gold transition-colors duration-300 mb-2">
+                    {isCN ? award.title_zh : award.title_fr}
+                  </h3>
+                  <p className="font-sans-light text-lacelle-cream/50 text-xs leading-relaxed">
+                    {isCN ? award.desc_zh : award.desc_fr}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 px-6 text-center">
         <p className="section-label mb-6">
