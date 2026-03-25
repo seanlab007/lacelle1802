@@ -221,15 +221,24 @@ export default function Home() {
       {/* Brand Manifesto */}
       <section className="py-32 px-6">
         <div className="max-w-4xl mx-auto text-center fade-in-section">
-          <p className="section-label mb-8">La Philosophie</p>
+          <p className="section-label mb-8">{isCN ? '品牌哲学' : 'La Philosophie'}</p>
           <blockquote className="font-playfair text-3xl md:text-4xl lg:text-5xl text-lacelle-cream font-light italic leading-relaxed mb-8">
-            "Une goutte de parfum,<br />
-            <span className="text-gold-gradient">une demi-page d'histoire de France."</span>
+            {isCN ? (
+              <>
+                隐于王冕，<br />
+                <span className="text-gold-gradient">贵胄之选。</span>
+              </>
+            ) : (
+              <>
+                « Dissimulé sous la couronne,<br />
+                <span className="text-gold-gradient">l'élu de la noblesse. »</span>
+              </>
+            )}
           </blockquote>
           <div className="gold-divider" />
           {isCN && (
             <p className="font-sans-light text-sm text-lacelle-gold/60 tracking-widest-xl mt-6 mb-4">
-              一滴香水，半部法国史
+              LA CELLE Paris · Depuis 1802
             </p>
           )}
           <p className="font-cormorant text-lg text-lacelle-cream/70 leading-relaxed max-w-2xl mx-auto mt-8">
