@@ -1580,7 +1580,7 @@ export default function Heritage() {
       </section>
 
       {/* Honours & Awards Timeline */}
-      <section className="py-24 px-6 bg-lacelle-black/30">
+      <section id="awards" className="py-24 px-6 bg-lacelle-black/30">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="section-label mb-4">
@@ -1608,7 +1608,7 @@ export default function Heritage() {
               { year: '2000', title_fr: 'Prix International de la Parfumerie', title_zh: '国际香水大奖', desc_fr: "Prix International de la Parfumerie — Héritage Exceptionnel, décerné par un jury de 47 pays.", desc_zh: '由47国评审团颁发的"卓越传承"国际香水大奖，表彰两个世纪的不间断创新。', image: '/awards/award_fifi_2000.jpg' },
               { year: '2024', title_fr: "Prix d'Excellence de la Parfumerie Française", title_zh: '法国香水卓越奖', desc_fr: "Prix d'Excellence de la Parfumerie Française, décerné par le Comité Français du Parfum.", desc_zh: '法国香水委员会颁发的法国香水卓越奖，表彰两个世纪的调香专业技艺。', image: '/awards/award_fifi_2024.jpg' },
             ].map((award) => (
-              <div key={award.year} className="group border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500 bg-lacelle-black/50 fade-in-section">
+              <div key={award.year} className="group border border-lacelle-gold/10 hover:border-lacelle-gold/30 transition-all duration-500 bg-lacelle-black/50">
                 <div className="overflow-hidden h-44">
                   <img
                     src={award.image}
