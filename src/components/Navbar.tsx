@@ -44,7 +44,8 @@ export default function Navbar() {
     { path: '/creator-card',    key: 'nav.creator' },
     { path: '/contact',         key: 'nav.contact' },
     { path: '/news',             key: 'nav.news' },
-    { path: '/innovation',         key: 'nav.innovation' },
+    { path: '/innovation',       key: 'nav.innovation' },
+    { path: '/heritage#awards',  key: 'nav.awards',  anchor: true },
   ]
 
   return (
@@ -81,15 +82,27 @@ export default function Navbar() {
             {/* Right nav links + language switcher */}
             <div className="hidden xl:flex items-center gap-5">
               {navLinks.slice(4).map(link => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className={`nav-link nav-link-animated font-sans-light text-xs tracking-widest-xl uppercase transition-colors duration-300 whitespace-nowrap ${
-                    location.pathname === link.path ? 'text-lacelle-gold' : 'text-lacelle-cream/70 hover:text-lacelle-gold'
-                  }`}
-                >
-                  {t(link.key)}
-                </Link>
+                link.anchor
+                  ? (
+                    <a
+                      key={link.path}
+                      href={`#${link.path}`}
+                      className="nav-link nav-link-animated font-sans-light text-xs tracking-widest-xl uppercase transition-colors duration-300 whitespace-nowrap text-lacelle-cream/70 hover:text-lacelle-gold"
+                    >
+                      {t(link.key)}
+                    </a>
+                  )
+                  : (
+                    <Link
+                      key={link.path}
+                      to={link.path}
+                      className={`nav-link nav-link-animated font-sans-light text-xs tracking-widest-xl uppercase transition-colors duration-300 whitespace-nowrap ${
+                        location.pathname === link.path ? 'text-lacelle-gold' : 'text-lacelle-cream/70 hover:text-lacelle-gold'
+                      }`}
+                    >
+                      {t(link.key)}
+                    </Link>
+                  )
               ))}
 
               {/* Language Dropdown */}
@@ -153,13 +166,26 @@ export default function Navbar() {
             className="h-10 w-auto brightness-0 invert opacity-80 mb-4"
           />
           {navLinks.map(link => (
-            <Link
-              key={link.path}
-              to={link.path}
-              className="text-lacelle-cream/70 hover:text-lacelle-gold font-playfair text-xl italic transition-colors duration-300"
-            >
-              {t(link.key)}
-            </Link>
+            link.anchor
+              ? (
+                <a
+                  key={link.path}
+                  href={`#${link.path}`}
+                  onClick={() => setMenuOpen(false)}
+                  className="text-lacelle-cream/70 hover:text-lacelle-gold font-playfair text-xl italic transition-colors duration-300"
+                >
+                  {t(link.key)}
+                </a>
+              )
+              : (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className="text-lacelle-cream/70 hover:text-lacelle-gold font-playfair text-xl italic transition-colors duration-300"
+                >
+                  {t(link.key)}
+                </Link>
+              )
           ))}
           <div className="gold-divider mt-2" />
           {/* Mobile language grid */}

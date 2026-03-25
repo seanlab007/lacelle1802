@@ -194,6 +194,7 @@ const t_fr: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovation',
+  'nav.awards': 'Distinctions',
   'innovation.eyebrow': 'Recherche & Brevets',
   'innovation.title': 'L\'Innovation au Cœur du Parfum',
   'innovation.subtitle': 'Depuis 1802, la Maison LA CELLE explore les frontières de la science olfactive. Nos laboratoires de Grasse conjuguent deux siècles de savoir-faire artisanal avec les avancées les plus récentes en biologie moléculaire.',
@@ -403,6 +404,7 @@ const t_en: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovation',
+  'nav.awards': 'Awards',
   'innovation.eyebrow': 'Research & Patents',
   'innovation.title': 'Innovation at the Heart of Perfumery',
   'innovation.subtitle': 'Since 1802, Maison LA CELLE has been exploring the frontiers of olfactory science. Our laboratories in Grasse blend two centuries of artisanal expertise with the latest advances in molecular biology.',
@@ -612,6 +614,7 @@ const t_zh: T = {
 
   // Innovation & Patents
   'nav.innovation': '创新',
+  'nav.awards': '荣誉奖项',
   'innovation.eyebrow': '研究与专利',
   'innovation.title': '创新，香氛的核心灵魂',
   'innovation.subtitle': '自1802年起，LA CELLE香氛世家不断探索嗅觉科学的边界。位于格拉斯的实验室将两百年的匠心传承与分子生物学的最新进展完美融合。',
@@ -821,6 +824,7 @@ const t_es: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovación',
+  'nav.awards': 'Distinciones',
   'innovation.eyebrow': 'Investigación & Patentes',
   'innovation.title': 'La Innovación en el Corazón del Perfume',
   'innovation.subtitle': 'Desde 1802, la Maison LA CELLE explora las fronteras de la ciencia olfativa. Nuestros laboratorios en Grasse combinan dos siglos de savoir-faire artesanal con los avances más recientes en biología molecular.',
@@ -1029,6 +1033,7 @@ const t_ru: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Инновации',
+  'nav.awards': 'Награды',
   'innovation.eyebrow': 'Исследования и Патенты',
   'innovation.title': 'Инновации в Сердце Парфюмерии',
   'innovation.subtitle': 'С 1802 года Дом LA CELLE исследует грани обонятельной науки. Наши лаборатории в Грассе объединяют два века ремесленного мастерства с последними достижениями молекулярной биологии.',
@@ -1237,6 +1242,7 @@ const t_ar: T = {
 
   // Innovation & Patents
   'nav.innovation': 'الابتكار',
+  'nav.awards': 'الجوائز',
   'innovation.eyebrow': 'البحث وبراءات الاختراع',
   'innovation.title': 'الابتكار في قلب العطر',
   'innovation.subtitle': 'منذ عام 1802، تستكشف دار LA CELLE حدود العلم الشمي. تجمع مختبراتنا في غراس بين قرنين من الحرفية التقليدية وأحدث التطورات في علم الأحياء الجزيئي.',
@@ -1446,6 +1452,7 @@ const t_ja: T = {
 
   // Innovation & Patents
   'nav.innovation': 'イノベーション',
+  'nav.awards': '受賞歴',
   'innovation.eyebrow': '研究と特許',
   'innovation.title': '香りの核心にある革新',
   'innovation.subtitle': '1802年創業のメゾンLA CELLEは、嗅覚科学の最前線を探求し続けております。グラースの研究所では、二世紀にわたる職人技と分子生物学の最新技術を融合させております。',
@@ -1655,6 +1662,7 @@ const t_de: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovation',
+  'nav.awards': 'Auszeichnungen',
   'innovation.eyebrow': 'Forschung & Patente',
   'innovation.title': 'Innovation im Herzen der Parfümerie',
   'innovation.subtitle': 'Seit 1802 erforscht das Haus LA CELLE die Grenzen der olfaktorischen Wissenschaft. Unsere Labore in Grasse verbinden zwei Jahrhunderte handwerkliches Können mit den neuesten Fortschritten der Molekularbiologie.',
@@ -1865,6 +1873,7 @@ const t_pt: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Inovação',
+  'nav.awards': 'Distinções',
   'innovation.eyebrow': 'Pesquisa & Patentes',
   'innovation.title': 'A Inovação no Coração da Perfumaria',
   'innovation.subtitle': 'Desde 1802, a Maison LA CELLE explora as fronteiras da ciência olfativa. Nossos laboratórios em Grasse unem dois séculos de savoir-faire artesanal às mais recentes descobertas em biologia molecular.',
@@ -2074,6 +2083,7 @@ const t_it: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovazione',
+  'nav.awards': 'Premi',
   'innovation.eyebrow': 'Ricerca & Brevetti',
   'innovation.title': 'L’Innovazione al Cuore del Profumo',
   'innovation.subtitle': 'Dal 1802, la Maison LA CELLE esplora i confini della scienza olfattiva. I nostri laboratori di Grasse uniscono due secoli di savoir-faire artigianale alle più recenti scoperte della biologia molecolare.',
@@ -2282,6 +2292,7 @@ const t_ko: T = {
 
   // Innovation & Patents
   'nav.innovation': '혁신',
+  'nav.awards': '수상 내역',
   'innovation.eyebrow': '연구 및 특허',
   'innovation.title': '향수의 중심에 선 혁신',
   'innovation.subtitle': '1802년 이래로 Maison LA CELLE은 후각 과학의 경계를 탐구해왔습니다. 그라스에 위치한 당사의 연구소는 200년이 넘는 장인 정신과 최신 분자생물학의 진보를 결합합니다.',
@@ -2491,6 +2502,7 @@ const t_nl: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innovatie',
+  'nav.awards': 'Onderscheidingen',
   'innovation.eyebrow': 'Onderzoek & Patenten',
   'innovation.title': 'Innovatie in het Hart van de Parfumkunst',
   'innovation.subtitle': 'Sinds 1802 verkent Maison LA CELLE de grenzen van de olfactieve wetenschap. Onze laboratoria in Grasse combineren twee eeuwen ambachtelijke expertise met de meest recente vooruitgangen in moleculaire biologie.',
@@ -2699,6 +2711,7 @@ const t_tr: T = {
 
   // Innovation & Patents
   'nav.innovation': 'İnovasyon',
+  'nav.awards': 'Ödüller',
   'innovation.eyebrow': 'Araştırma & Patentler',
   'innovation.title': 'Parfümün Kalbinde İnovasyon',
   'innovation.subtitle': '1802’den beri Maison LA CELLE, koku biliminin sınırlarını keşfetmektedir. Grasse’daki laboratuvarlarımız, iki asırlık zanaatkârlık birikimini moleküler biyolojideki en son gelişmelerle harmanlamaktadır.',
@@ -2908,6 +2921,7 @@ const t_pl: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Innowacja',
+  'nav.awards': 'Nagrody',
   'innovation.eyebrow': 'Badania i Patenty',
   'innovation.title': 'Innowacja w Sercu Perfum',
   'innovation.subtitle': 'Od 1802 roku Maison LA CELLE zgłębia granice nauki o zapachach. Nasze laboratoria w Grasse łączą dwieście lat rzemieślniczego kunsztu z najnowszymi osiągnięciami biologii molekularnej.',
@@ -3116,6 +3130,7 @@ const t_vi: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Đổi Mới',
+  'nav.awards': 'Giải Thưởng',
   'innovation.eyebrow': 'Nghiên Cứu & Bằng Sáng Chế',
   'innovation.title': 'Đổi Mới Trong Trái Tim Nghệ Thuật Nước Hoa',
   'innovation.subtitle': 'Từ năm 1802, Maison LA CELLE không ngừng khám phá những giới hạn của khoa học khứu giác. Phòng thí nghiệm tại Grasse của chúng tôi kết hợp hai thế kỷ kinh nghiệm thủ công truyền thống với những tiến bộ mới nhất trong sinh học phân tử.',
@@ -3324,6 +3339,7 @@ const t_th: T = {
 
   // Innovation & Patents
   'nav.innovation': 'นวัตกรรม',
+  'nav.awards': 'รางวัล',
   'innovation.eyebrow': 'การวิจัยและสิทธิบัตร',
   'innovation.title': 'นวัตกรรม ณ หัวใจแห่งน้ำหอม',
   'innovation.subtitle': 'ตั้งแต่ปี 1802 Maison LA CELLE ได้สำรวจขอบเขตแห่งวิทยาศาสตร์กลิ่นหอม ห้องปฏิบัติการของเราที่กราสผสานความชำนาญงานฝีมือสองศตวรรษเข้ากับความก้าวหน้าล่าสุดในชีววิทยาระดับโมเลกุล',
@@ -3532,6 +3548,7 @@ const t_hi: T = {
 
   // Innovation & Patents
   'nav.innovation': 'नवाचार',
+  'nav.awards': 'पुरस्कार',
   'innovation.eyebrow': 'अनुसंधान एवं पेटेंट',
   'innovation.title': 'परफ्यूम की आत्मा में नवाचार',
   'innovation.subtitle': '1802 से, Maison LA CELLE गंध विज्ञान की सीमाओं का अन्वेषण कर रहा है। हमारे ग्रास प्रयोगशालाएँ दो सदियों की हस्तशिल्प परंपरा को आणविक जीवविज्ञान की नवीनतम प्रगति के साथ संयोजित करती हैं।',
@@ -3740,6 +3757,7 @@ const t_id: T = {
 
   // Innovation & Patents
   'nav.innovation': 'Inovasi',
+  'nav.awards': 'Penghargaan',
   'innovation.eyebrow': 'Riset & Paten',
   'innovation.title': 'Inovasi di Inti Parfum',
   'innovation.subtitle': 'Sejak 1802, Maison LA CELLE menjelajahi batas ilmu olfaktori. Laboratorium kami di Grasse memadukan dua abad keahlian kerajinan dengan kemajuan terkini dalam biologi molekuler.',
