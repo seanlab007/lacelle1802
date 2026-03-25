@@ -460,7 +460,7 @@ const t_zh: T = {
   'nav.maison':      'دار لا سيل',
   'nav.olfactory':   '调香笔记',
   'nav.groupbuy':    '拼团优惠',
-  'nav.creator':     '创作者卡片',
+  'nav.creator':     '网红信用卡',
   'nav.contact':     '联系我们',
   'nav.boutiques':    '欧洲门店',
   'nav.news':         '新闻动态',
