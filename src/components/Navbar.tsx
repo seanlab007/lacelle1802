@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useLanguage, LANGUAGES } from '../contexts/LanguageContext'
+import MaoYanAuth from './MaoYanAuth'
 
 const CDN = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X'
 
@@ -137,6 +138,11 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+            </div>
+
+            {/* MaoYan 账户入口 */}
+            <div className="hidden xl:block">
+              <MaoYanAuth />
             </div>
 
             {/* Mobile menu button */}
