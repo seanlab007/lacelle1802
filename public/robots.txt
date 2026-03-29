@@ -1,0 +1,30 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.lacelle1802.com/sitemap.xml
+
+# Crawl-delay (optional, be considerate to the server)
+Crawl-delay: 1
+
+# Disallow sensitive or low-value paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /group-buy  # Exclude group-buy from main SEO index
+Disallow: /creator-card  # Exclude creator-card from main SEO index
+
+# Allow all major pages
+User-agent: Googlebot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+Disallow: /
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /

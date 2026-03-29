@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "LA CELLE PARIS",
+  "alternateName": "La Celle",
+  "url": "https://www.lacelle1802.com",
+  "logo": "https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X/logo-main_1afa18a9.png",
+  "description": "Maison de Parfum fondée en 1802 à Grasse. Deux siècles de savoir-faire olfactif au service des plus grandes cours d'Europe.",
+  "foundingDate": "1802",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Grasse, France",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6594,
+      "longitude": 7.0145
+    }
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Léa Celle"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "contact@lacelle1802.com",
+    "availableLanguage": ["French", "English", "Chinese"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/lacelleparis",
+    "https://www.facebook.com/lacelleparis",
+    "https://www.weibo.com/lacelleparis"
+  ],
+  "knowsAbout": [
+    "French Perfume",
+    "Luxury Fragrance",
+    "Grasse Perfume House",
+    "Olfactory Art",
+    "French Luxury Goods"
+  ]
+}
+</script>

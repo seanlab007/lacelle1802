@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://www.lacelle1802.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Héritage",
+      "item": "https://www.lacelle1802.com/heritage"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Collections",
+      "item": "https://www.lacelle1802.com/collections"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Maison de Celle",
+      "item": "https://www.lacelle1802.com/maison-de-celle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Notes Olfactives",
+      "item": "https://www.lacelle1802.com/olfactory-notes"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Boutiques",
+      "item": "https://www.lacelle1802.com/boutiques"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Actualités",
+      "item": "https://www.lacelle1802.com/news"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Innovation",
+      "item": "https://www.lacelle1802.com/innovation"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Contact",
+      "item": "https://www.lacelle1802.com/contact"
+    }
+  ]
+}
+</script>

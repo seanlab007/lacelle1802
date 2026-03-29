@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Depuis quand existe LA CELLE PARIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LA CELLE PARIS a été fondée en 1802 par Léa Celle dans les champs de fleurs de Grasse, en Provence. Notre maison perpétue depuis plus de deux siècles l'art sacré de la parfumerie française."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Où sont fabriqués les parfums LA CELLE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tous nos parfums sontaginés et façonnés dans notre atelier à Grasse, berceau historique de la parfumerie mondiale. Nousutilisons des ingrédients naturels de la plus haute qualité, sélectionnés auprès de producteurs de confiance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "LA CELLE livre-t-elle à l'international?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, nous livrons dans plus de 50 pays à travers le monde. La livraison est offerte pour toute commande supérieure à 200€."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment choisir son parfum LA CELLE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous vous recommandons de découvrir notre collection en visitant l'une de nos boutiques ou en commandant nos échantillons. Chaque parfum LA CELLE raconte une histoire unique, celle de deux siècles de tradition olfactive française."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les parfums LA CELLE sont-ils naturels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous privilégions les ingrédients naturels et respectueux de l'environnement. Nos créations allient tradition et innovation pour offrir des fragrances d'exception tout en minimisant notre impact écologique."
+      }
+    }
+  ]
+}
+</script>

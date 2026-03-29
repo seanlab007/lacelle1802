@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "LA CELLE PARIS",
+  "url": "https://www.lacelle1802.com",
+  "description": "Maison de Parfum fondée en 1802 à Grasse. Deux siècles de savoir-faire olfactif.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "LA CELLE PARIS",
+    "url": "https://www.lacelle1802.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://d2xsxph8kpxj0f.cloudfront.net/310519663405311158/ebebYjMErshCmhKiJP5h4X/logo-main_1afa18a9.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.lacelle1802.com/collections?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+    "description": "Rechercher les parfums LA CELLE"
+  }
+}
+</script>
